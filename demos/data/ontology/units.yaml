@@ -1,0 +1,85 @@
+# Unit canonicalisation  (recipe graph v1 -> v2, "Technique 3").
+#
+# Each verbatim unit maps to a canonical base unit within its class:
+#   mass   -> g   (grams)
+#   volume -> ml  (millilitres)
+#   count  -> unit
+# `factor` is how many canonical base units one verbatim unit equals.
+#
+# units:  <verbatim form>: {class: <mass|volume|count>, factor: <float>}
+
+units:
+  # --- mass -> g ---
+  g: {class: mass, factor: 1.0}
+  gram: {class: mass, factor: 1.0}
+  grams: {class: mass, factor: 1.0}
+  gm: {class: mass, factor: 1.0}
+  kg: {class: mass, factor: 1000.0}
+  kilogram: {class: mass, factor: 1000.0}
+  kilograms: {class: mass, factor: 1000.0}
+  mg: {class: mass, factor: 0.001}
+  oz: {class: mass, factor: 28.3495}
+  ounce: {class: mass, factor: 28.3495}
+  ounces: {class: mass, factor: 28.3495}
+  lb: {class: mass, factor: 453.592}
+  lbs: {class: mass, factor: 453.592}
+  pound: {class: mass, factor: 453.592}
+  pounds: {class: mass, factor: 453.592}
+
+  # --- volume -> ml ---
+  ml: {class: volume, factor: 1.0}
+  millilitre: {class: volume, factor: 1.0}
+  millilitres: {class: volume, factor: 1.0}
+  milliliter: {class: volume, factor: 1.0}
+  milliliters: {class: volume, factor: 1.0}
+  cc: {class: volume, factor: 1.0}
+  l: {class: volume, factor: 1000.0}
+  litre: {class: volume, factor: 1000.0}
+  litres: {class: volume, factor: 1000.0}
+  liter: {class: volume, factor: 1000.0}
+  liters: {class: volume, factor: 1000.0}
+  tsp: {class: volume, factor: 5.0}
+  teaspoon: {class: volume, factor: 5.0}
+  teaspoons: {class: volume, factor: 5.0}
+  tbsp: {class: volume, factor: 15.0}
+  tablespoon: {class: volume, factor: 15.0}
+  tablespoons: {class: volume, factor: 15.0}
+  tbs: {class: volume, factor: 15.0}
+  cup: {class: volume, factor: 240.0}
+  cups: {class: volume, factor: 240.0}
+  fl oz: {class: volume, factor: 29.5735}
+  "fluid ounce": {class: volume, factor: 29.5735}
+  "fluid ounces": {class: volume, factor: 29.5735}
+  pint: {class: volume, factor: 473.176}
+  pints: {class: volume, factor: 473.176}
+  quart: {class: volume, factor: 946.353}
+  quarts: {class: volume, factor: 946.353}
+
+  # --- count -> unit ---
+  unit: {class: count, factor: 1.0}
+  units: {class: count, factor: 1.0}
+  piece: {class: count, factor: 1.0}
+  pieces: {class: count, factor: 1.0}
+  pc: {class: count, factor: 1.0}
+  clove: {class: count, factor: 1.0}
+  cloves: {class: count, factor: 1.0}
+  pinch: {class: count, factor: 1.0}
+  pinches: {class: count, factor: 1.0}
+  dash: {class: count, factor: 1.0}
+  whole: {class: count, factor: 1.0}
+
+# Density table for cups <-> grams conversions (g per 1 cup, US ~240 ml).
+# Used when an ingredient context is available so a "cup of flour" can be turned
+# into grams. canonical_unit() is unit-only (no ingredient arg) so it does NOT
+# consult this — that's a documented TODO (needs ingredient context, see D2.3).
+# Values are common kitchen approximations.
+density_cup_g:
+  flour: 120.0
+  bread flour: 127.0
+  sugar: 200.0
+  brown sugar: 220.0
+  icing sugar: 125.0
+  butter: 227.0
+  water: 240.0
+  milk: 240.0
+  cornflour: 120.0

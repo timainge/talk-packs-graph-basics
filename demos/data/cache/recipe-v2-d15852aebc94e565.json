@@ -1,0 +1,210 @@
+{
+  "title": "Egyptian Fatteh",
+  "ingredients": [
+    {
+      "name": "beef",
+      "quantity": 454.0,
+      "unit": "g"
+    },
+    {
+      "name": "onion",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "chicken stock cube",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "tomato",
+      "quantity": 2.0,
+      "unit": null
+    },
+    {
+      "name": "garlic clove",
+      "quantity": 4.0,
+      "unit": null
+    },
+    {
+      "name": "tomato puree",
+      "quantity": 15.0,
+      "unit": "ml"
+    },
+    {
+      "name": "rice",
+      "quantity": 480.0,
+      "unit": "ml"
+    },
+    {
+      "name": "noodle",
+      "quantity": 60.0,
+      "unit": "ml"
+    },
+    {
+      "name": "butter",
+      "quantity": 60.0,
+      "unit": "ml"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 480.0,
+      "unit": "ml"
+    },
+    {
+      "name": "pita bread",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "cumin",
+      "quantity": 15.0,
+      "unit": "ml"
+    },
+    {
+      "name": "white wine vinegar",
+      "quantity": 45.0,
+      "unit": "ml"
+    },
+    {
+      "name": "salt",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "pepper",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Rip the pita bread into bite-size pieces.",
+      "technique": "tear",
+      "uses": [
+        "pita bread"
+      ]
+    },
+    {
+      "text": "In a frying pan, melt some butter, add the bread pieces and fry until golden brown and crisp.",
+      "technique": "fry",
+      "uses": [
+        "butter",
+        "pita bread"
+      ]
+    },
+    {
+      "text": "To the same pan add a little more butter, salt, approximately 2 cloves of crushed garlic, and a teaspoon of cumin; stir until aromatic, then add the fried bread pieces and toss to coat.",
+      "technique": "saute",
+      "uses": [
+        "butter",
+        "garlic clove",
+        "cumin",
+        "salt",
+        "pita bread"
+      ]
+    },
+    {
+      "text": "Transfer the coated bread pieces into a square glass baking dish and set aside.",
+      "technique": "arrange",
+      "uses": [
+        "pita bread"
+      ]
+    },
+    {
+      "text": "In a pot, melt some butter and stir-fry the beef until browned.",
+      "technique": "brown",
+      "uses": [
+        "butter",
+        "beef"
+      ]
+    },
+    {
+      "text": "Add the quartered onion, salt, pepper, chicken stock cube and enough water to cover the meat. Bring to a boil, then reduce to a simmer, cover and cook until tender, approximately 2 hours.",
+      "technique": "simmer",
+      "uses": [
+        "onion",
+        "salt",
+        "pepper",
+        "chicken stock cube",
+        "beef"
+      ]
+    },
+    {
+      "text": "Once cooled, remove the meat chunks into a bowl and reserve the cooking broth separately.",
+      "technique": "strain",
+      "uses": [
+        "beef"
+      ]
+    },
+    {
+      "text": "In a pot, melt some butter and stir-fry the noodles until golden brown.",
+      "technique": "fry",
+      "uses": [
+        "butter",
+        "noodle"
+      ]
+    },
+    {
+      "text": "Add the rice to the pot and stir until some of the rice turns opaque white. Add 540 ml of water and salt, bring to a boil, then cover and simmer for about 35 minutes until tender.",
+      "technique": "simmer",
+      "uses": [
+        "rice",
+        "salt"
+      ]
+    },
+    {
+      "text": "Ladle some of the reserved meat broth over the bread pieces in the baking dish to saturate them.",
+      "technique": "pour",
+      "uses": []
+    },
+    {
+      "text": "Spoon the cooked rice evenly on top of the bread layer, then slowly ladle the remaining broth over the rice until it just reaches the top of the rice.",
+      "technique": "layer",
+      "uses": [
+        "rice"
+      ]
+    },
+    {
+      "text": "In a pan, heat a little olive oil or butter, then add the crushed tomatoes, tomato puree, 2 cloves of crushed garlic, cumin, salt, pepper and white wine vinegar. Stir until aromatic and slightly thickened into a red sauce.",
+      "technique": "simmer",
+      "uses": [
+        "olive oil",
+        "butter",
+        "tomato",
+        "tomato puree",
+        "garlic clove",
+        "cumin",
+        "salt",
+        "pepper",
+        "white wine vinegar"
+      ]
+    },
+    {
+      "text": "Spread the red sauce over the rice layer with a wooden spoon to cover evenly.",
+      "technique": "spread",
+      "uses": []
+    },
+    {
+      "text": "In a pan, heat a little butter or oil, add the reserved meat chunks, a touch of tomato puree, crushed garlic, salt, pepper and cumin. Cook until the meat is golden fried.",
+      "technique": "fry",
+      "uses": [
+        "butter",
+        "olive oil",
+        "beef",
+        "tomato puree",
+        "garlic clove",
+        "salt",
+        "pepper",
+        "cumin"
+      ]
+    },
+    {
+      "text": "Spoon the fried meat on top of the red sauce layer and serve.",
+      "technique": "assemble",
+      "uses": [
+        "beef"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "title": "Chicken Handi",
+  "ingredients": [
+    {
+      "name": "chicken",
+      "quantity": 1200.0,
+      "unit": "g"
+    },
+    {
+      "name": "onion",
+      "quantity": 5.0,
+      "unit": null
+    },
+    {
+      "name": "tomato",
+      "quantity": 2.0,
+      "unit": null
+    },
+    {
+      "name": "garlic",
+      "quantity": 8.0,
+      "unit": null
+    },
+    {
+      "name": "ginger paste",
+      "quantity": 15.0,
+      "unit": "ml"
+    },
+    {
+      "name": "vegetable oil",
+      "quantity": 60.0,
+      "unit": "ml"
+    },
+    {
+      "name": "cumin seed",
+      "quantity": 10.0,
+      "unit": "ml"
+    },
+    {
+      "name": "coriander seed",
+      "quantity": 15.0,
+      "unit": "ml"
+    },
+    {
+      "name": "turmeric powder",
+      "quantity": 5.0,
+      "unit": "ml"
+    },
+    {
+      "name": "chilli powder",
+      "quantity": 5.0,
+      "unit": "ml"
+    },
+    {
+      "name": "green chilli",
+      "quantity": 2.0,
+      "unit": null
+    },
+    {
+      "name": "yogurt",
+      "quantity": 240.0,
+      "unit": "ml"
+    },
+    {
+      "name": "cream",
+      "quantity": 180.0,
+      "unit": "ml"
+    },
+    {
+      "name": "dried fenugreek",
+      "quantity": 15.0,
+      "unit": "ml"
+    },
+    {
+      "name": "garam masala",
+      "quantity": 5.0,
+      "unit": "ml"
+    },
+    {
+      "name": "salt",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the vegetable oil in a large pot or wok over medium heat.",
+      "technique": "heat",
+      "uses": [
+        "vegetable oil"
+      ]
+    },
+    {
+      "text": "Add the sliced onion and fry until deep golden brown, then remove and set aside on a plate.",
+      "technique": "fry",
+      "uses": [
+        "onion"
+      ]
+    },
+    {
+      "text": "To the same pot, add the chopped garlic and saut\u00e9 for a minute.",
+      "technique": "saut\u00e9",
+      "uses": [
+        "garlic"
+      ]
+    },
+    {
+      "text": "Add the chopped tomatoes and cook until soft, about 5 minutes.",
+      "technique": "cook",
+      "uses": [
+        "tomato"
+      ]
+    },
+    {
+      "text": "Return the fried onion to the pot, add ginger paste and saut\u00e9 well.",
+      "technique": "saut\u00e9",
+      "uses": [
+        "onion",
+        "ginger paste"
+      ]
+    },
+    {
+      "text": "Add the cumin seeds, half of the coriander seeds and chopped green chillies and stir.",
+      "technique": "stir",
+      "uses": [
+        "cumin seed",
+        "coriander seed",
+        "green chilli"
+      ]
+    },
+    {
+      "text": "Add turmeric powder and chilli powder and saut\u00e9 the spices well for a couple of minutes.",
+      "technique": "saut\u00e9",
+      "uses": [
+        "turmeric powder",
+        "chilli powder"
+      ]
+    },
+    {
+      "text": "Add the chicken pieces, season with salt, and cook covered on medium-low heat for about 15 minutes until almost cooked through.",
+      "technique": "cook",
+      "uses": [
+        "chicken",
+        "salt"
+      ]
+    },
+    {
+      "text": "When the oil separates, add the beaten yogurt on the lowest heat to prevent splitting. Sprinkle in the remaining coriander seeds and half of the dried fenugreek and mix well.",
+      "technique": "mix",
+      "uses": [
+        "yogurt",
+        "coriander seed",
+        "dried fenugreek"
+      ]
+    },
+    {
+      "text": "Add the cream and mix to combine everything well.",
+      "technique": "mix",
+      "uses": [
+        "cream"
+      ]
+    },
+    {
+      "text": "Sprinkle the remaining dried fenugreek and garam masala and serve hot.",
+      "technique": "sprinkle",
+      "uses": [
+        "dried fenugreek",
+        "garam masala"
+      ]
+    }
+  ]
+}

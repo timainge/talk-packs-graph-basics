@@ -1,0 +1,300 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "recipe",
+      "label": "Egyptian Fatteh",
+      "id": "recipe:egyptian fatteh",
+      "x": -176.3355756877419,
+      "y": 242.70509831248424
+    },
+    {
+      "kind": "ingredient",
+      "label": "onion",
+      "id": "ingredient:onion"
+    },
+    {
+      "kind": "ingredient",
+      "label": "garlic",
+      "id": "ingredient:garlic"
+    },
+    {
+      "kind": "ingredient",
+      "label": "tomato paste",
+      "id": "ingredient:tomato paste"
+    },
+    {
+      "kind": "ingredient",
+      "label": "butter",
+      "id": "ingredient:butter"
+    },
+    {
+      "kind": "ingredient",
+      "label": "olive oil",
+      "id": "ingredient:olive oil"
+    },
+    {
+      "kind": "ingredient",
+      "label": "cumin",
+      "id": "ingredient:cumin"
+    },
+    {
+      "kind": "recipe",
+      "label": "Beef Lo Mein",
+      "id": "recipe:beef lo mein",
+      "x": 1.8369701987210297e-14,
+      "y": -300.0
+    },
+    {
+      "kind": "ingredient",
+      "label": "egg",
+      "id": "ingredient:egg"
+    },
+    {
+      "kind": "ingredient",
+      "label": "oil",
+      "id": "ingredient:oil"
+    },
+    {
+      "kind": "ingredient",
+      "label": "mushrooms",
+      "id": "ingredient:mushrooms"
+    },
+    {
+      "kind": "ingredient",
+      "label": "water",
+      "id": "ingredient:water"
+    },
+    {
+      "kind": "ingredient",
+      "label": "sugar",
+      "id": "ingredient:sugar"
+    },
+    {
+      "kind": "ingredient",
+      "label": "soy sauce",
+      "id": "ingredient:soy sauce"
+    },
+    {
+      "kind": "recipe",
+      "label": "Cajun Spiced Fish Tacos",
+      "id": "recipe:cajun spiced fish tacos",
+      "x": 285.31695488854604,
+      "y": -92.70509831248422
+    },
+    {
+      "kind": "recipe",
+      "label": "Chicken Handi",
+      "id": "recipe:chicken handi",
+      "x": 176.33557568774194,
+      "y": 242.70509831248424
+    },
+    {
+      "kind": "recipe",
+      "label": "Teriyaki Chicken Casserole",
+      "id": "recipe:teriyaki chicken casserole",
+      "x": -285.3169548885461,
+      "y": -92.70509831248418
+    }
+  ],
+  "links": [
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": null,
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 4.0,
+      "unit": null,
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbs",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:tomato paste",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.25,
+      "unit": "cup",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:butter",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "cups",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:olive oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbs",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:cumin",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": null,
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:egg",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 5.0,
+      "unit": "tbs",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "cup",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "cup",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:mushrooms",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "cup",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:water",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:sugar",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:soy sauce",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "clove finely chopped",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 5.0,
+      "unit": "thinly sliced",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 8.0,
+      "unit": "cloves chopped",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.25,
+      "unit": "cup",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "tsp",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:cumin",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.75,
+      "unit": "cup",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:soy sauce",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "cup",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:water",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "teaspoon",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    }
+  ],
+  "reveal": [
+    {
+      "label": "collapsed onto one hub",
+      "nodes": [
+        "ingredient:garlic",
+        "ingredient:cumin",
+        "ingredient:oil"
+      ],
+      "edges": []
+    }
+  ],
+  "title": "Rung 3 — collapsed: 3 canonical hubs lit, each absorbing the near-duplicate spellings that merged onto it"
+}

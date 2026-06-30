@@ -1,0 +1,28 @@
+{
+  "title": "Vegetarian Chilli",
+  "ingredients": [
+    {
+      "name": "Roasted Vegetables",
+      "quantity": "400",
+      "unit": "g"
+    },
+    {
+      "name": "Kidney Beans",
+      "quantity": "1",
+      "unit": "can"
+    },
+    {
+      "name": "Chopped Tomatoes",
+      "quantity": "1",
+      "unit": "can"
+    },
+    {
+      "name": "Mixed Grain",
+      "quantity": "1",
+      "unit": "Packet"
+    }
+  ],
+  "instructions": "Heat oven to 200C/180C fan/ gas 6. Cook the vegetables in a casserole dish for 15 mins. Tip in the beans and tomatoes, season, and cook for another 10-15 mins until piping hot. Heat the pouch in the microwave on High for 1 min and serve with the chilli.",
+  "source": "https://www.bbcgoodfood.com/recipes/veggie-chilli",
+  "text": "Vegetarian Chilli\n\nIngredients:\n- 400 g Roasted Vegetables\n- 1 can Kidney Beans\n- 1 can Chopped Tomatoes\n- 1 Packet Mixed Grain\n\nMethod:\nHeat oven to 200C/180C fan/ gas 6. Cook the vegetables in a casserole dish for 15 mins. Tip in the beans and tomatoes, season, and cook for another 10-15 mins until piping hot. Heat the pouch in the microwave on High for 1 min and serve with the chilli."
+}

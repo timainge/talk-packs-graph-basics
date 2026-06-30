@@ -1,0 +1,77 @@
+[
+  {
+    "subject": "Vegetarian Chilli",
+    "predicate": "is a",
+    "object": "recipe"
+  },
+  {
+    "subject": "Vegetarian Chilli",
+    "predicate": "contains ingredient",
+    "object": "400 g Roasted Vegetables"
+  },
+  {
+    "subject": "Vegetarian Chilli",
+    "predicate": "contains ingredient",
+    "object": "1 can Kidney Beans"
+  },
+  {
+    "subject": "Vegetarian Chilli",
+    "predicate": "contains ingredient",
+    "object": "1 can Chopped Tomatoes"
+  },
+  {
+    "subject": "Vegetarian Chilli",
+    "predicate": "contains ingredient",
+    "object": "1 Packet Mixed Grain"
+  },
+  {
+    "subject": "oven",
+    "predicate": "heated to",
+    "object": "200C/180C fan/gas 6"
+  },
+  {
+    "subject": "vegetables",
+    "predicate": "cooked in",
+    "object": "casserole dish"
+  },
+  {
+    "subject": "vegetables",
+    "predicate": "cooked for",
+    "object": "15 mins"
+  },
+  {
+    "subject": "beans and tomatoes",
+    "predicate": "tipped into",
+    "object": "casserole dish"
+  },
+  {
+    "subject": "beans and tomatoes",
+    "predicate": "cooked for",
+    "object": "another 10-15 mins"
+  },
+  {
+    "subject": "beans and tomatoes",
+    "predicate": "cooked until",
+    "object": "piping hot"
+  },
+  {
+    "subject": "pouch",
+    "predicate": "heated in",
+    "object": "microwave"
+  },
+  {
+    "subject": "pouch",
+    "predicate": "heated on",
+    "object": "High"
+  },
+  {
+    "subject": "pouch",
+    "predicate": "heated for",
+    "object": "1 min"
+  },
+  {
+    "subject": "pouch",
+    "predicate": "served with",
+    "object": "chilli"
+  }
+]

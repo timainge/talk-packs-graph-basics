@@ -1,0 +1,43 @@
+{
+  "title": "Pancakes",
+  "ingredients": [
+    {
+      "name": "Flour",
+      "quantity": "100",
+      "unit": "g"
+    },
+    {
+      "name": "Eggs",
+      "quantity": "2",
+      "unit": "large"
+    },
+    {
+      "name": "Milk",
+      "quantity": "300",
+      "unit": "ml"
+    },
+    {
+      "name": "Sunflower Oil",
+      "quantity": "1",
+      "unit": "tbls"
+    },
+    {
+      "name": "Sugar",
+      "quantity": null,
+      "unit": "to serve"
+    },
+    {
+      "name": "Raspberries",
+      "quantity": null,
+      "unit": "to serve"
+    },
+    {
+      "name": "Blueberries",
+      "quantity": null,
+      "unit": "to serve"
+    }
+  ],
+  "instructions": "Put the flour, eggs, milk, 1 tbsp oil and a pinch of salt into a bowl or large jug, then whisk to a smooth batter. Set aside for 30 mins to rest if you have time, or start cooking straight away.\r\nSet a medium frying pan or crêpe pan over a medium heat and carefully wipe it with some oiled kitchen paper. When hot, cook your pancakes for 1 min on each side until golden, keeping them warm in a low oven as you go.\r\nServe with lemon wedges and sugar, or your favourite filling. Once cold, you can layer the pancakes between baking parchment, then wrap in cling film and freeze for up to 2 months.",
+  "source": "https://www.bbcgoodfood.com/recipes/2907669/easy-pancakes",
+  "text": "Pancakes\n\nIngredients:\n- 100 g Flour\n- 2 large Eggs\n- 300 ml Milk\n- 1 tbls Sunflower Oil\n- to serve Sugar\n- to serve Raspberries\n- to serve Blueberries\n\nMethod:\nPut the flour, eggs, milk, 1 tbsp oil and a pinch of salt into a bowl or large jug, then whisk to a smooth batter. Set aside for 30 mins to rest if you have time, or start cooking straight away.\r\nSet a medium frying pan or crêpe pan over a medium heat and carefully wipe it with some oiled kitchen paper. When hot, cook your pancakes for 1 min on each side until golden, keeping them warm in a low oven as you go.\r\nServe with lemon wedges and sugar, or your favourite filling. Once cold, you can layer the pancakes between baking parchment, then wrap in cling film and freeze for up to 2 months."
+}

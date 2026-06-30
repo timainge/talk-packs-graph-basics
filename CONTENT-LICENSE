@@ -1,0 +1,35 @@
+# Content License — Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Tim Ainge
+
+The **talk content** in this repository — the Slidev deck (`deck/slides.md` and its
+speaker notes), the README prose, and the notebook narrative text — is licensed under the
+**Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format.
+- **Adapt** — remix, transform, and build upon the material for any purpose, even
+  commercially.
+
+Under the following terms:
+
+- **Attribution** — You must give appropriate credit (to *Tim Ainge — "A Practitioner's
+  Guide to Knowledge Graphs"*, with a link to this repository), provide a link to the
+  license, and indicate if changes were made. You may do so in any reasonable manner, but
+  not in any way that suggests the licensor endorses you or your use.
+- **No additional restrictions** — You may not apply legal terms or technological measures
+  that legally restrict others from doing anything the license permits.
+
+The full legal text of CC BY 4.0 is available at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+A human-readable summary is at:
+https://creativecommons.org/licenses/by/4.0/
+
+---
+
+**Scope note.** This content license covers the slides and prose only. The **code**
+(the `graphtools` library, notebooks-as-code, and deck components) is licensed under the
+**MIT License** — see `LICENSE`. Bundled **sample data** carries its own upstream terms —
+see the "Data, licenses, attribution" section of `README.md`.

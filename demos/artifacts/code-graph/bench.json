@@ -1,0 +1,267 @@
+{
+  "target": "eShopOnWeb",
+  "graph": {
+    "nodes": 955,
+    "edges": 2196,
+    "nodes_by_type": {
+      "member": 617,
+      "namespace": 62,
+      "project": 10,
+      "route": 33,
+      "type": 233
+    },
+    "edges_by_rel": {
+      "calls": 1131,
+      "contains": 819,
+      "di_binds": 12,
+      "extends": 40,
+      "extends_external": 86,
+      "implements": 18,
+      "project_depends": 18,
+      "route_handles": 33,
+      "subtypes": 39
+    }
+  },
+  "shortest_path": {
+    "beat": "auditable constrained traversal \u2014 'why does changing X break Y'",
+    "hero": {
+      "found": true,
+      "hops": 4,
+      "trust": "possibly-blind",
+      "chain": "Web.Pages.Basket.CheckoutModel.OnPost \u2192 Web.Pages.Basket.CheckoutModel.SetBasketModelAsync \u2192 Web.Services.BasketViewModelService.GetOrCreateBasketForUser \u2192 Web.Services.BasketViewModelService.CreateBasketForUser \u2192 ApplicationCore.Entities.BasketAggregate.Basket..ctor",
+      "edges": [
+        {
+          "from": "Web.Pages.Basket.CheckoutModel.OnPost",
+          "to": "Web.Pages.Basket.CheckoutModel.SetBasketModelAsync",
+          "rel": "calls",
+          "completeness": "blind-spot-possible"
+        },
+        {
+          "from": "Web.Pages.Basket.CheckoutModel.SetBasketModelAsync",
+          "to": "Web.Services.BasketViewModelService.GetOrCreateBasketForUser",
+          "rel": "calls",
+          "completeness": "blind-spot-possible"
+        },
+        {
+          "from": "Web.Services.BasketViewModelService.GetOrCreateBasketForUser",
+          "to": "Web.Services.BasketViewModelService.CreateBasketForUser",
+          "rel": "calls",
+          "completeness": "blind-spot-possible"
+        },
+        {
+          "from": "Web.Services.BasketViewModelService.CreateBasketForUser",
+          "to": "ApplicationCore.Entities.BasketAggregate.Basket..ctor",
+          "rel": "calls",
+          "completeness": "blind-spot-possible"
+        }
+      ]
+    },
+    "more_examples": [
+      {
+        "question": "Why does editing the Order constructor break checkout?",
+        "found": true,
+        "hops": 2,
+        "trust": "possibly-blind",
+        "chain": "Web.Pages.Basket.CheckoutModel.OnPost \u2192 ApplicationCore.Services.OrderService.CreateOrderAsync \u2192 ApplicationCore.Entities.OrderAggregate.Order..ctor"
+      },
+      {
+        "question": "Why does editing Basket.AddItem break the basket page?",
+        "found": true,
+        "hops": 2,
+        "trust": "possibly-blind",
+        "chain": "Web.Pages.Basket.IndexModel.OnPost \u2192 ApplicationCore.Services.BasketService.AddItemToBasket \u2192 ApplicationCore.Entities.BasketAggregate.Basket.AddItem"
+      }
+    ],
+    "eval": {
+      "metric": "tier-2 claim error rate (hallucinated-impact claims)",
+      "design": "paired ablation: GraphNav arm vs grep-only control, 5 tuning subjects, swapped verifier",
+      "sonnet-4-6": {
+        "before": 0.078,
+        "after": 0.005,
+        "lift": true,
+        "note": "tier-1 hallucinated citations \u2192 0; citation precision/recall 1.0"
+      },
+      "opus-4-7": {
+        "before": 0.1585,
+        "after": 0.1688,
+        "lift": false,
+        "note": "coverage floor missed on 2 subjects; a wrong-di-binding cluster"
+      },
+      "verdict": "model-conditional \u2014 positive lift on sonnet-4-6, none on opus-4-7. State the bound; do not overclaim.",
+      "source": "proving-ground M4 adjudication (2026-06-12)"
+    },
+    "anchors": [
+      "LocAgent \u2014 Graph-Guided LLM Agents for Code Localization (ACL 2025)"
+    ],
+    "completeness_note": "calls edges are blind-spot-possible (delegate/reflection/interface-dispatch invisible to SymbolFinder); a 'no path' over calls is flagged possibly-blind, over structural rels (implements/extends) it is trustworthy."
+  },
+  "subgraph": {
+    "beat": "exact subgraph matching (VF2) \u2014 the engine under Joern/CodeQL",
+    "decorator_correctness": {
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "all_and_only": true,
+      "found": [
+        {
+          "decorator": "Web.Services.CachedCatalogViewModelService",
+          "wrapped": "Web.Services.CatalogViewModelService",
+          "interface": "Web.Services.ICatalogViewModelService"
+        }
+      ]
+    },
+    "framework_motifs": {
+      "Specification": {
+        "base": "Specification",
+        "what": "DDD Specification objects (Ardalis.Specification)",
+        "count": 8,
+        "instances": [
+          "ApplicationCore.Specifications.BasketWithItemsSpecification",
+          "ApplicationCore.Specifications.CatalogFilterPaginatedSpecification",
+          "ApplicationCore.Specifications.CatalogFilterSpecification",
+          "ApplicationCore.Specifications.CatalogItemNameSpecification",
+          "ApplicationCore.Specifications.CatalogItemsSpecification",
+          "ApplicationCore.Specifications.CustomerOrdersSpecification",
+          "ApplicationCore.Specifications.CustomerOrdersWithItemsSpecification",
+          "ApplicationCore.Specifications.OrderWithItemsByIdSpec"
+        ]
+      },
+      "ApiEndpoint": {
+        "base": "IEndpoint",
+        "what": "Ardalis.ApiEndpoints request handlers",
+        "count": 7,
+        "instances": [
+          "PublicApi.CatalogBrandEndpoints.CatalogBrandListEndpoint",
+          "PublicApi.CatalogItemEndpoints.CatalogItemGetByIdEndpoint",
+          "PublicApi.CatalogItemEndpoints.CatalogItemListPagedEndpoint",
+          "PublicApi.CatalogItemEndpoints.CreateCatalogItemEndpoint",
+          "PublicApi.CatalogItemEndpoints.DeleteCatalogItemEndpoint",
+          "PublicApi.CatalogItemEndpoints.UpdateCatalogItemEndpoint",
+          "PublicApi.CatalogTypeEndpoints.CatalogTypeListEndpoint"
+        ]
+      },
+      "MediatrHandler": {
+        "base": "IRequestHandler",
+        "what": "MediatR CQRS request handlers",
+        "count": 2,
+        "instances": [
+          "Web.Features.MyOrders.GetMyOrdersHandler",
+          "Web.Features.OrderDetails.GetOrderDetailsHandler"
+        ]
+      },
+      "RazorPage": {
+        "base": "PageModel",
+        "what": "Razor Pages page models",
+        "count": 12,
+        "instances": [
+          "Web.Areas.Identity.Pages.Account.ConfirmEmailModel",
+          "Web.Areas.Identity.Pages.Account.LoginModel",
+          "Web.Areas.Identity.Pages.Account.LogoutModel",
+          "Web.Areas.Identity.Pages.Account.RegisterModel",
+          "Web.Pages.Admin.EditCatalogItemModel",
+          "Web.Pages.Admin.IndexModel",
+          "Web.Pages.Basket.CheckoutModel",
+          "Web.Pages.Basket.IndexModel",
+          "Web.Pages.Basket.SuccessModel",
+          "Web.Pages.ErrorModel",
+          "Web.Pages.IndexModel",
+          "Web.Pages.PrivacyModel"
+        ]
+      },
+      "EfTypeConfig": {
+        "base": "IEntityTypeConfiguration",
+        "what": "EF Core entity-type configurations",
+        "count": 7,
+        "instances": [
+          "Infrastructure.Data.Config.BasketConfiguration",
+          "Infrastructure.Data.Config.BasketItemConfiguration",
+          "Infrastructure.Data.Config.CatalogBrandConfiguration",
+          "Infrastructure.Data.Config.CatalogItemConfiguration",
+          "Infrastructure.Data.Config.CatalogTypeConfiguration",
+          "Infrastructure.Data.Config.OrderConfiguration",
+          "Infrastructure.Data.Config.OrderItemConfiguration"
+        ]
+      },
+      "MvcController": {
+        "base": "ControllerBase",
+        "what": "ASP.NET MVC / API controllers",
+        "count": 5,
+        "instances": [
+          "PublicApi.AuthEndpoints.AuthenticateEndpoint",
+          "Web.Controllers.Api.BaseApiController",
+          "Web.Controllers.ManageController",
+          "Web.Controllers.OrderController",
+          "Web.Controllers.UserController"
+        ]
+      }
+    },
+    "repository_shape": [
+      {
+        "impl": "Infrastructure.Data.EfRepository",
+        "interfaces": [
+          "ApplicationCore.Interfaces.IReadRepository",
+          "ApplicationCore.Interfaces.IRepository"
+        ]
+      }
+    ],
+    "layering_violations": {
+      "beat": "anti-pattern: clean-architecture dependency-rule (Core must not call outward)",
+      "candidates": [
+        {
+          "from": "ApplicationCore.Services.BasketService",
+          "to": "Infrastructure.Logging.LoggerAdapter",
+          "caveat": "likely interface-dispatch artifact (callee is a DI-bound concrete; the real dependency is on its Core interface)"
+        }
+      ],
+      "verdict": "the lone candidate is an interface-dispatch artifact, not a real violation \u2014 eShop honours the dependency rule. Verify-before-slide."
+    },
+    "di_shapes": [
+      {
+        "interface": "ApplicationCore.Interfaces.IAggregateRoot",
+        "impls": 5,
+        "di_impl": null,
+        "shape": "marker"
+      },
+      {
+        "interface": "Web.Services.ICatalogViewModelService",
+        "impls": 2,
+        "di_impl": "CachedCatalogViewModelService",
+        "shape": "decorator"
+      }
+    ],
+    "god_class": {
+      "threshold": 20,
+      "hits": [],
+      "top_fanout": [
+        {
+          "type": "Web.Services.BasketViewModelService",
+          "fanout": 13
+        },
+        {
+          "type": "Web.Services.CatalogViewModelService",
+          "fanout": 12
+        },
+        {
+          "type": "Web.Controllers.ManageController",
+          "fanout": 11
+        },
+        {
+          "type": "Web.Pages.Basket.CheckoutModel",
+          "fanout": 11
+        },
+        {
+          "type": "ApplicationCore.Services.OrderService",
+          "fanout": 11
+        }
+      ],
+      "verdict": "no God class at a real bar (fan-out \u2265 20); eShop is clean \u2014 evidenced negative."
+    },
+    "anchors": [
+      "Tsantalis et al. \u2014 Design Pattern Detection using similarity scoring on graph hierarchies (TSE 2006)",
+      "Joern / Code Property Graph \u2014 Yamaguchi et al. (IEEE S&P 2014; Test-of-Time Award 2024)",
+      "CodeQL (GitHub/Semmle) \u2014 code as a queryable graph database; >400 CVEs via variant analysis"
+    ]
+  }
+}

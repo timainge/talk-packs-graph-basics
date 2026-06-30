@@ -1,0 +1,162 @@
+[
+  {
+    "subject": "Teriyaki Chicken Casserole",
+    "predicate": "is a type of",
+    "object": "casserole dish"
+  },
+  {
+    "subject": "Teriyaki Chicken Casserole",
+    "predicate": "requires",
+    "object": "3/4 cup soy sauce"
+  },
+  {
+    "subject": "Teriyaki Chicken Casserole",
+    "predicate": "requires",
+    "object": "1/2 cup water"
+  },
+  {
+    "subject": "Teriyaki Chicken Casserole",
+    "predicate": "requires",
+    "object": "1/4 cup brown sugar"
+  },
+  {
+    "subject": "Teriyaki Chicken Casserole",
+    "predicate": "requires",
+    "object": "1/2 teaspoon ground ginger"
+  },
+  {
+    "subject": "Teriyaki Chicken Casserole",
+    "predicate": "requires",
+    "object": "1/2 teaspoon minced garlic"
+  },
+  {
+    "subject": "Teriyaki Chicken Casserole",
+    "predicate": "requires",
+    "object": "4 Tablespoons cornstarch"
+  },
+  {
+    "subject": "Teriyaki Chicken Casserole",
+    "predicate": "requires",
+    "object": "2 chicken breasts"
+  },
+  {
+    "subject": "Teriyaki Chicken Casserole",
+    "predicate": "requires",
+    "object": "1 (12 oz.) stir-fry vegetables"
+  },
+  {
+    "subject": "Teriyaki Chicken Casserole",
+    "predicate": "requires",
+    "object": "3 cups brown rice"
+  },
+  {
+    "subject": "oven",
+    "predicate": "is preheated to",
+    "object": "350\u00b0 F"
+  },
+  {
+    "subject": "baking pan",
+    "predicate": "has size",
+    "object": "9x13-inch"
+  },
+  {
+    "subject": "baking pan",
+    "predicate": "is sprayed with",
+    "object": "non-stick spray"
+  },
+  {
+    "subject": "sauce",
+    "predicate": "is made by combining",
+    "object": "soy sauce, water, brown sugar, ginger, and garlic"
+  },
+  {
+    "subject": "sauce",
+    "predicate": "is cooked in",
+    "object": "a small saucepan"
+  },
+  {
+    "subject": "sauce",
+    "predicate": "is brought to",
+    "object": "a boil over medium heat"
+  },
+  {
+    "subject": "sauce",
+    "predicate": "is cooked for",
+    "object": "one minute once boiling"
+  },
+  {
+    "subject": "cornstarch",
+    "predicate": "is stirred together with",
+    "object": "2 tablespoons of water"
+  },
+  {
+    "subject": "cornstarch mixture",
+    "predicate": "is added to",
+    "object": "the saucepan once sauce is boiling"
+  },
+  {
+    "subject": "sauce",
+    "predicate": "is removed from heat when",
+    "object": "it starts to thicken"
+  },
+  {
+    "subject": "chicken breasts",
+    "predicate": "are placed in",
+    "object": "the prepared pan"
+  },
+  {
+    "subject": "one cup of sauce",
+    "predicate": "is poured over",
+    "object": "the chicken"
+  },
+  {
+    "subject": "chicken",
+    "predicate": "is baked for",
+    "object": "35 minutes"
+  },
+  {
+    "subject": "chicken",
+    "predicate": "is baked until",
+    "object": "cooked through"
+  },
+  {
+    "subject": "chicken",
+    "predicate": "is shredded using",
+    "object": "two forks"
+  },
+  {
+    "subject": "vegetables",
+    "predicate": "are steamed or cooked according to",
+    "object": "package directions"
+  },
+  {
+    "subject": "cooked vegetables and rice",
+    "predicate": "are added to",
+    "object": "the casserole dish with the chicken"
+  },
+  {
+    "subject": "remaining sauce",
+    "predicate": "is added to",
+    "object": "the casserole dish"
+  },
+  {
+    "subject": "some remaining sauce",
+    "predicate": "is reserved for",
+    "object": "drizzling over the top when serving"
+  },
+  {
+    "subject": "casserole",
+    "predicate": "is returned to oven and cooked for",
+    "object": "15 minutes"
+  },
+  {
+    "subject": "casserole",
+    "predicate": "is left to stand for",
+    "object": "5 minutes before serving"
+  },
+  {
+    "subject": "each serving",
+    "predicate": "is drizzled with",
+    "object": "remaining sauce"
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "title": "Lamb Tagine",
+  "ingredients": [
+    {
+      "name": "Olive Oil",
+      "quantity": 2.0,
+      "unit": "tblsp"
+    },
+    {
+      "name": "Onion",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "Carrots",
+      "quantity": 2.0,
+      "unit": null
+    },
+    {
+      "name": "Lamb Leg",
+      "quantity": 500.0,
+      "unit": "g"
+    },
+    {
+      "name": "Garlic",
+      "quantity": 2.0,
+      "unit": "cloves"
+    },
+    {
+      "name": "Cumin",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "name": "Ginger",
+      "quantity": 0.5,
+      "unit": "tsp"
+    },
+    {
+      "name": "Saffron",
+      "quantity": 0.25,
+      "unit": "tsp"
+    },
+    {
+      "name": "Cinnamon",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "Honey",
+      "quantity": 1.0,
+      "unit": "tblsp"
+    },
+    {
+      "name": "Apricot",
+      "quantity": 100.0,
+      "unit": "g"
+    },
+    {
+      "name": "Vegetable Stock Cube",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "Butternut Squash",
+      "quantity": 1.0,
+      "unit": "medium"
+    },
+    {
+      "name": "Steamed Couscous",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Chopped Parsley",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the olive oil in a heavy-based pan and add the onion and carrot. Cook for 3\u20134 mins until softened.",
+      "technique": "heat",
+      "uses": [
+        "Olive Oil",
+        "Onion",
+        "Carrots"
+      ]
+    },
+    {
+      "text": "Add the diced lamb and brown all over. Stir in the garlic and all the spices and cook for a few mins more or until the aromas are released.",
+      "technique": "brown",
+      "uses": [
+        "Lamb Leg",
+        "Garlic",
+        "Cumin",
+        "Ginger",
+        "Saffron",
+        "Cinnamon"
+      ]
+    },
+    {
+      "text": "Add the honey and apricots, crumble in the stock cube and pour over roughly 500ml boiling water or enough to cover the meat. Give it a good stir and bring to the boil. Turn down to a simmer, put the lid on and cook for 1 hour.",
+      "technique": "simmer",
+      "uses": [
+        "Honey",
+        "Apricot",
+        "Vegetable Stock Cube"
+      ]
+    },
+    {
+      "text": "Remove the lid and cook for a further 30 mins, then stir in the squash. Cook for 20\u201330 mins more until the squash is soft and the lamb is tender.",
+      "technique": "stir",
+      "uses": [
+        "Butternut Squash"
+      ]
+    },
+    {
+      "text": "Serve alongside rice or couscous and sprinkle with parsley and pine nuts, if using.",
+      "technique": "serve",
+      "uses": [
+        "Steamed Couscous",
+        "Chopped Parsley"
+      ]
+    }
+  ]
+}

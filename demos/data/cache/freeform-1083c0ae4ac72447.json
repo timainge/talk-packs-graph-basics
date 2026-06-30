@@ -1,0 +1,102 @@
+[
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "is a",
+    "object": "dish"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "contains",
+    "object": "2 cans Cannellini Beans"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "contains",
+    "object": "3 tbs Vegetable Oil"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "contains",
+    "object": "2 cups Tomatoes"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "contains",
+    "object": "5 Shallots"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "contains",
+    "object": "2 cloves Garlic"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "contains",
+    "object": "Pinch Parsley"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "contains",
+    "object": "1/2 kg chopped Chorizo"
+  },
+  {
+    "subject": "Chorizo",
+    "predicate": "is described as",
+    "object": "sausages"
+  },
+  {
+    "subject": "oil",
+    "predicate": "is heated in",
+    "object": "a pan"
+  },
+  {
+    "subject": "chopped vegetables",
+    "predicate": "are added to",
+    "object": "pan"
+  },
+  {
+    "subject": "chopped vegetables",
+    "predicate": "are saut\u00e9ed until",
+    "object": "tender"
+  },
+  {
+    "subject": "beans",
+    "predicate": "are emptied into",
+    "object": "a pot"
+  },
+  {
+    "subject": "vegetables",
+    "predicate": "are emptied into",
+    "object": "a pot"
+  },
+  {
+    "subject": "sausages",
+    "predicate": "are put inside",
+    "object": "pot"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "can be cooked for",
+    "object": "20 minutes on a low heat"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "can alternatively be baked in",
+    "object": "an oven"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "baked at temperature of",
+    "object": "180\u00baC/350\u00baF"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "baked for",
+    "object": "30 minutes"
+  },
+  {
+    "subject": "Croatian Bean Stew",
+    "predicate": "is even better",
+    "object": "reheated the next day"
+  }
+]

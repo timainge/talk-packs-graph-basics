@@ -1,0 +1,123 @@
+{
+  "title": "Spaghetti Bolognese",
+  "ingredients": [
+    {
+      "name": "onions",
+      "quantity": 2.0,
+      "unit": null
+    },
+    {
+      "name": "olive oil",
+      "quantity": 1.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "garlic",
+      "quantity": 1.0,
+      "unit": "clove"
+    },
+    {
+      "name": "lean minced beef",
+      "quantity": 500.0,
+      "unit": "g"
+    },
+    {
+      "name": "mushrooms",
+      "quantity": 90.0,
+      "unit": "g"
+    },
+    {
+      "name": "dried oregano",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "can tomatoes",
+      "quantity": 400.0,
+      "unit": "g"
+    },
+    {
+      "name": "hot beef stock",
+      "quantity": 300.0,
+      "unit": "ml"
+    },
+    {
+      "name": "tomato puree",
+      "quantity": 1.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "worcestershire sauce",
+      "quantity": 1.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "spaghetti",
+      "quantity": 350.0,
+      "unit": "g"
+    },
+    {
+      "name": "parmesan",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins.",
+      "technique": "fry",
+      "uses": [
+        "onions",
+        "olive oil"
+      ]
+    },
+    {
+      "text": "Add the garlic and mince and fry until they both brown.",
+      "technique": "fry",
+      "uses": [
+        "garlic",
+        "lean minced beef"
+      ]
+    },
+    {
+      "text": "Add the mushrooms and herbs, and cook for another couple of mins.",
+      "technique": "cook",
+      "uses": [
+        "mushrooms",
+        "dried oregano"
+      ]
+    },
+    {
+      "text": "Stir in the tomatoes, beef stock, tomato ketchup or pur\u00e9e, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins.",
+      "technique": "simmer",
+      "uses": [
+        "can tomatoes",
+        "hot beef stock",
+        "tomato puree",
+        "worcestershire sauce"
+      ]
+    },
+    {
+      "text": "Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions.",
+      "technique": "cook",
+      "uses": [
+        "spaghetti"
+      ]
+    },
+    {
+      "text": "Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce.",
+      "technique": "stir",
+      "uses": [
+        "spaghetti",
+        "olive oil"
+      ]
+    },
+    {
+      "text": "Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.",
+      "technique": "serve",
+      "uses": [
+        "parmesan"
+      ]
+    }
+  ]
+}

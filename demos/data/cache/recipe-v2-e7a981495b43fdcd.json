@@ -1,0 +1,159 @@
+{
+  "title": "Beef Lo Mein",
+  "ingredients": [
+    {
+      "name": "beef",
+      "quantity": 227.0,
+      "unit": "g"
+    },
+    {
+      "name": "salt",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "white pepper",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "sesame seed oil",
+      "quantity": 10.0,
+      "unit": "ml"
+    },
+    {
+      "name": "egg",
+      "quantity": 0.5,
+      "unit": null
+    },
+    {
+      "name": "starch",
+      "quantity": 45.0,
+      "unit": "ml"
+    },
+    {
+      "name": "oil",
+      "quantity": 75.0,
+      "unit": "ml"
+    },
+    {
+      "name": "noodle",
+      "quantity": 113.0,
+      "unit": "g"
+    },
+    {
+      "name": "onion",
+      "quantity": 120.0,
+      "unit": "ml"
+    },
+    {
+      "name": "minced garlic",
+      "quantity": 5.0,
+      "unit": "ml"
+    },
+    {
+      "name": "ginger",
+      "quantity": 5.0,
+      "unit": "ml"
+    },
+    {
+      "name": "bean sprout",
+      "quantity": 240.0,
+      "unit": "ml"
+    },
+    {
+      "name": "mushroom",
+      "quantity": 240.0,
+      "unit": "ml"
+    },
+    {
+      "name": "water",
+      "quantity": 240.0,
+      "unit": "ml"
+    },
+    {
+      "name": "oyster sauce",
+      "quantity": 15.0,
+      "unit": "ml"
+    },
+    {
+      "name": "sugar",
+      "quantity": 5.0,
+      "unit": "ml"
+    },
+    {
+      "name": "soy sauce",
+      "quantity": 5.0,
+      "unit": "ml"
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a bowl, combine the beef, salt, white pepper, 5 ml sesame seed oil, egg, starch and 15 ml oil. Mix together to marinate.",
+      "technique": "mix",
+      "uses": [
+        "beef",
+        "salt",
+        "white pepper",
+        "sesame seed oil",
+        "egg",
+        "starch",
+        "oil"
+      ]
+    },
+    {
+      "text": "In a large pot, bring water to a boil. Add noodles and boil on high heat for 10 seconds until submerged. Strain and cool with cold water.",
+      "technique": "boil",
+      "uses": [
+        "noodle",
+        "water"
+      ]
+    },
+    {
+      "text": "In a wok, heat 30 ml oil on high heat. Add the marinated beef and cook until medium cooked. Set the cooked beef aside.",
+      "technique": "stir-fry",
+      "uses": [
+        "oil",
+        "beef"
+      ]
+    },
+    {
+      "text": "In the wok, heat 30 ml oil and add onion, minced garlic, ginger, bean sprouts and mushrooms. Add water until vegetables are submerged and cook on high heat.",
+      "technique": "stir-fry",
+      "uses": [
+        "oil",
+        "onion",
+        "minced garlic",
+        "ginger",
+        "bean sprout",
+        "mushroom",
+        "water"
+      ]
+    },
+    {
+      "text": "Add the noodles to the wok and stir to combine with the vegetables.",
+      "technique": "stir-fry",
+      "uses": [
+        "noodle"
+      ]
+    },
+    {
+      "text": "Add oyster sauce, white pepper, 5 ml sesame seed oil, sugar and soy sauce to make the sauce and stir through.",
+      "technique": "stir-fry",
+      "uses": [
+        "oyster sauce",
+        "white pepper",
+        "sesame seed oil",
+        "sugar",
+        "soy sauce"
+      ]
+    },
+    {
+      "text": "Add the cooked beef back to the wok and stir-fry everything together until well combined.",
+      "technique": "stir-fry",
+      "uses": [
+        "beef"
+      ]
+    }
+  ]
+}

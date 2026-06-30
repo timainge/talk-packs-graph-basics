@@ -1,0 +1,157 @@
+[
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "is a type of",
+    "object": "dish"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "2 onions"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "1 tbsp olive oil"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "1 clove garlic"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "500 g lean minced beef"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "90 g mushrooms"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "1 tsp dried oregano"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "400 g can tomatoes"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "300 ml hot beef stock"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "1 tbsp tomato puree"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "1 tbsp worcestershire sauce"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "requires ingredient",
+    "object": "350 g spaghetti"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "has topping",
+    "object": "parmesan"
+  },
+  {
+    "subject": "onion and oil",
+    "predicate": "are fried in",
+    "object": "a large pan"
+  },
+  {
+    "subject": "onion and oil",
+    "predicate": "are fried for",
+    "object": "3-4 mins"
+  },
+  {
+    "subject": "onion and oil",
+    "predicate": "are fried over",
+    "object": "a fairly high heat"
+  },
+  {
+    "subject": "garlic and mince",
+    "predicate": "are fried until",
+    "object": "they both brown"
+  },
+  {
+    "subject": "mushrooms and herbs",
+    "predicate": "are cooked for",
+    "object": "another couple of mins"
+  },
+  {
+    "subject": "tomatoes, beef stock, tomato puree, Worcestershire sauce and seasoning",
+    "predicate": "are stirred in after",
+    "object": "mushrooms and herbs"
+  },
+  {
+    "subject": "sauce",
+    "predicate": "is brought to",
+    "object": "the boil"
+  },
+  {
+    "subject": "sauce",
+    "predicate": "is then",
+    "object": "reduced in heat"
+  },
+  {
+    "subject": "sauce",
+    "predicate": "is covered and simmered for",
+    "object": "30 mins"
+  },
+  {
+    "subject": "sauce",
+    "predicate": "is stirred",
+    "object": "occasionally"
+  },
+  {
+    "subject": "spaghetti",
+    "predicate": "is cooked in",
+    "object": "a large pan of boiling, salted water"
+  },
+  {
+    "subject": "spaghetti",
+    "predicate": "is cooked according to",
+    "object": "packet instructions"
+  },
+  {
+    "subject": "spaghetti",
+    "predicate": "is drained and rinsed with",
+    "object": "hot water"
+  },
+  {
+    "subject": "spaghetti",
+    "predicate": "is returned to",
+    "object": "the pan"
+  },
+  {
+    "subject": "olive oil",
+    "predicate": "can optionally be added to",
+    "object": "spaghetti"
+  },
+  {
+    "subject": "meat sauce",
+    "predicate": "is stirred into",
+    "object": "spaghetti"
+  },
+  {
+    "subject": "Spaghetti Bolognese",
+    "predicate": "is served in",
+    "object": "hot bowls"
+  },
+  {
+    "subject": "Parmesan cheese",
+    "predicate": "is handed round for",
+    "object": "sprinkling on top"
+  }
+]

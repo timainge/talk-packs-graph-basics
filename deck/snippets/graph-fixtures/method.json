@@ -1,0 +1,73 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "principle",
+      "label": "Principle",
+      "note": "open with the idea",
+      "id": "method:principle",
+      "x": -320.0,
+      "y": 0.0
+    },
+    {
+      "kind": "code",
+      "label": "Code",
+      "note": "easy recipe examples",
+      "id": "method:code",
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "kind": "example",
+      "label": "Examples",
+      "note": "real-world analogues",
+      "id": "method:example",
+      "x": 320.0,
+      "y": 0.0
+    }
+  ],
+  "links": [
+    {
+      "rel": "THEN",
+      "source": "method:principle",
+      "target": "method:code",
+      "key": 0
+    },
+    {
+      "rel": "THEN",
+      "source": "method:code",
+      "target": "method:example",
+      "key": 0
+    }
+  ],
+  "reveal": [
+    {
+      "label": "Principle",
+      "nodes": ["method:principle"],
+      "edges": []
+    },
+    {
+      "label": "Code",
+      "nodes": ["method:code"],
+      "edges": []
+    },
+    {
+      "label": "Examples",
+      "nodes": ["method:example"],
+      "edges": []
+    }
+  ],
+  "title": "Each step: principle -> code (recipes) -> real-world examples",
+  "params": {
+    "labels": {
+      "maxChars": 40
+    },
+    "edges": {
+      "rest": "#aab0ba",
+      "width": 2.5,
+      "arrowScale": 1.8
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "query",
+      "label": "garlic?",
+      "id": "ingredient:garlic"
+    },
+    {
+      "kind": "recipe",
+      "label": "Beef Lo Mein",
+      "id": "recipe:beef lo mein"
+    },
+    {
+      "kind": "ingredient",
+      "label": "beef",
+      "id": "ingredient:beef"
+    },
+    {
+      "kind": "recipe",
+      "label": "Cajun Spiced Fish Tacos",
+      "id": "recipe:cajun spiced fish tacos"
+    },
+    {
+      "kind": "ingredient",
+      "label": "white fish",
+      "id": "ingredient:white fish"
+    },
+    {
+      "kind": "recipe",
+      "label": "Chicken Handi",
+      "id": "recipe:chicken handi"
+    },
+    {
+      "kind": "ingredient",
+      "label": "onion",
+      "id": "ingredient:onion"
+    },
+    {
+      "kind": "recipe",
+      "label": "Croatian Bean Stew",
+      "id": "recipe:croatian bean stew"
+    },
+    {
+      "kind": "ingredient",
+      "label": "cannellini beans",
+      "id": "ingredient:cannellini beans"
+    },
+    {
+      "kind": "recipe",
+      "label": "Egyptian Fatteh",
+      "id": "recipe:egyptian fatteh"
+    }
+  ],
+  "links": [
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:beef",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:white fish",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:croatian bean stew",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:croatian bean stew",
+      "target": "ingredient:cannellini beans",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:beef",
+      "key": "CONTAINS"
+    }
+  ],
+  "reveal": [
+    {
+      "label": "query",
+      "nodes": [
+        "ingredient:garlic"
+      ],
+      "edges": []
+    },
+    {
+      "label": "recipes with garlic",
+      "nodes": [
+        "recipe:beef lo mein",
+        "recipe:cajun spiced fish tacos",
+        "recipe:chicken handi",
+        "recipe:croatian bean stew",
+        "recipe:egyptian fatteh"
+      ],
+      "edges": [
+        [
+          "recipe:beef lo mein",
+          "ingredient:garlic",
+          "CONTAINS"
+        ],
+        [
+          "recipe:cajun spiced fish tacos",
+          "ingredient:garlic",
+          "CONTAINS"
+        ],
+        [
+          "recipe:chicken handi",
+          "ingredient:garlic",
+          "CONTAINS"
+        ],
+        [
+          "recipe:croatian bean stew",
+          "ingredient:garlic",
+          "CONTAINS"
+        ],
+        [
+          "recipe:egyptian fatteh",
+          "ingredient:garlic",
+          "CONTAINS"
+        ]
+      ]
+    },
+    {
+      "label": "+ projected context",
+      "nodes": [
+        "ingredient:beef",
+        "ingredient:white fish",
+        "ingredient:onion",
+        "ingredient:cannellini beans"
+      ],
+      "edges": [
+        [
+          "recipe:beef lo mein",
+          "ingredient:beef",
+          "CONTAINS"
+        ],
+        [
+          "recipe:cajun spiced fish tacos",
+          "ingredient:white fish",
+          "CONTAINS"
+        ],
+        [
+          "recipe:chicken handi",
+          "ingredient:onion",
+          "CONTAINS"
+        ],
+        [
+          "recipe:croatian bean stew",
+          "ingredient:cannellini beans",
+          "CONTAINS"
+        ],
+        [
+          "recipe:egyptian fatteh",
+          "ingredient:beef",
+          "CONTAINS"
+        ]
+      ]
+    }
+  ],
+  "title": "Projection (POC) — a query seed → its ego-graph: the compact context you retrieve, not the whole corpus",
+  "params": {
+    "labels": {
+      "nodeFontSize": 14
+    },
+    "nodes": {
+      "radiusScale": 1.1
+    },
+    "layout": {
+      "spread": 1.25
+    }
+  }
+}

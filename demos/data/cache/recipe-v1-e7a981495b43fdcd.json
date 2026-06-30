@@ -1,0 +1,159 @@
+{
+  "title": "Beef Lo Mein",
+  "ingredients": [
+    {
+      "name": "Beef",
+      "quantity": 0.5,
+      "unit": "lb"
+    },
+    {
+      "name": "Salt",
+      "quantity": null,
+      "unit": "pinch"
+    },
+    {
+      "name": "Pepper",
+      "quantity": null,
+      "unit": "pinch"
+    },
+    {
+      "name": "Sesame Seed Oil",
+      "quantity": 2.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "Egg",
+      "quantity": 0.5,
+      "unit": null
+    },
+    {
+      "name": "Starch",
+      "quantity": 3.0,
+      "unit": "tbs"
+    },
+    {
+      "name": "Oil",
+      "quantity": 5.0,
+      "unit": "tbs"
+    },
+    {
+      "name": "Noodles",
+      "quantity": 0.25,
+      "unit": "lb"
+    },
+    {
+      "name": "Onion",
+      "quantity": 0.5,
+      "unit": "cup"
+    },
+    {
+      "name": "Minced Garlic",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "Ginger",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "Bean Sprouts",
+      "quantity": 1.0,
+      "unit": "cup"
+    },
+    {
+      "name": "Mushrooms",
+      "quantity": 1.0,
+      "unit": "cup"
+    },
+    {
+      "name": "Water",
+      "quantity": 1.0,
+      "unit": "cup"
+    },
+    {
+      "name": "Oyster Sauce",
+      "quantity": 1.0,
+      "unit": "tbs"
+    },
+    {
+      "name": "Sugar",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "Soy Sauce",
+      "quantity": 1.0,
+      "unit": "tsp"
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a bowl, add the beef, salt, 1 pinch white pepper, 1 Teaspoon sesame seed oil, 1/2 egg, corn starch, 1 Tablespoon of oil and mix together.",
+      "technique": "mix",
+      "uses": [
+        "Beef",
+        "Salt",
+        "Pepper",
+        "Sesame Seed Oil",
+        "Egg",
+        "Starch",
+        "Oil"
+      ]
+    },
+    {
+      "text": "In a 6 qt pot add your noodles to boiling water until the noodles are submerged and boil on high heat for 10 seconds. After your noodles is done boiling strain and cool with cold water.",
+      "technique": "boil",
+      "uses": [
+        "Noodles",
+        "Water"
+      ]
+    },
+    {
+      "text": "Add 2 Tablespoons of oil, beef and cook on high heat until beef is medium cooked. Set the cooked beef aside.",
+      "technique": "stir-fry",
+      "uses": [
+        "Oil",
+        "Beef"
+      ]
+    },
+    {
+      "text": "In a wok add 2 Tablespoons of oil, onions, minced garlic, minced ginger, bean sprouts, mushrooms, peapods and 1.5 cups of water or until the vegetables are submerged in water.",
+      "technique": "stir-fry",
+      "uses": [
+        "Oil",
+        "Onion",
+        "Minced Garlic",
+        "Ginger",
+        "Bean Sprouts",
+        "Mushrooms",
+        "Water"
+      ]
+    },
+    {
+      "text": "Add the noodles to wok.",
+      "technique": "stir-fry",
+      "uses": [
+        "Noodles"
+      ]
+    },
+    {
+      "text": "To make the sauce, add oyster sauce, 1 pinch white pepper, 1 teaspoon sesame seed oil, sugar, and 1 Teaspoon of soy sauce.",
+      "technique": "mix",
+      "uses": [
+        "Oyster Sauce",
+        "Pepper",
+        "Sesame Seed Oil",
+        "Sugar",
+        "Soy Sauce"
+      ]
+    },
+    {
+      "text": "Next add the beef to wok and stir-fry.",
+      "technique": "stir-fry",
+      "uses": [
+        "Beef"
+      ]
+    }
+  ]
+}

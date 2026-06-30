@@ -1,0 +1,89 @@
+{
+  "title": "Pancakes",
+  "ingredients": [
+    {
+      "name": "flour",
+      "quantity": 100.0,
+      "unit": "g"
+    },
+    {
+      "name": "egg",
+      "quantity": 2.0,
+      "unit": null
+    },
+    {
+      "name": "milk",
+      "quantity": 300.0,
+      "unit": "ml"
+    },
+    {
+      "name": "sunflower oil",
+      "quantity": 15.0,
+      "unit": "ml"
+    },
+    {
+      "name": "salt",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "sugar",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "raspberry",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "blueberry",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Put the flour, eggs, milk, oil and a pinch of salt into a bowl or large jug, then whisk to a smooth batter.",
+      "technique": "whisk",
+      "uses": [
+        "flour",
+        "egg",
+        "milk",
+        "sunflower oil",
+        "salt"
+      ]
+    },
+    {
+      "text": "Set aside for 30 mins to rest if you have time, or start cooking straight away.",
+      "technique": "rest",
+      "uses": []
+    },
+    {
+      "text": "Set a medium frying pan or cr\u00eape pan over a medium heat and carefully wipe it with some oiled kitchen paper.",
+      "technique": "heat",
+      "uses": [
+        "sunflower oil"
+      ]
+    },
+    {
+      "text": "When hot, cook your pancakes for 1 min on each side until golden, keeping them warm in a low oven as you go.",
+      "technique": "fry",
+      "uses": []
+    },
+    {
+      "text": "Serve with sugar, raspberries or blueberries, or your favourite filling.",
+      "technique": "serve",
+      "uses": [
+        "sugar",
+        "raspberry",
+        "blueberry"
+      ]
+    },
+    {
+      "text": "Once cold, you can layer the pancakes between baking parchment, then wrap in cling film and freeze for up to 2 months.",
+      "technique": "freeze",
+      "uses": []
+    }
+  ]
+}

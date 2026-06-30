@@ -1,0 +1,217 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "talk",
+      "label": "The talk",
+      "subtitle": "smarter · cheaper · reliable",
+      "id": "talk:root",
+      "x": -560.0,
+      "y": 0.0
+    },
+    {
+      "kind": "part",
+      "label": "The basics",
+      "note": "bad graph — the seductive mess",
+      "id": "part:graph-basics",
+      "x": -200.0,
+      "y": -280.0
+    },
+    {
+      "kind": "beat",
+      "label": "What is a graph",
+      "id": "beat:what-is-a-graph",
+      "x": 180.0,
+      "y": -360.0
+    },
+    {
+      "kind": "beat",
+      "label": "Extract a basic graph",
+      "id": "beat:extract-basic",
+      "x": 180.0,
+      "y": -280.0
+    },
+    {
+      "kind": "beat",
+      "label": "Tear it down",
+      "id": "beat:teardown",
+      "x": 180.0,
+      "y": -200.0
+    },
+    {
+      "kind": "part",
+      "label": "Better graphs",
+      "note": "good graph — the climb",
+      "id": "part:building-better-graphs",
+      "x": -200.0,
+      "y": 0.0
+    },
+    {
+      "kind": "beat",
+      "label": "Pydantic for shape",
+      "id": "beat:shape",
+      "x": 180.0,
+      "y": -80.0
+    },
+    {
+      "kind": "beat",
+      "label": "A shape isn't an ontology",
+      "id": "beat:ontology",
+      "x": 180.0,
+      "y": 0.0
+    },
+    {
+      "kind": "beat",
+      "label": "Entity matching",
+      "id": "beat:entity-matching",
+      "x": 180.0,
+      "y": 80.0
+    },
+    {
+      "kind": "part",
+      "label": "Graph algorithms",
+      "note": "payoff — what a good graph unlocks",
+      "id": "part:graph-algorithms",
+      "x": -200.0,
+      "y": 280.0
+    },
+    {
+      "kind": "beat",
+      "label": "Personalised PageRank",
+      "tag": "smarter",
+      "id": "beat:ppr",
+      "x": 180.0,
+      "y": 200.0
+    },
+    {
+      "kind": "beat",
+      "label": "Shortest path",
+      "tag": "reliable",
+      "id": "beat:shortest-path",
+      "x": 180.0,
+      "y": 280.0
+    },
+    {
+      "kind": "beat",
+      "label": "Subgraph matching",
+      "tag": "cheaper",
+      "id": "beat:subgraph",
+      "x": 180.0,
+      "y": 360.0
+    }
+  ],
+  "links": [
+    {
+      "rel": "PART",
+      "source": "talk:root",
+      "target": "part:graph-basics",
+      "key": 0
+    },
+    {
+      "rel": "PART",
+      "source": "talk:root",
+      "target": "part:building-better-graphs",
+      "key": 0
+    },
+    {
+      "rel": "PART",
+      "source": "talk:root",
+      "target": "part:graph-algorithms",
+      "key": 0
+    },
+    {
+      "rel": "COVERS",
+      "source": "part:graph-basics",
+      "target": "beat:what-is-a-graph",
+      "key": 0
+    },
+    {
+      "rel": "COVERS",
+      "source": "part:graph-basics",
+      "target": "beat:extract-basic",
+      "key": 0
+    },
+    {
+      "rel": "COVERS",
+      "source": "part:graph-basics",
+      "target": "beat:teardown",
+      "key": 0
+    },
+    {
+      "rel": "COVERS",
+      "source": "part:building-better-graphs",
+      "target": "beat:shape",
+      "key": 0
+    },
+    {
+      "rel": "COVERS",
+      "source": "part:building-better-graphs",
+      "target": "beat:ontology",
+      "key": 0
+    },
+    {
+      "rel": "COVERS",
+      "source": "part:building-better-graphs",
+      "target": "beat:entity-matching",
+      "key": 0
+    },
+    {
+      "rel": "COVERS",
+      "source": "part:graph-algorithms",
+      "target": "beat:ppr",
+      "key": 0
+    },
+    {
+      "rel": "COVERS",
+      "source": "part:graph-algorithms",
+      "target": "beat:shortest-path",
+      "key": 0
+    },
+    {
+      "rel": "COVERS",
+      "source": "part:graph-algorithms",
+      "target": "beat:subgraph",
+      "key": 0
+    }
+  ],
+  "reveal": [
+    {
+      "label": "The basics",
+      "nodes": ["talk:root", "part:graph-basics", "beat:what-is-a-graph", "beat:extract-basic", "beat:teardown"],
+      "edges": [
+        ["talk:root", "part:graph-basics", 0],
+        ["part:graph-basics", "beat:what-is-a-graph", 0],
+        ["part:graph-basics", "beat:extract-basic", 0],
+        ["part:graph-basics", "beat:teardown", 0]
+      ]
+    },
+    {
+      "label": "Better graphs",
+      "nodes": ["talk:root", "part:building-better-graphs", "beat:shape", "beat:ontology", "beat:entity-matching"],
+      "edges": [
+        ["talk:root", "part:building-better-graphs", 0],
+        ["part:building-better-graphs", "beat:shape", 0],
+        ["part:building-better-graphs", "beat:ontology", 0],
+        ["part:building-better-graphs", "beat:entity-matching", 0]
+      ]
+    },
+    {
+      "label": "Graph algorithms",
+      "nodes": ["talk:root", "part:graph-algorithms", "beat:ppr", "beat:shortest-path", "beat:subgraph"],
+      "edges": [
+        ["talk:root", "part:graph-algorithms", 0],
+        ["part:graph-algorithms", "beat:ppr", 0],
+        ["part:graph-algorithms", "beat:shortest-path", 0],
+        ["part:graph-algorithms", "beat:subgraph", 0]
+      ]
+    }
+  ],
+  "title": "What's coming — three parts: bad graph -> good graph -> payoff",
+  "params": {
+    "labels": {
+      "maxChars": 40
+    }
+  }
+}

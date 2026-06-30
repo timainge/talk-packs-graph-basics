@@ -1,0 +1,202 @@
+[
+  {
+    "subject": "Apple Frangipan Tart",
+    "predicate": "is a type of",
+    "object": "tart"
+  },
+  {
+    "subject": "Apple Frangipan Tart",
+    "predicate": "requires",
+    "object": "175 g/6oz digestive biscuits"
+  },
+  {
+    "subject": "Apple Frangipan Tart",
+    "predicate": "requires",
+    "object": "75 g/3oz butter"
+  },
+  {
+    "subject": "Apple Frangipan Tart",
+    "predicate": "requires",
+    "object": "200 g/7oz Bramley apples"
+  },
+  {
+    "subject": "Apple Frangipan Tart",
+    "predicate": "requires",
+    "object": "75 g/3oz Salted Butter"
+  },
+  {
+    "subject": "Apple Frangipan Tart",
+    "predicate": "requires",
+    "object": "75 g/3oz caster sugar"
+  },
+  {
+    "subject": "Apple Frangipan Tart",
+    "predicate": "requires",
+    "object": "2 free-range eggs, beaten"
+  },
+  {
+    "subject": "Apple Frangipan Tart",
+    "predicate": "requires",
+    "object": "75 g/3oz ground almonds"
+  },
+  {
+    "subject": "Apple Frangipan Tart",
+    "predicate": "requires",
+    "object": "1 tsp almond extract"
+  },
+  {
+    "subject": "Apple Frangipan Tart",
+    "predicate": "requires",
+    "object": "50 g/1\u00beoz flaked almonds"
+  },
+  {
+    "subject": "oven",
+    "predicate": "should be preheated to",
+    "object": "200C/180C Fan/Gas 6"
+  },
+  {
+    "subject": "biscuits",
+    "predicate": "are put in",
+    "object": "large re-sealable freezer bag"
+  },
+  {
+    "subject": "biscuits",
+    "predicate": "are bashed with",
+    "object": "rolling pin"
+  },
+  {
+    "subject": "biscuits",
+    "predicate": "are bashed into",
+    "object": "fine crumbs"
+  },
+  {
+    "subject": "butter",
+    "predicate": "is melted in",
+    "object": "small pan"
+  },
+  {
+    "subject": "biscuit crumbs",
+    "predicate": "are stirred until coated with",
+    "object": "butter"
+  },
+  {
+    "subject": "biscuit crumb mixture",
+    "predicate": "is tipped into",
+    "object": "tart tin"
+  },
+  {
+    "subject": "biscuit base",
+    "predicate": "is pressed over",
+    "object": "base and sides of the tin"
+  },
+  {
+    "subject": "biscuit base",
+    "predicate": "is chilled in",
+    "object": "fridge"
+  },
+  {
+    "subject": "butter and sugar",
+    "predicate": "are creamed together until",
+    "object": "light and fluffy"
+  },
+  {
+    "subject": "butter and sugar",
+    "predicate": "can be processed in",
+    "object": "food processor"
+  },
+  {
+    "subject": "butter and sugar",
+    "predicate": "are processed for",
+    "object": "2-3 minutes"
+  },
+  {
+    "subject": "eggs",
+    "predicate": "are mixed into",
+    "object": "butter and sugar mixture"
+  },
+  {
+    "subject": "ground almonds",
+    "predicate": "are added to",
+    "object": "butter and sugar mixture"
+  },
+  {
+    "subject": "almond extract",
+    "predicate": "is added to",
+    "object": "butter and sugar mixture"
+  },
+  {
+    "subject": "frangipane filling",
+    "predicate": "is blended until",
+    "object": "well combined"
+  },
+  {
+    "subject": "apples",
+    "predicate": "are peeled and cut into",
+    "object": "thin slices"
+  },
+  {
+    "subject": "apple slices",
+    "predicate": "should be cut at",
+    "object": "the last minute"
+  },
+  {
+    "subject": "apple slices",
+    "predicate": "are cut at last minute to prevent",
+    "object": "apple going brown"
+  },
+  {
+    "subject": "apple slices",
+    "predicate": "are arranged over",
+    "object": "biscuit base"
+  },
+  {
+    "subject": "frangipane filling",
+    "predicate": "is spread evenly on top of",
+    "object": "apple slices"
+  },
+  {
+    "subject": "surface",
+    "predicate": "is sprinkled with",
+    "object": "flaked almonds"
+  },
+  {
+    "subject": "tart",
+    "predicate": "is baked for",
+    "object": "20-25 minutes"
+  },
+  {
+    "subject": "tart",
+    "predicate": "is baked until",
+    "object": "golden-brown and set"
+  },
+  {
+    "subject": "tart",
+    "predicate": "is left to cool for",
+    "object": "15 minutes"
+  },
+  {
+    "subject": "tin",
+    "predicate": "sides are removed by standing on",
+    "object": "can of beans"
+  },
+  {
+    "subject": "tart",
+    "predicate": "is transferred with",
+    "object": "tin base attached"
+  },
+  {
+    "subject": "tart",
+    "predicate": "is transferred to",
+    "object": "serving plate"
+  },
+  {
+    "subject": "tart",
+    "predicate": "is served",
+    "object": "warm"
+  },
+  {
+    "subject": "tart",
+    "predicate": "is served with",
+    "object": "cream, cr\u00e8me fraiche or ice cream"
+  }
+]

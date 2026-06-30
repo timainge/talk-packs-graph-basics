@@ -1,0 +1,152 @@
+[
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "is a type of",
+    "object": "main dish"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "described as",
+    "object": "quick, fuss-free main that's delightfully summery"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "2 tbsp cajun"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "1 tsp cayenne pepper"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "4 fillets white fish"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "1 tsp vegetable oil"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "8 flour tortilla"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "1 sliced avocado"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "2 shredded little gem lettuce"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "4 shredded spring onions"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "1 x 300ml salsa"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "1 pot sour cream"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "1 lemon"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "requires",
+    "object": "1 clove finely chopped garlic"
+  },
+  {
+    "subject": "fish",
+    "predicate": "cooked in",
+    "object": "cajun spice and cayenne pepper marinade"
+  },
+  {
+    "subject": "cajun spice and cayenne pepper marinade",
+    "predicate": "makes fish",
+    "object": "super succulent and flavoursome"
+  },
+  {
+    "subject": "cajun spice",
+    "predicate": "mixed with",
+    "object": "cayenne pepper and a little seasoning"
+  },
+  {
+    "subject": "cajun spice and cayenne pepper mix",
+    "predicate": "used to coat",
+    "object": "fish all over"
+  },
+  {
+    "subject": "oil",
+    "predicate": "heated in",
+    "object": "frying pan"
+  },
+  {
+    "subject": "fish",
+    "predicate": "cooked over",
+    "object": "medium heat until golden"
+  },
+  {
+    "subject": "fish",
+    "predicate": "cooked for approximately",
+    "object": "10 minutes"
+  },
+  {
+    "subject": "fish",
+    "predicate": "cooked in",
+    "object": "batches if not enough room in the pan"
+  },
+  {
+    "subject": "dressing",
+    "predicate": "prepared by combining",
+    "object": "all ingredients with a little seasoning"
+  },
+  {
+    "subject": "tortillas",
+    "predicate": "softened by",
+    "object": "heating in the microwave for 5-10 seconds"
+  },
+  {
+    "subject": "tortillas",
+    "predicate": "piled high with",
+    "object": "avocado, lettuce and spring onion"
+  },
+  {
+    "subject": "tortillas",
+    "predicate": "topped with",
+    "object": "large flakes of fish"
+  },
+  {
+    "subject": "tortillas",
+    "predicate": "finished with",
+    "object": "a spoonful of salsa"
+  },
+  {
+    "subject": "tortillas",
+    "predicate": "drizzled with",
+    "object": "dressing"
+  },
+  {
+    "subject": "dressing",
+    "predicate": "described as",
+    "object": "zesty"
+  },
+  {
+    "subject": "Cajun spiced fish tacos",
+    "predicate": "served in",
+    "object": "tortilla"
+  }
+]

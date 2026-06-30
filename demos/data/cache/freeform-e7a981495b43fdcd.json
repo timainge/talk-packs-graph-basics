@@ -1,0 +1,282 @@
+[
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "is a",
+    "object": "dish"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1/2 lb Beef"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "pinch Salt"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "pinch Pepper"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "2 tsp Sesame Seed Oil"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1/2 Egg"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "3 tbs Starch"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "5 tbs Oil"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1/4 lb Noodles"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1/2 cup Onion"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1 tsp Minced Garlic"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1 tsp Ginger"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1 cup Bean Sprouts"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1 cup Mushrooms"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1 cup Water"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1 tbs Oyster Sauce"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1 tsp Sugar"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "requires",
+    "object": "1 tsp Soy Sauce"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "has step",
+    "object": "Step 1 - Marinating the Beef"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "has step",
+    "object": "Step 2 - Boiling the Noodles"
+  },
+  {
+    "subject": "Beef Lo Mein",
+    "predicate": "has step",
+    "object": "Step 3 - Stir Fry"
+  },
+  {
+    "subject": "Beef marinade",
+    "predicate": "contains",
+    "object": "beef"
+  },
+  {
+    "subject": "Beef marinade",
+    "predicate": "contains",
+    "object": "salt"
+  },
+  {
+    "subject": "Beef marinade",
+    "predicate": "contains",
+    "object": "1 pinch white pepper"
+  },
+  {
+    "subject": "Beef marinade",
+    "predicate": "contains",
+    "object": "1 teaspoon sesame seed oil"
+  },
+  {
+    "subject": "Beef marinade",
+    "predicate": "contains",
+    "object": "1/2 egg"
+  },
+  {
+    "subject": "Beef marinade",
+    "predicate": "contains",
+    "object": "corn starch"
+  },
+  {
+    "subject": "Beef marinade",
+    "predicate": "contains",
+    "object": "1 tablespoon of oil"
+  },
+  {
+    "subject": "Beef marinade",
+    "predicate": "is mixed in",
+    "object": "a bowl"
+  },
+  {
+    "subject": "Noodles",
+    "predicate": "are boiled in",
+    "object": "6 qt pot"
+  },
+  {
+    "subject": "Noodles",
+    "predicate": "are boiled on",
+    "object": "high heat"
+  },
+  {
+    "subject": "Noodles",
+    "predicate": "are boiled for",
+    "object": "10 seconds"
+  },
+  {
+    "subject": "Noodles",
+    "predicate": "are boiled until",
+    "object": "submerged"
+  },
+  {
+    "subject": "Noodles",
+    "predicate": "are cooled with",
+    "object": "cold water"
+  },
+  {
+    "subject": "Noodles",
+    "predicate": "are strained after",
+    "object": "boiling"
+  },
+  {
+    "subject": "Stir fry",
+    "predicate": "uses",
+    "object": "2 tablespoons of oil"
+  },
+  {
+    "subject": "Stir fry",
+    "predicate": "cooked on",
+    "object": "high heat"
+  },
+  {
+    "subject": "Beef",
+    "predicate": "is cooked to",
+    "object": "medium cooked"
+  },
+  {
+    "subject": "Cooked beef",
+    "predicate": "is set",
+    "object": "aside"
+  },
+  {
+    "subject": "Wok",
+    "predicate": "has added to it",
+    "object": "2 tablespoons of oil"
+  },
+  {
+    "subject": "Wok",
+    "predicate": "has added to it",
+    "object": "onions"
+  },
+  {
+    "subject": "Wok",
+    "predicate": "has added to it",
+    "object": "minced garlic"
+  },
+  {
+    "subject": "Wok",
+    "predicate": "has added to it",
+    "object": "minced ginger"
+  },
+  {
+    "subject": "Wok",
+    "predicate": "has added to it",
+    "object": "bean sprouts"
+  },
+  {
+    "subject": "Wok",
+    "predicate": "has added to it",
+    "object": "mushrooms"
+  },
+  {
+    "subject": "Wok",
+    "predicate": "has added to it",
+    "object": "peapods"
+  },
+  {
+    "subject": "Wok",
+    "predicate": "has added to it",
+    "object": "1.5 cups of water"
+  },
+  {
+    "subject": "Vegetables",
+    "predicate": "are submerged in",
+    "object": "water"
+  },
+  {
+    "subject": "Noodles",
+    "predicate": "are added to",
+    "object": "wok"
+  },
+  {
+    "subject": "Sauce",
+    "predicate": "contains",
+    "object": "oyster sauce"
+  },
+  {
+    "subject": "Sauce",
+    "predicate": "contains",
+    "object": "1 pinch white pepper"
+  },
+  {
+    "subject": "Sauce",
+    "predicate": "contains",
+    "object": "1 teaspoon sesame seed oil"
+  },
+  {
+    "subject": "Sauce",
+    "predicate": "contains",
+    "object": "sugar"
+  },
+  {
+    "subject": "Sauce",
+    "predicate": "contains",
+    "object": "1 teaspoon soy sauce"
+  },
+  {
+    "subject": "Beef",
+    "predicate": "is added to",
+    "object": "wok"
+  },
+  {
+    "subject": "Beef",
+    "predicate": "is added to wok and",
+    "object": "stir-fried"
+  }
+]

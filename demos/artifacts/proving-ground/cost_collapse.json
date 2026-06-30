@@ -1,0 +1,131 @@
+{
+  "name": "cost_collapse",
+  "source": "proving-ground",
+  "use_case": "01-semantic-graph",
+  "headline": "Accuracy parity with grep, but navigation COST collapses. Compiler-precise navigation makes an agent meaningfully cheaper to run on big code.",
+  "honest_framing": "This is NOT 'finds bugs grep can't'. Both arms hit on every task (accuracy parity). The measured win is efficiency that grows with codebase size: fewer tool-uses (and tokens) to reach the same answer. Cross-project case: grep 16 tool-uses -> graph 4.",
+  "provenance": {
+    "repo": "proving-ground",
+    "commit": "2a5dbee615b420d0da2bdf5c0763a91a329415f0",
+    "commit_short": "2a5dbee",
+    "notebook": "notebook/01-semantic-graph.md",
+    "result_files": [
+      "usecases/01-semantic-graph/results/m2-poc-eshop.json",
+      "usecases/01-semantic-graph/results/m2-poc-powershell.json"
+    ],
+    "notebook_entries": [
+      "2026-06-10 — M2 PoC: explorer-agent localization, tool vs grep (eShopOnWeb)",
+      "2026-06-10 — M2 scale test: the lift grows on a large repo (PowerShell)",
+      "2026-06-12 — M4 adjudicated by 02-3b: positive downstream lift on sonnet-4-6"
+    ]
+  },
+  "tasks": [
+    {
+      "repo": "eShopOnWeb",
+      "repo_scale": "small/clean (10 projects, 282 docs, 202 type records)",
+      "task": "A-di-disambiguation",
+      "prompt": "Which implementation of ICatalogViewModelService is actually wired in DI?",
+      "arm": "grep",
+      "hit": true,
+      "tool_uses": 5,
+      "tokens": 13462
+    },
+    {
+      "repo": "eShopOnWeb",
+      "repo_scale": "small/clean (10 projects, 282 docs, 202 type records)",
+      "task": "A-di-disambiguation",
+      "prompt": "Which implementation of ICatalogViewModelService is actually wired in DI?",
+      "arm": "graph",
+      "hit": true,
+      "tool_uses": 3,
+      "tokens": 12046
+    },
+    {
+      "repo": "eShopOnWeb",
+      "repo_scale": "small/clean (10 projects, 282 docs, 202 type records)",
+      "task": "B-exception-control",
+      "prompt": "Find the file that converts exceptions into PublicApi error responses.",
+      "arm": "grep",
+      "hit": true,
+      "tool_uses": 6,
+      "tokens": 14370
+    },
+    {
+      "repo": "eShopOnWeb",
+      "repo_scale": "small/clean (10 projects, 282 docs, 202 type records)",
+      "task": "B-exception-control",
+      "prompt": "Find the file that converts exceptions into PublicApi error responses.",
+      "arm": "graph",
+      "hit": true,
+      "tool_uses": 3,
+      "tokens": 12485
+    },
+    {
+      "repo": "PowerShell",
+      "repo_scale": "large (1337 .cs at HEAD, 3688 type records, build-free index)",
+      "task": "P1-show-command-nullref (cross-project trace, PR-26669)",
+      "prompt": "Localize the Show-Command null-ref across projects.",
+      "arm": "grep",
+      "hit": true,
+      "tool_uses": 16,
+      "tokens": 58913
+    },
+    {
+      "repo": "PowerShell",
+      "repo_scale": "large (1337 .cs at HEAD, 3688 type records, build-free index)",
+      "task": "P1-show-command-nullref (cross-project trace, PR-26669)",
+      "prompt": "Localize the Show-Command null-ref across projects.",
+      "arm": "graph",
+      "hit": true,
+      "tool_uses": 4,
+      "tokens": 46975
+    },
+    {
+      "repo": "PowerShell",
+      "repo_scale": "large (1337 .cs at HEAD, 3688 type records, build-free index)",
+      "task": "P2-viewgenerator-family (find all 5 via subtypes, PR-26574)",
+      "prompt": "Find all 5 files in the FormatViewGenerator family.",
+      "arm": "grep",
+      "hit": true,
+      "found": "5/5",
+      "tool_uses": 9,
+      "tokens": 16473
+    },
+    {
+      "repo": "PowerShell",
+      "repo_scale": "large (1337 .cs at HEAD, 3688 type records, build-free index)",
+      "task": "P2-viewgenerator-family (find all 5 via subtypes, PR-26574)",
+      "prompt": "Find all 5 files in the FormatViewGenerator family.",
+      "arm": "graph",
+      "hit": true,
+      "found": "5/5",
+      "tool_uses": 4,
+      "tokens": 13751
+    }
+  ],
+  "summary": {
+    "eshop": {
+      "acc_file_grep": 1.0,
+      "acc_file_graph": 1.0,
+      "mean_tool_uses_grep": 5.5,
+      "mean_tool_uses_graph": 3.0,
+      "tool_use_reduction": "~45%"
+    },
+    "powershell": {
+      "acc_file": "parity (both arms hit on both tasks)",
+      "mean_tool_uses_grep": 12.5,
+      "mean_tool_uses_graph": 4.0,
+      "tool_use_reduction": "~68%",
+      "cross_project_headline": "grep 16 tool-uses -> graph 4 tool-uses (same hit)"
+    }
+  },
+  "downstream_reliability": {
+    "source_entry": "2026-06-12 — M4 adjudicated by 02-3b",
+    "adjudicated_by": "usecase 02 (doc-gen), paired ablation, swapped verifier, 5 tuning subjects",
+    "model": "sonnet-4-6",
+    "claim_error_rate_grep_only": 0.0780,
+    "claim_error_rate_graph_nav": 0.0050,
+    "probe": "16 GraphNav calls, Grep down to 1 (the graph is genuinely doing the navigation)",
+    "caveat": "Decisive on sonnet-4-6 (tuning pairing); no lift on opus-4-7. Held-out confirmation rides 02 increment 4. Details in proving-ground notebook/02-doc-gen.md (3b entry)."
+  }
+}

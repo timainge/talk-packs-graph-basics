@@ -1,0 +1,2 @@
+# Recorded LLM extraction outputs (committed) — replay.py reads these so live demos are deterministic.
+# Files appear here on first run; commit them. Force a live refresh with GRAPHTOOLS_LIVE=1.

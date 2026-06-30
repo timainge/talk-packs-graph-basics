@@ -1,0 +1,105 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "class",
+      "label": "cache",
+      "id": "Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService"
+    },
+    {
+      "kind": "class",
+      "label": "impl",
+      "id": "Microsoft.eShopWeb.Web.Services.CatalogViewModelService"
+    },
+    {
+      "kind": "interface",
+      "label": "iface",
+      "id": "Microsoft.eShopWeb.Web.Services.ICatalogViewModelService"
+    }
+  ],
+  "links": [
+    {
+      "rel": "implements",
+      "source": "Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService",
+      "target": "Microsoft.eShopWeb.Web.Services.ICatalogViewModelService",
+      "key": "implements"
+    },
+    {
+      "rel": "wraps",
+      "source": "Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService",
+      "target": "Microsoft.eShopWeb.Web.Services.CatalogViewModelService",
+      "key": "wraps"
+    },
+    {
+      "rel": "implements",
+      "source": "Microsoft.eShopWeb.Web.Services.CatalogViewModelService",
+      "target": "Microsoft.eShopWeb.Web.Services.ICatalogViewModelService",
+      "key": "implements"
+    }
+  ],
+  "reveal": [
+    {
+      "label": "dark",
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "label": "wraps",
+      "nodes": [
+        "Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService",
+        "Microsoft.eShopWeb.Web.Services.CatalogViewModelService"
+      ],
+      "edges": [
+        [
+          "Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService",
+          "Microsoft.eShopWeb.Web.Services.CatalogViewModelService",
+          "wraps"
+        ]
+      ]
+    },
+    {
+      "label": "cache implements iface",
+      "nodes": [
+        "Microsoft.eShopWeb.Web.Services.ICatalogViewModelService"
+      ],
+      "edges": [
+        [
+          "Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService",
+          "Microsoft.eShopWeb.Web.Services.ICatalogViewModelService",
+          "implements"
+        ]
+      ]
+    },
+    {
+      "label": "impl implements iface",
+      "nodes": [
+        "Microsoft.eShopWeb.Web.Services.CatalogViewModelService"
+      ],
+      "edges": [
+        [
+          "Microsoft.eShopWeb.Web.Services.CatalogViewModelService",
+          "Microsoft.eShopWeb.Web.Services.ICatalogViewModelService",
+          "implements"
+        ]
+      ]
+    }
+  ],
+  "title": "Subgraph query (abstract) — the Decorator pattern built edge-by-edge in query order",
+  "params": {
+    "labels": {
+      "nodeFontSize": 15
+    },
+    "nodes": {
+      "radiusScale": 1.15
+    },
+    "layout": {
+      "spread": 1.3
+    },
+    "edges": {
+      "arrowScale": 2.0,
+      "endGap": 4
+    }
+  }
+}

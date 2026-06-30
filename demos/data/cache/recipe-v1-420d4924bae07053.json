@@ -1,0 +1,123 @@
+{
+  "title": "Beef Wellington",
+  "ingredients": [
+    {
+      "name": "mushrooms",
+      "quantity": 400.0,
+      "unit": "g"
+    },
+    {
+      "name": "English Mustard",
+      "quantity": 1.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "Olive Oil",
+      "quantity": null,
+      "unit": "Dash"
+    },
+    {
+      "name": "Beef Fillet",
+      "quantity": 750.0,
+      "unit": "g"
+    },
+    {
+      "name": "Parma ham",
+      "quantity": 6.0,
+      "unit": "slices"
+    },
+    {
+      "name": "Puff Pastry",
+      "quantity": 500.0,
+      "unit": "g"
+    },
+    {
+      "name": "Flour",
+      "quantity": null,
+      "unit": "Dusting"
+    },
+    {
+      "name": "Beaten Egg Yolks",
+      "quantity": 2.0,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Put the mushrooms into a food processor with some seasoning and pulse to a rough paste.",
+      "technique": "pulse",
+      "uses": [
+        "mushrooms"
+      ]
+    },
+    {
+      "text": "Scrape the paste into a pan and cook over a high heat for about 10 mins, tossing frequently, to cook out the moisture from the mushrooms. Spread out on a plate to cool.",
+      "technique": "cook",
+      "uses": [
+        "mushrooms"
+      ]
+    },
+    {
+      "text": "Heat in a frying pan and add a little olive oil. Season the beef and sear in the hot pan for 30 secs only on each side.",
+      "technique": "sear",
+      "uses": [
+        "Olive Oil",
+        "Beef Fillet"
+      ]
+    },
+    {
+      "text": "Remove the beef from the pan and leave to cool, then brush all over with the mustard.",
+      "technique": "brush",
+      "uses": [
+        "Beef Fillet",
+        "English Mustard"
+      ]
+    },
+    {
+      "text": "Lay a sheet of cling film on a work surface and arrange the Parma ham slices on it, in slightly overlapping rows. With a palette knife, spread the mushroom paste over the ham, then place the seared beef fillet in the middle.",
+      "technique": "spread",
+      "uses": [
+        "Parma ham",
+        "mushrooms",
+        "Beef Fillet"
+      ]
+    },
+    {
+      "text": "Keeping a tight hold of the cling film from the edge, neatly roll the Parma ham and mushrooms around the beef to form a tight barrel shape. Twist the ends of the cling film to secure. Chill for 15-20 mins to allow the beef to set and keep its shape.",
+      "technique": "roll",
+      "uses": [
+        "Parma ham",
+        "mushrooms",
+        "Beef Fillet"
+      ]
+    },
+    {
+      "text": "Roll out the puff pastry on a floured surface to a large rectangle, the thickness of a \u00a31 coin. Remove the cling film from the beef, then lay in the centre. Brush the surrounding pastry with egg yolk. Fold the ends over, then wrap the pastry around the beef, cutting off any excess. Turn over, so the seam is underneath, and place on a baking sheet. Brush over all the pastry with egg and chill for about 15 mins to let the pastry rest.",
+      "technique": "roll",
+      "uses": [
+        "Puff Pastry",
+        "Flour",
+        "Beef Fillet",
+        "Beaten Egg Yolks"
+      ]
+    },
+    {
+      "text": "Heat the oven to 200C, 400F, gas 6.",
+      "technique": "heat",
+      "uses": []
+    },
+    {
+      "text": "Lightly score the pastry at 1cm intervals and glaze again with beaten egg yolk.",
+      "technique": "score",
+      "uses": [
+        "Puff Pastry",
+        "Beaten Egg Yolks"
+      ]
+    },
+    {
+      "text": "Bake for 20 minutes, then lower the oven setting to 180C, 350F, gas 4 and cook for another 15 mins. Allow to rest for 10-15 mins before slicing and serving.",
+      "technique": "bake",
+      "uses": []
+    }
+  ]
+}

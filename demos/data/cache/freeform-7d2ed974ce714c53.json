@@ -1,0 +1,177 @@
+[
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "is a",
+    "object": "dish"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "2 tblsp Olive Oil"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "1 finely sliced Onion"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "2 chopped Carrots"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "500 g Lamb Leg"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "2 cloves minced Garlic"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "\u00bd tsp Cumin"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "\u00bd tsp Ginger"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "\u00bc tsp Saffron"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "1 tsp Cinnamon"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "1 tblsp Honey"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "100 g Apricot"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "1 Vegetable Stock Cube"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "requires",
+    "object": "1 medium chopped Butternut Squash"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "served alongside",
+    "object": "Steamed Couscous"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "garnished with",
+    "object": "Chopped Parsley"
+  },
+  {
+    "subject": "olive oil",
+    "predicate": "heated in",
+    "object": "heavy-based pan"
+  },
+  {
+    "subject": "onion and carrot",
+    "predicate": "added to",
+    "object": "heavy-based pan"
+  },
+  {
+    "subject": "onion and carrot",
+    "predicate": "cooked for",
+    "object": "3-4 mins until softened"
+  },
+  {
+    "subject": "diced lamb",
+    "predicate": "browned",
+    "object": "all over"
+  },
+  {
+    "subject": "garlic and spices",
+    "predicate": "stirred in with",
+    "object": "lamb"
+  },
+  {
+    "subject": "garlic and spices",
+    "predicate": "cooked for",
+    "object": "a few mins until aromas are released"
+  },
+  {
+    "subject": "honey and apricots",
+    "predicate": "added to",
+    "object": "pan"
+  },
+  {
+    "subject": "stock cube",
+    "predicate": "crumbled into",
+    "object": "pan"
+  },
+  {
+    "subject": "boiling water",
+    "predicate": "quantity",
+    "object": "roughly 500ml"
+  },
+  {
+    "subject": "boiling water",
+    "predicate": "poured over",
+    "object": "meat"
+  },
+  {
+    "subject": "tagine",
+    "predicate": "brought to",
+    "object": "the boil"
+  },
+  {
+    "subject": "tagine",
+    "predicate": "turned down to",
+    "object": "a simmer"
+  },
+  {
+    "subject": "tagine",
+    "predicate": "cooked with lid on for",
+    "object": "1 hour"
+  },
+  {
+    "subject": "tagine",
+    "predicate": "cooked with lid off for",
+    "object": "a further 30 mins"
+  },
+  {
+    "subject": "squash",
+    "predicate": "stirred in after",
+    "object": "30 mins with lid off"
+  },
+  {
+    "subject": "squash",
+    "predicate": "cooked for",
+    "object": "20-30 mins more until soft"
+  },
+  {
+    "subject": "lamb",
+    "predicate": "cooked until",
+    "object": "tender"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "served alongside",
+    "object": "rice or couscous"
+  },
+  {
+    "subject": "Lamb Tagine",
+    "predicate": "sprinkled with",
+    "object": "parsley and pine nuts"
+  }
+]

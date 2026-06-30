@@ -1,0 +1,160 @@
+{
+  "title": "Egyptian Fatteh",
+  "ingredients": [
+    {
+      "name": "Beef",
+      "quantity": 1.0,
+      "unit": "lb"
+    },
+    {
+      "name": "Onion",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "Chicken Stock Cube",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "Tomatoes",
+      "quantity": 2.0,
+      "unit": null
+    },
+    {
+      "name": "Garlic Clove",
+      "quantity": 4.0,
+      "unit": null
+    },
+    {
+      "name": "Tomato Puree",
+      "quantity": 1.0,
+      "unit": "tbs"
+    },
+    {
+      "name": "Rice",
+      "quantity": 2.0,
+      "unit": "cups"
+    },
+    {
+      "name": "Noodles",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "name": "Butter",
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "name": "Olive Oil",
+      "quantity": 2.0,
+      "unit": "cups"
+    },
+    {
+      "name": "Pita Bread",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "Cumin",
+      "quantity": 1.0,
+      "unit": "tbs"
+    },
+    {
+      "name": "White Wine Vinegar",
+      "quantity": 3.0,
+      "unit": "tbs"
+    },
+    {
+      "name": "Salt",
+      "quantity": null,
+      "unit": null
+    },
+    {
+      "name": "Pepper",
+      "quantity": null,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Take pita bread and rip into bite size pieces. In a frying pan, add about a 1/4 stick of butter, add bread pieces and fry until golden brown and crisp. Put these pieces in a glass baking dish. Set aside.",
+      "technique": "fry",
+      "uses": [
+        "Pita Bread",
+        "Butter"
+      ]
+    },
+    {
+      "text": "Add to the same pan a little more butter, salt, approximately 2 cloves of crushed fresh garlic, and a teaspoon or so of cumin, stir around until you can smell the aroma, then add the fried bread pieces to this mixture, stir to coat the bread and put back into the glass baking dish. Set aside.",
+      "technique": "stir",
+      "uses": [
+        "Butter",
+        "Garlic Clove",
+        "Cumin",
+        "Salt",
+        "Pita Bread"
+      ]
+    },
+    {
+      "text": "Put some butter in a pot, stir fry meat until brown, add 1 onion quartered, salt & pepper, 1 cube of chicken bouillon and water to cover meat. Bring to a boil, turn down to simmer, cover and cook until tender, approximately 2 hours. After meat has cooled, take out chunks of meat and put in a bowl. Reserve soup from the meat separately.",
+      "technique": "stir fry",
+      "uses": [
+        "Beef",
+        "Butter",
+        "Onion",
+        "Salt",
+        "Pepper",
+        "Chicken Stock Cube"
+      ]
+    },
+    {
+      "text": "Put some butter into a pot, add fideo noodles, keep stirring until golden brown. Then add two cups of rice, stir until some of the rice turns an opaque white. Add 2-1/4 cups of water and salt to taste. Bring to a boil, cover and turn down to simmer, cook until tender, about 35 minutes.",
+      "technique": "stir",
+      "uses": [
+        "Butter",
+        "Noodles",
+        "Rice",
+        "Salt"
+      ]
+    },
+    {
+      "text": "Take some of the reserved meat soup and add to the top of the bread pieces in the baking dish to saturate. Add cooked rice on top of bread pieces. Slowly spoon remainder of soup onto rice until it reaches just to the top of the rice.",
+      "technique": "spoon",
+      "uses": [
+        "Pita Bread",
+        "Rice"
+      ]
+    },
+    {
+      "text": "In a pan, add a little oil or butter, crushed tomato, a half teaspoon of tomato paste, salt & pepper, 2 cloves of fresh crushed garlic and cumin. Add approximately 3 tablespoons of vinegar, stir until you smell aroma and it is a bit smooth and thick. Spread with a wooden spoon atop the rice to cover.",
+      "technique": "stir",
+      "uses": [
+        "Olive Oil",
+        "Butter",
+        "Tomatoes",
+        "Tomato Puree",
+        "Salt",
+        "Pepper",
+        "Garlic Clove",
+        "Cumin",
+        "White Wine Vinegar"
+      ]
+    },
+    {
+      "text": "In a pan add a bit of butter or oil, the meat, just a touch of tomato paste, about a tablespoon of fresh crushed garlic, salt & pepper, a teaspoon of cumin. Cook until meat is golden fried. Spoon this atop the rice and serve.",
+      "technique": "fry",
+      "uses": [
+        "Butter",
+        "Olive Oil",
+        "Beef",
+        "Tomato Puree",
+        "Garlic Clove",
+        "Salt",
+        "Pepper",
+        "Cumin"
+      ]
+    }
+  ]
+}

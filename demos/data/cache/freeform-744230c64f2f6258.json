@@ -1,0 +1,162 @@
+[
+  {
+    "subject": "Tuna Nicoise",
+    "predicate": "requires",
+    "object": "450 g Potatoes"
+  },
+  {
+    "subject": "Tuna Nicoise",
+    "predicate": "requires",
+    "object": "2 tblsp Olive Oil"
+  },
+  {
+    "subject": "Tuna Nicoise",
+    "predicate": "requires",
+    "object": "4 Eggs"
+  },
+  {
+    "subject": "Tuna Nicoise",
+    "predicate": "requires",
+    "object": "1 tbls Red Wine Vinegar"
+  },
+  {
+    "subject": "Tuna Nicoise",
+    "predicate": "requires",
+    "object": "2 tblsp Capers"
+  },
+  {
+    "subject": "Tuna Nicoise",
+    "predicate": "requires",
+    "object": "50 g Sunflower Oil"
+  },
+  {
+    "subject": "Tuna Nicoise",
+    "predicate": "requires",
+    "object": "\u00bd Red Onions"
+  },
+  {
+    "subject": "Tuna Nicoise",
+    "predicate": "requires",
+    "object": "100 g Spinach"
+  },
+  {
+    "subject": "Tuna Nicoise",
+    "predicate": "requires",
+    "object": "400 g Tuna"
+  },
+  {
+    "subject": "oven",
+    "predicate": "heated to",
+    "object": "200C/fan 180C/gas 6"
+  },
+  {
+    "subject": "potatoes",
+    "predicate": "tossed with",
+    "object": "2 tsp oil and some seasoning"
+  },
+  {
+    "subject": "potatoes",
+    "predicate": "tipped onto",
+    "object": "large baking tray"
+  },
+  {
+    "subject": "potatoes",
+    "predicate": "roasted for",
+    "object": "20 mins"
+  },
+  {
+    "subject": "potatoes",
+    "predicate": "stirred",
+    "object": "halfway"
+  },
+  {
+    "subject": "potatoes",
+    "predicate": "roasted until",
+    "object": "crisp, golden and cooked through"
+  },
+  {
+    "subject": "eggs",
+    "predicate": "put in",
+    "object": "small pan of water"
+  },
+  {
+    "subject": "eggs",
+    "predicate": "brought to",
+    "object": "the boil"
+  },
+  {
+    "subject": "eggs",
+    "predicate": "simmered for",
+    "object": "8-10 mins"
+  },
+  {
+    "subject": "simmering time",
+    "predicate": "depends on",
+    "object": "how you like them cooked"
+  },
+  {
+    "subject": "eggs",
+    "predicate": "plunged into",
+    "object": "bowl of cold water"
+  },
+  {
+    "subject": "eggs",
+    "predicate": "cooled for",
+    "object": "a few mins"
+  },
+  {
+    "subject": "eggs",
+    "predicate": "had shells",
+    "object": "peeled away"
+  },
+  {
+    "subject": "eggs",
+    "predicate": "cut into",
+    "object": "halves"
+  },
+  {
+    "subject": "remaining oil",
+    "predicate": "whisked together with",
+    "object": "red wine vinegar, capers and chopped tomatoes"
+  },
+  {
+    "subject": "dressing",
+    "predicate": "whisked in",
+    "object": "large salad bowl"
+  },
+  {
+    "subject": "onion",
+    "predicate": "tipped into",
+    "object": "salad bowl"
+  },
+  {
+    "subject": "spinach",
+    "predicate": "tipped into",
+    "object": "salad bowl"
+  },
+  {
+    "subject": "tuna",
+    "predicate": "tipped into",
+    "object": "salad bowl"
+  },
+  {
+    "subject": "potatoes",
+    "predicate": "tipped into",
+    "object": "salad bowl"
+  },
+  {
+    "subject": "ingredients",
+    "predicate": "gently tossed",
+    "object": "together"
+  },
+  {
+    "subject": "eggs",
+    "predicate": "placed on top of",
+    "object": "salad"
+  },
+  {
+    "subject": "Tuna Nicoise",
+    "predicate": "served",
+    "object": "straight away"
+  }
+]

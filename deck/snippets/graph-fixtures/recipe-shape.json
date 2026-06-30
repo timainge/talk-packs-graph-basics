@@ -1,0 +1,80 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "recipe",
+      "label": "Garlic Butter Pasta",
+      "id": "recipe:garlic butter pasta"
+    },
+    {
+      "kind": "ingredient",
+      "label": "spaghetti",
+      "id": "ingredient:spaghetti"
+    },
+    {
+      "kind": "ingredient",
+      "label": "garlic",
+      "id": "ingredient:garlic"
+    },
+    {
+      "kind": "ingredient",
+      "label": "butter",
+      "id": "ingredient:butter"
+    },
+    {
+      "kind": "ingredient",
+      "label": "parmesan",
+      "id": "ingredient:parmesan"
+    },
+    {
+      "kind": "ingredient",
+      "label": "parsley",
+      "id": "ingredient:parsley"
+    }
+  ],
+  "links": [
+    {
+      "rel": "CONTAINS",
+      "qty": 200.0,
+      "unit": "g",
+      "source": "recipe:garlic butter pasta",
+      "target": "ingredient:spaghetti",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 3.0,
+      "unit": "clove",
+      "source": "recipe:garlic butter pasta",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "tbsp",
+      "source": "recipe:garlic butter pasta",
+      "target": "ingredient:butter",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 30.0,
+      "unit": "g",
+      "source": "recipe:garlic butter pasta",
+      "target": "ingredient:parmesan",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbsp",
+      "source": "recipe:garlic butter pasta",
+      "target": "ingredient:parsley",
+      "key": "CONTAINS"
+    }
+  ],
+  "title": "Schema-first (shape): a recipe and its ingredients"
+}

@@ -1,0 +1,453 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "nodes": [
+    {
+      "id": "Kansas v. Cheever",
+      "kind": "case",
+      "label": "Kansas v. Cheever",
+      "year": 2013,
+      "citation_count": 81,
+      "is_landmark": false,
+      "ppr_rank": 1
+    },
+    {
+      "id": "Kansas v. Marsh",
+      "kind": "case",
+      "label": "Kansas v. Marsh",
+      "year": 2006,
+      "citation_count": 326,
+      "is_landmark": false,
+      "ppr_rank": 7
+    },
+    {
+      "id": "Buchanan v. Kentucky",
+      "kind": "case",
+      "label": "Buchanan v. Kentucky",
+      "year": 1987,
+      "citation_count": 601,
+      "is_landmark": false,
+      "ppr_rank": 3
+    },
+    {
+      "id": "Fitzpatrick v. United States",
+      "kind": "case",
+      "label": "Fitzpatrick v. United States",
+      "year": 1900,
+      "citation_count": 220,
+      "is_landmark": false,
+      "ppr_rank": 4
+    },
+    {
+      "id": "Estelle v. Smith",
+      "kind": "case",
+      "label": "Estelle v. Smith",
+      "year": 1981,
+      "citation_count": 2052,
+      "is_landmark": false,
+      "ppr_rank": 2
+    },
+    {
+      "id": "Powell v. Texas",
+      "kind": "case",
+      "label": "Powell v. Texas",
+      "year": 1989,
+      "citation_count": 170,
+      "is_landmark": false,
+      "ppr_rank": 6
+    },
+    {
+      "id": "Brown v. United States",
+      "kind": "case",
+      "label": "Brown v. United States",
+      "year": 1958,
+      "citation_count": 732,
+      "is_landmark": false,
+      "ppr_rank": 5
+    },
+    {
+      "id": "Malloy v. Hogan",
+      "kind": "case",
+      "label": "Malloy v. Hogan",
+      "year": 1964,
+      "citation_count": 3668,
+      "is_landmark": false,
+      "ppr_rank": 11
+    },
+    {
+      "id": "United States v. Wade",
+      "kind": "case",
+      "label": "United States v. Wade",
+      "year": 1967,
+      "citation_count": 8434,
+      "is_landmark": false,
+      "ppr_rank": 12
+    },
+    {
+      "id": "Powell v. Alabama",
+      "kind": "case",
+      "label": "Powell v. Alabama",
+      "year": 1932,
+      "citation_count": 4964,
+      "is_landmark": false,
+      "ppr_rank": 9
+    },
+    {
+      "id": "Johnson v. Zerbst",
+      "kind": "case",
+      "label": "Johnson v. Zerbst",
+      "year": 1938,
+      "citation_count": 10507,
+      "is_landmark": false,
+      "ppr_rank": 10
+    },
+    {
+      "id": "Massiah v. United States",
+      "kind": "case",
+      "label": "Massiah v. United States",
+      "year": 1964,
+      "citation_count": 3184,
+      "is_landmark": false,
+      "ppr_rank": 13
+    },
+    {
+      "id": "Miranda v. Arizona",
+      "kind": "case",
+      "label": "Miranda v. Arizona",
+      "year": 1966,
+      "citation_count": 57918,
+      "is_landmark": true,
+      "ppr_rank": 8
+    }
+  ],
+  "links": [
+    {
+      "source": "Massiah v. United States",
+      "target": "Powell v. Alabama",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Kansas v. Cheever",
+      "target": "Kansas v. Marsh",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Kansas v. Cheever",
+      "target": "Buchanan v. Kentucky",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Kansas v. Cheever",
+      "target": "Fitzpatrick v. United States",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Kansas v. Cheever",
+      "target": "Estelle v. Smith",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Kansas v. Cheever",
+      "target": "Powell v. Texas",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Kansas v. Cheever",
+      "target": "Brown v. United States",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Estelle v. Smith",
+      "target": "Johnson v. Zerbst",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Estelle v. Smith",
+      "target": "Massiah v. United States",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Estelle v. Smith",
+      "target": "Powell v. Alabama",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Estelle v. Smith",
+      "target": "United States v. Wade",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Estelle v. Smith",
+      "target": "Malloy v. Hogan",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Estelle v. Smith",
+      "target": "Miranda v. Arizona",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Buchanan v. Kentucky",
+      "target": "Estelle v. Smith",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Buchanan v. Kentucky",
+      "target": "Miranda v. Arizona",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Powell v. Texas",
+      "target": "Estelle v. Smith",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Powell v. Texas",
+      "target": "Buchanan v. Kentucky",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Malloy v. Hogan",
+      "target": "Powell v. Alabama",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Johnson v. Zerbst",
+      "target": "Powell v. Alabama",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Miranda v. Arizona",
+      "target": "Johnson v. Zerbst",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Miranda v. Arizona",
+      "target": "Malloy v. Hogan",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "Brown v. United States",
+      "target": "Fitzpatrick v. United States",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "United States v. Wade",
+      "target": "Massiah v. United States",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "United States v. Wade",
+      "target": "Powell v. Alabama",
+      "key": "cites",
+      "rel": "cites"
+    },
+    {
+      "source": "United States v. Wade",
+      "target": "Miranda v. Arizona",
+      "key": "cites",
+      "rel": "cites"
+    }
+  ],
+  "title": "Personalised PageRank on a citation graph",
+  "reveal": [
+    {
+      "label": "seed: a routine 2013 case",
+      "nodes": [
+        "Kansas v. Cheever"
+      ],
+      "edges": []
+    },
+    {
+      "label": "what it cites \u2014 six unremarkable cases",
+      "nodes": [
+        "Kansas v. Cheever",
+        "Kansas v. Marsh",
+        "Buchanan v. Kentucky",
+        "Fitzpatrick v. United States",
+        "Estelle v. Smith",
+        "Powell v. Texas",
+        "Brown v. United States"
+      ],
+      "edges": [
+        [
+          "Kansas v. Cheever",
+          "Kansas v. Marsh",
+          "cites"
+        ],
+        [
+          "Kansas v. Cheever",
+          "Buchanan v. Kentucky",
+          "cites"
+        ],
+        [
+          "Kansas v. Cheever",
+          "Fitzpatrick v. United States",
+          "cites"
+        ],
+        [
+          "Kansas v. Cheever",
+          "Estelle v. Smith",
+          "cites"
+        ],
+        [
+          "Kansas v. Cheever",
+          "Powell v. Texas",
+          "cites"
+        ],
+        [
+          "Kansas v. Cheever",
+          "Brown v. United States",
+          "cites"
+        ]
+      ]
+    },
+    {
+      "label": "one hop further \u2014 into the precedent cluster",
+      "nodes": [
+        "Kansas v. Cheever",
+        "Kansas v. Marsh",
+        "Buchanan v. Kentucky",
+        "Fitzpatrick v. United States",
+        "Estelle v. Smith",
+        "Powell v. Texas",
+        "Brown v. United States",
+        "Malloy v. Hogan",
+        "United States v. Wade",
+        "Powell v. Alabama",
+        "Johnson v. Zerbst",
+        "Massiah v. United States"
+      ],
+      "edges": [
+        [
+          "Kansas v. Cheever",
+          "Kansas v. Marsh",
+          "cites"
+        ],
+        [
+          "Kansas v. Cheever",
+          "Buchanan v. Kentucky",
+          "cites"
+        ],
+        [
+          "Kansas v. Cheever",
+          "Fitzpatrick v. United States",
+          "cites"
+        ],
+        [
+          "Kansas v. Cheever",
+          "Estelle v. Smith",
+          "cites"
+        ],
+        [
+          "Kansas v. Cheever",
+          "Powell v. Texas",
+          "cites"
+        ],
+        [
+          "Kansas v. Cheever",
+          "Brown v. United States",
+          "cites"
+        ],
+        [
+          "Estelle v. Smith",
+          "Malloy v. Hogan",
+          "cites"
+        ],
+        [
+          "Estelle v. Smith",
+          "United States v. Wade",
+          "cites"
+        ],
+        [
+          "Estelle v. Smith",
+          "Powell v. Alabama",
+          "cites"
+        ],
+        [
+          "Estelle v. Smith",
+          "Johnson v. Zerbst",
+          "cites"
+        ],
+        [
+          "Estelle v. Smith",
+          "Massiah v. United States",
+          "cites"
+        ]
+      ]
+    },
+    {
+      "label": "the landmark surfaces: Miranda, 2 hops out",
+      "nodes": [
+        "Kansas v. Cheever",
+        "Estelle v. Smith",
+        "Miranda v. Arizona"
+      ],
+      "edges": [
+        [
+          "Kansas v. Cheever",
+          "Estelle v. Smith",
+          "cites"
+        ],
+        [
+          "Estelle v. Smith",
+          "Miranda v. Arizona",
+          "cites"
+        ]
+      ]
+    },
+    {
+      "label": "#8 of 27,885 by Personalised PageRank",
+      "nodes": [
+        "Kansas v. Cheever",
+        "Estelle v. Smith",
+        "Miranda v. Arizona"
+      ],
+      "edges": [
+        [
+          "Kansas v. Cheever",
+          "Estelle v. Smith",
+          "cites"
+        ],
+        [
+          "Estelle v. Smith",
+          "Miranda v. Arizona",
+          "cites"
+        ]
+      ]
+    }
+  ],
+  "params": {
+    "labels": {
+      "maxChars": 30,
+      "nodeFontSize": 13
+    },
+    "layout": {
+      "spread": 1.3,
+      "seed": 3
+    }
+  }
+}

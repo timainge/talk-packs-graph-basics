@@ -1,0 +1,216 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "method",
+      "label": "CheckoutModel.OnPost",
+      "id": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.OnPost"
+    },
+    {
+      "kind": "method",
+      "label": "CheckoutModel.SetBasketModelAsync",
+      "id": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.SetBasketModelAsync"
+    },
+    {
+      "kind": "method",
+      "label": "BasketViewModelService.GetOrCreateBasketForUser",
+      "id": "Microsoft.eShopWeb.Web.Services.BasketViewModelService.GetOrCreateBasketForUser"
+    },
+    {
+      "kind": "method",
+      "label": "BasketViewModelService.CreateBasketForUser",
+      "id": "Microsoft.eShopWeb.Web.Services.BasketViewModelService.CreateBasketForUser"
+    },
+    {
+      "kind": "method",
+      "label": ".ctor",
+      "id": "Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket..ctor"
+    },
+    {
+      "kind": "method",
+      "label": ".ctor",
+      "id": "Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Address..ctor"
+    },
+    {
+      "kind": "method",
+      "label": "IAppLogger.LogWarning",
+      "id": "Microsoft.eShopWeb.ApplicationCore.Interfaces.IAppLogger.LogWarning"
+    },
+    {
+      "kind": "method",
+      "label": "IBasketViewModelService.GetOrCreateBasketForUser",
+      "id": "Microsoft.eShopWeb.Web.Interfaces.IBasketViewModelService.GetOrCreateBasketForUser"
+    },
+    {
+      "kind": "method",
+      "label": "CheckoutModel.BasketModel",
+      "id": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.BasketModel"
+    },
+    {
+      "kind": "method",
+      "label": ".ctor",
+      "id": "Microsoft.eShopWeb.ApplicationCore.Specifications.BasketWithItemsSpecification..ctor"
+    },
+    {
+      "kind": "method",
+      "label": "IBasketViewModelService.Map",
+      "id": "Microsoft.eShopWeb.Web.Interfaces.IBasketViewModelService.Map"
+    },
+    {
+      "kind": "method",
+      "label": "BaseEntity.Id",
+      "id": "Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity.Id"
+    },
+    {
+      "kind": "method",
+      "label": "Basket.BuyerId",
+      "id": "Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket.BuyerId"
+    }
+  ],
+  "links": [
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.OnPost",
+      "target": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.SetBasketModelAsync",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.OnPost",
+      "target": "Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Address..ctor",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.OnPost",
+      "target": "Microsoft.eShopWeb.ApplicationCore.Interfaces.IAppLogger.LogWarning",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.SetBasketModelAsync",
+      "target": "Microsoft.eShopWeb.Web.Services.BasketViewModelService.GetOrCreateBasketForUser",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.SetBasketModelAsync",
+      "target": "Microsoft.eShopWeb.Web.Interfaces.IBasketViewModelService.GetOrCreateBasketForUser",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.SetBasketModelAsync",
+      "target": "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.BasketModel",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Services.BasketViewModelService.GetOrCreateBasketForUser",
+      "target": "Microsoft.eShopWeb.Web.Services.BasketViewModelService.CreateBasketForUser",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Services.BasketViewModelService.GetOrCreateBasketForUser",
+      "target": "Microsoft.eShopWeb.ApplicationCore.Specifications.BasketWithItemsSpecification..ctor",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Services.BasketViewModelService.GetOrCreateBasketForUser",
+      "target": "Microsoft.eShopWeb.Web.Interfaces.IBasketViewModelService.Map",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Services.BasketViewModelService.CreateBasketForUser",
+      "target": "Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket..ctor",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.Web.Services.BasketViewModelService.CreateBasketForUser",
+      "target": "Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity.Id",
+      "key": "calls"
+    },
+    {
+      "rel": "calls",
+      "source": "Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket..ctor",
+      "target": "Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket.BuyerId",
+      "key": "calls"
+    }
+  ],
+  "reveal": [
+    {
+      "label": "seed",
+      "nodes": [
+        "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.OnPost"
+      ],
+      "edges": []
+    },
+    {
+      "label": "hop",
+      "nodes": [
+        "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.SetBasketModelAsync"
+      ],
+      "edges": [
+        [
+          "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.OnPost",
+          "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.SetBasketModelAsync",
+          "calls"
+        ]
+      ]
+    },
+    {
+      "label": "hop",
+      "nodes": [
+        "Microsoft.eShopWeb.Web.Services.BasketViewModelService.GetOrCreateBasketForUser"
+      ],
+      "edges": [
+        [
+          "Microsoft.eShopWeb.Web.Pages.Basket.CheckoutModel.SetBasketModelAsync",
+          "Microsoft.eShopWeb.Web.Services.BasketViewModelService.GetOrCreateBasketForUser",
+          "calls"
+        ]
+      ]
+    },
+    {
+      "label": "hop",
+      "nodes": [
+        "Microsoft.eShopWeb.Web.Services.BasketViewModelService.CreateBasketForUser"
+      ],
+      "edges": [
+        [
+          "Microsoft.eShopWeb.Web.Services.BasketViewModelService.GetOrCreateBasketForUser",
+          "Microsoft.eShopWeb.Web.Services.BasketViewModelService.CreateBasketForUser",
+          "calls"
+        ]
+      ]
+    },
+    {
+      "label": "hop",
+      "nodes": [
+        "Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket..ctor"
+      ],
+      "edges": [
+        [
+          "Microsoft.eShopWeb.Web.Services.BasketViewModelService.CreateBasketForUser",
+          "Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket..ctor",
+          "calls"
+        ]
+      ]
+    }
+  ],
+  "title": "Shortest path (REAL code graph) — why editing Basket..ctor breaks checkout: a 4-hop calls chain",
+  "params": {
+    "labels": {
+      "nodeFontSize": 14
+    },
+    "layout": {
+      "spread": 1.2
+    }
+  }
+}

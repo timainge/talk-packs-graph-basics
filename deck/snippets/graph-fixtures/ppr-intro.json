@@ -1,0 +1,2214 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "recipe",
+      "label": "Chicken Handi",
+      "id": "recipe:chicken handi"
+    },
+    {
+      "kind": "ingredient",
+      "label": "cumin",
+      "id": "ingredient:cumin"
+    },
+    {
+      "kind": "ingredient",
+      "label": "tomato",
+      "id": "ingredient:tomato"
+    },
+    {
+      "kind": "ingredient",
+      "label": "ginger",
+      "id": "ingredient:ginger"
+    },
+    {
+      "kind": "ingredient",
+      "label": "green chilli",
+      "id": "ingredient:green chilli"
+    },
+    {
+      "kind": "ingredient",
+      "label": "yoghurt",
+      "id": "ingredient:yoghurt"
+    },
+    {
+      "kind": "recipe",
+      "label": "Lamb Tagine",
+      "id": "recipe:lamb tagine"
+    },
+    {
+      "kind": "recipe",
+      "label": "Egyptian Fatteh",
+      "id": "recipe:egyptian fatteh"
+    },
+    {
+      "kind": "recipe",
+      "label": "Spaghetti Bolognese",
+      "id": "recipe:spaghetti bolognese"
+    }
+  ],
+  "links": [
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:cumin",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:tomato",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:ginger",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:green chilli",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:yoghurt",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:cumin",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:ginger",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:cumin",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:tomato",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:tomato",
+      "key": "CONTAINS"
+    }
+  ],
+  "reveal": [
+    {
+      "label": "seed — start here",
+      "nodes": [
+        "recipe:chicken handi"
+      ],
+      "edges": []
+    },
+    {
+      "label": "step out one hop — what is this seed made of?",
+      "nodes": [
+        "ingredient:cumin",
+        "ingredient:tomato",
+        "ingredient:ginger",
+        "ingredient:green chilli",
+        "ingredient:yoghurt"
+      ],
+      "edges": [
+        [
+          "recipe:chicken handi",
+          "ingredient:cumin",
+          "CONTAINS"
+        ],
+        [
+          "recipe:chicken handi",
+          "ingredient:tomato",
+          "CONTAINS"
+        ],
+        [
+          "recipe:chicken handi",
+          "ingredient:ginger",
+          "CONTAINS"
+        ],
+        [
+          "recipe:chicken handi",
+          "ingredient:green chilli",
+          "CONTAINS"
+        ],
+        [
+          "recipe:chicken handi",
+          "ingredient:yoghurt",
+          "CONTAINS"
+        ]
+      ]
+    },
+    {
+      "label": "keep walking — the recipes the walk keeps landing on are 'relevant'",
+      "nodes": [
+        "recipe:lamb tagine",
+        "recipe:egyptian fatteh",
+        "recipe:spaghetti bolognese"
+      ],
+      "edges": [
+        [
+          "recipe:lamb tagine",
+          "ingredient:cumin",
+          "CONTAINS"
+        ],
+        [
+          "recipe:lamb tagine",
+          "ingredient:ginger",
+          "CONTAINS"
+        ],
+        [
+          "recipe:egyptian fatteh",
+          "ingredient:cumin",
+          "CONTAINS"
+        ],
+        [
+          "recipe:egyptian fatteh",
+          "ingredient:tomato",
+          "CONTAINS"
+        ],
+        [
+          "recipe:spaghetti bolognese",
+          "ingredient:tomato",
+          "CONTAINS"
+        ]
+      ]
+    }
+  ],
+  "title": "PPR intro: a random walk that keeps restarting at the seed (Chicken Handi). Illustrative subgraph — cumin is the shared hub: Lamb Tagine & Egyptian Fatteh each share two ingredients with the seed (more paths back = higher score); Spaghetti shares only tomato (fewer paths back = lower score).",
+  "walk": {
+    "tickMs": 140,
+    "loop": false,
+    "seeds": [
+      "recipe:chicken handi"
+    ],
+    "frames": [
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:green chilli"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 1.0
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.5
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:cumin"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:cumin",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.5,
+          "ingredient:cumin": 0.5
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:cumin",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:cumin",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.3333,
+          "ingredient:cumin": 0.3333
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:tomato"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:cumin",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:cumin",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.3333,
+          "ingredient:cumin": 0.3333,
+          "ingredient:tomato": 0.3333
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.25,
+          "ingredient:cumin": 0.25,
+          "ingredient:tomato": 0.25
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:tomato"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.25,
+          "ingredient:cumin": 0.25,
+          "ingredient:tomato": 0.5
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2,
+          "ingredient:cumin": 0.2,
+          "ingredient:tomato": 0.4
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1667,
+          "ingredient:cumin": 0.1667,
+          "ingredient:tomato": 0.3333
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:yoghurt"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1667,
+          "ingredient:cumin": 0.1667,
+          "ingredient:tomato": 0.3333,
+          "ingredient:yoghurt": 0.1667
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1429,
+          "ingredient:cumin": 0.1429,
+          "ingredient:tomato": 0.2857,
+          "ingredient:yoghurt": 0.1429
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.125,
+          "ingredient:cumin": 0.125,
+          "ingredient:tomato": 0.25,
+          "ingredient:yoghurt": 0.125
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1111,
+          "ingredient:cumin": 0.1111,
+          "ingredient:tomato": 0.2222,
+          "ingredient:yoghurt": 0.1111
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:tomato"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1111,
+          "ingredient:cumin": 0.1111,
+          "ingredient:tomato": 0.3333,
+          "ingredient:yoghurt": 0.1111
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:spaghetti bolognese"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1111,
+          "ingredient:cumin": 0.1111,
+          "ingredient:tomato": 0.3333,
+          "ingredient:yoghurt": 0.1111,
+          "recipe:spaghetti bolognese": 0.1111
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:tomato"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1111,
+          "ingredient:cumin": 0.1111,
+          "ingredient:tomato": 0.4444,
+          "ingredient:yoghurt": 0.1111,
+          "recipe:spaghetti bolognese": 0.1111
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1,
+          "ingredient:cumin": 0.1,
+          "ingredient:tomato": 0.4,
+          "ingredient:yoghurt": 0.1,
+          "recipe:spaghetti bolognese": 0.1
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:yoghurt"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1,
+          "ingredient:cumin": 0.1,
+          "ingredient:tomato": 0.4,
+          "ingredient:yoghurt": 0.2,
+          "recipe:spaghetti bolognese": 0.1
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.0909,
+          "ingredient:cumin": 0.0909,
+          "ingredient:tomato": 0.3636,
+          "ingredient:yoghurt": 0.1818,
+          "recipe:spaghetti bolognese": 0.0909
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:green chilli"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1818,
+          "ingredient:cumin": 0.0909,
+          "ingredient:tomato": 0.3636,
+          "ingredient:yoghurt": 0.1818,
+          "recipe:spaghetti bolognese": 0.0909
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.1667,
+          "ingredient:cumin": 0.0833,
+          "ingredient:tomato": 0.3333,
+          "ingredient:yoghurt": 0.1667,
+          "recipe:spaghetti bolognese": 0.0833
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:green chilli"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.25,
+          "ingredient:cumin": 0.0833,
+          "ingredient:tomato": 0.3333,
+          "ingredient:yoghurt": 0.1667,
+          "recipe:spaghetti bolognese": 0.0833
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2308,
+          "ingredient:cumin": 0.0769,
+          "ingredient:tomato": 0.3077,
+          "ingredient:yoghurt": 0.1538,
+          "recipe:spaghetti bolognese": 0.0769
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:tomato"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2308,
+          "ingredient:cumin": 0.0769,
+          "ingredient:tomato": 0.3846,
+          "ingredient:yoghurt": 0.1538,
+          "recipe:spaghetti bolognese": 0.0769
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:spaghetti bolognese"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2308,
+          "ingredient:cumin": 0.0769,
+          "ingredient:tomato": 0.3846,
+          "ingredient:yoghurt": 0.1538,
+          "recipe:spaghetti bolognese": 0.1538
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:tomato"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2308,
+          "ingredient:cumin": 0.0769,
+          "ingredient:tomato": 0.4615,
+          "ingredient:yoghurt": 0.1538,
+          "recipe:spaghetti bolognese": 0.1538
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:spaghetti bolognese"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2308,
+          "ingredient:cumin": 0.0769,
+          "ingredient:tomato": 0.4615,
+          "ingredient:yoghurt": 0.1538,
+          "recipe:spaghetti bolognese": 0.2308
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:tomato"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2308,
+          "ingredient:cumin": 0.0769,
+          "ingredient:tomato": 0.5385,
+          "ingredient:yoghurt": 0.1538,
+          "recipe:spaghetti bolognese": 0.2308
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:egyptian fatteh"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2308,
+          "ingredient:cumin": 0.0769,
+          "ingredient:tomato": 0.5385,
+          "ingredient:yoghurt": 0.1538,
+          "recipe:spaghetti bolognese": 0.2308,
+          "recipe:egyptian fatteh": 0.0769
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:cumin"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:spaghetti bolognese",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:cumin",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2308,
+          "ingredient:cumin": 0.1538,
+          "ingredient:tomato": 0.5385,
+          "ingredient:yoghurt": 0.1538,
+          "recipe:spaghetti bolognese": 0.2308,
+          "recipe:egyptian fatteh": 0.0769
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2143,
+          "ingredient:cumin": 0.1429,
+          "ingredient:tomato": 0.5,
+          "ingredient:yoghurt": 0.1429,
+          "recipe:spaghetti bolognese": 0.2143,
+          "recipe:egyptian fatteh": 0.0714
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:ginger"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2143,
+          "ingredient:cumin": 0.1429,
+          "ingredient:tomato": 0.5,
+          "ingredient:yoghurt": 0.1429,
+          "recipe:spaghetti bolognese": 0.2143,
+          "recipe:egyptian fatteh": 0.0714,
+          "ingredient:ginger": 0.0714
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:lamb tagine"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2143,
+          "ingredient:cumin": 0.1429,
+          "ingredient:tomato": 0.5,
+          "ingredient:yoghurt": 0.1429,
+          "recipe:spaghetti bolognese": 0.2143,
+          "recipe:egyptian fatteh": 0.0714,
+          "ingredient:ginger": 0.0714,
+          "recipe:lamb tagine": 0.0714
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:cumin"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:cumin",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2143,
+          "ingredient:cumin": 0.2143,
+          "ingredient:tomato": 0.5,
+          "ingredient:yoghurt": 0.1429,
+          "recipe:spaghetti bolognese": 0.2143,
+          "recipe:egyptian fatteh": 0.0714,
+          "ingredient:ginger": 0.0714,
+          "recipe:lamb tagine": 0.0714
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:egyptian fatteh"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:cumin",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:cumin",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2143,
+          "ingredient:cumin": 0.2143,
+          "ingredient:tomato": 0.5,
+          "ingredient:yoghurt": 0.1429,
+          "recipe:spaghetti bolognese": 0.2143,
+          "recipe:egyptian fatteh": 0.1429,
+          "ingredient:ginger": 0.0714,
+          "recipe:lamb tagine": 0.0714
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:tomato"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:cumin",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:cumin",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2143,
+          "ingredient:cumin": 0.2143,
+          "ingredient:tomato": 0.5714,
+          "ingredient:yoghurt": 0.1429,
+          "recipe:spaghetti bolognese": 0.2143,
+          "recipe:egyptian fatteh": 0.1429,
+          "ingredient:ginger": 0.0714,
+          "recipe:lamb tagine": 0.0714
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:egyptian fatteh"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:cumin",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:cumin",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2143,
+          "ingredient:cumin": 0.2143,
+          "ingredient:tomato": 0.5714,
+          "ingredient:yoghurt": 0.1429,
+          "recipe:spaghetti bolognese": 0.2143,
+          "recipe:egyptian fatteh": 0.2143,
+          "ingredient:ginger": 0.0714,
+          "recipe:lamb tagine": 0.0714
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:tomato"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:cumin",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:cumin",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:tomato",
+            "CONTAINS"
+          ],
+          [
+            "recipe:egyptian fatteh",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2143,
+          "ingredient:cumin": 0.2143,
+          "ingredient:tomato": 0.6429,
+          "ingredient:yoghurt": 0.1429,
+          "recipe:spaghetti bolognese": 0.2143,
+          "recipe:egyptian fatteh": 0.2143,
+          "ingredient:ginger": 0.0714,
+          "recipe:lamb tagine": 0.0714
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2,
+          "ingredient:cumin": 0.2,
+          "ingredient:tomato": 0.6,
+          "ingredient:yoghurt": 0.1333,
+          "recipe:spaghetti bolognese": 0.2,
+          "recipe:egyptian fatteh": 0.2,
+          "ingredient:ginger": 0.0667,
+          "recipe:lamb tagine": 0.0667
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:green chilli"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2667,
+          "ingredient:cumin": 0.2,
+          "ingredient:tomato": 0.6,
+          "ingredient:yoghurt": 0.1333,
+          "recipe:spaghetti bolognese": 0.2,
+          "recipe:egyptian fatteh": 0.2,
+          "ingredient:ginger": 0.0667,
+          "recipe:lamb tagine": 0.0667
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.25,
+          "ingredient:cumin": 0.1875,
+          "ingredient:tomato": 0.5625,
+          "ingredient:yoghurt": 0.125,
+          "recipe:spaghetti bolognese": 0.1875,
+          "recipe:egyptian fatteh": 0.1875,
+          "ingredient:ginger": 0.0625,
+          "recipe:lamb tagine": 0.0625
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2353,
+          "ingredient:cumin": 0.1765,
+          "ingredient:tomato": 0.5294,
+          "ingredient:yoghurt": 0.1176,
+          "recipe:spaghetti bolognese": 0.1765,
+          "recipe:egyptian fatteh": 0.1765,
+          "ingredient:ginger": 0.0588,
+          "recipe:lamb tagine": 0.0588
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:green chilli"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2941,
+          "ingredient:cumin": 0.1765,
+          "ingredient:tomato": 0.5294,
+          "ingredient:yoghurt": 0.1176,
+          "recipe:spaghetti bolognese": 0.1765,
+          "recipe:egyptian fatteh": 0.1765,
+          "ingredient:ginger": 0.0588,
+          "recipe:lamb tagine": 0.0588
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2778,
+          "ingredient:cumin": 0.1667,
+          "ingredient:tomato": 0.5,
+          "ingredient:yoghurt": 0.1111,
+          "recipe:spaghetti bolognese": 0.1667,
+          "recipe:egyptian fatteh": 0.1667,
+          "ingredient:ginger": 0.0556,
+          "recipe:lamb tagine": 0.0556
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:ginger"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2778,
+          "ingredient:cumin": 0.1667,
+          "ingredient:tomato": 0.5,
+          "ingredient:yoghurt": 0.1111,
+          "recipe:spaghetti bolognese": 0.1667,
+          "recipe:egyptian fatteh": 0.1667,
+          "ingredient:ginger": 0.1111,
+          "recipe:lamb tagine": 0.0556
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2632,
+          "ingredient:cumin": 0.1579,
+          "ingredient:tomato": 0.4737,
+          "ingredient:yoghurt": 0.1053,
+          "recipe:spaghetti bolognese": 0.1579,
+          "recipe:egyptian fatteh": 0.1579,
+          "ingredient:ginger": 0.1053,
+          "recipe:lamb tagine": 0.0526
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:yoghurt"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:yoghurt",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2632,
+          "ingredient:cumin": 0.1579,
+          "ingredient:tomato": 0.4737,
+          "ingredient:yoghurt": 0.1579,
+          "recipe:spaghetti bolognese": 0.1579,
+          "recipe:egyptian fatteh": 0.1579,
+          "ingredient:ginger": 0.1053,
+          "recipe:lamb tagine": 0.0526
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.25,
+          "ingredient:cumin": 0.15,
+          "ingredient:tomato": 0.45,
+          "ingredient:yoghurt": 0.15,
+          "recipe:spaghetti bolognese": 0.15,
+          "recipe:egyptian fatteh": 0.15,
+          "ingredient:ginger": 0.1,
+          "recipe:lamb tagine": 0.05
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:ginger"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.25,
+          "ingredient:cumin": 0.15,
+          "ingredient:tomato": 0.45,
+          "ingredient:yoghurt": 0.15,
+          "recipe:spaghetti bolognese": 0.15,
+          "recipe:egyptian fatteh": 0.15,
+          "ingredient:ginger": 0.15,
+          "recipe:lamb tagine": 0.05
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2381,
+          "ingredient:cumin": 0.1429,
+          "ingredient:tomato": 0.4286,
+          "ingredient:yoghurt": 0.1429,
+          "recipe:spaghetti bolognese": 0.1429,
+          "recipe:egyptian fatteh": 0.1429,
+          "ingredient:ginger": 0.1429,
+          "recipe:lamb tagine": 0.0476
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:green chilli"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:green chilli",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2857,
+          "ingredient:cumin": 0.1429,
+          "ingredient:tomato": 0.4286,
+          "ingredient:yoghurt": 0.1429,
+          "recipe:spaghetti bolognese": 0.1429,
+          "recipe:egyptian fatteh": 0.1429,
+          "ingredient:ginger": 0.1429,
+          "recipe:lamb tagine": 0.0476
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2727,
+          "ingredient:cumin": 0.1364,
+          "ingredient:tomato": 0.4091,
+          "ingredient:yoghurt": 0.1364,
+          "recipe:spaghetti bolognese": 0.1364,
+          "recipe:egyptian fatteh": 0.1364,
+          "ingredient:ginger": 0.1364,
+          "recipe:lamb tagine": 0.0455
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:ginger"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2727,
+          "ingredient:cumin": 0.1364,
+          "ingredient:tomato": 0.4091,
+          "ingredient:yoghurt": 0.1364,
+          "recipe:spaghetti bolognese": 0.1364,
+          "recipe:egyptian fatteh": 0.1364,
+          "ingredient:ginger": 0.1818,
+          "recipe:lamb tagine": 0.0455
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:lamb tagine"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2727,
+          "ingredient:cumin": 0.1364,
+          "ingredient:tomato": 0.4091,
+          "ingredient:yoghurt": 0.1364,
+          "recipe:spaghetti bolognese": 0.1364,
+          "recipe:egyptian fatteh": 0.1364,
+          "ingredient:ginger": 0.1818,
+          "recipe:lamb tagine": 0.0909
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:ginger"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2727,
+          "ingredient:cumin": 0.1364,
+          "ingredient:tomato": 0.4091,
+          "ingredient:yoghurt": 0.1364,
+          "recipe:spaghetti bolognese": 0.1364,
+          "recipe:egyptian fatteh": 0.1364,
+          "ingredient:ginger": 0.2273,
+          "recipe:lamb tagine": 0.0909
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:lamb tagine"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2727,
+          "ingredient:cumin": 0.1364,
+          "ingredient:tomato": 0.4091,
+          "ingredient:yoghurt": 0.1364,
+          "recipe:spaghetti bolognese": 0.1364,
+          "recipe:egyptian fatteh": 0.1364,
+          "ingredient:ginger": 0.2273,
+          "recipe:lamb tagine": 0.1364
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "ingredient:ginger"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2727,
+          "ingredient:cumin": 0.1364,
+          "ingredient:tomato": 0.4091,
+          "ingredient:yoghurt": 0.1364,
+          "recipe:spaghetti bolognese": 0.1364,
+          "recipe:egyptian fatteh": 0.1364,
+          "ingredient:ginger": 0.2727,
+          "recipe:lamb tagine": 0.1364
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:lamb tagine",
+            "ingredient:ginger",
+            "CONTAINS"
+          ],
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2609,
+          "ingredient:cumin": 0.1304,
+          "ingredient:tomato": 0.3913,
+          "ingredient:yoghurt": 0.1304,
+          "recipe:spaghetti bolognese": 0.1304,
+          "recipe:egyptian fatteh": 0.1304,
+          "ingredient:ginger": 0.2609,
+          "recipe:lamb tagine": 0.1304
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.25,
+          "ingredient:cumin": 0.125,
+          "ingredient:tomato": 0.375,
+          "ingredient:yoghurt": 0.125,
+          "recipe:spaghetti bolognese": 0.125,
+          "recipe:egyptian fatteh": 0.125,
+          "ingredient:ginger": 0.25,
+          "recipe:lamb tagine": 0.125
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:tomato"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:tomato",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.25,
+          "ingredient:cumin": 0.125,
+          "ingredient:tomato": 0.4167,
+          "ingredient:yoghurt": 0.125,
+          "recipe:spaghetti bolognese": 0.125,
+          "recipe:egyptian fatteh": 0.125,
+          "ingredient:ginger": 0.25,
+          "recipe:lamb tagine": 0.125
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.24,
+          "ingredient:cumin": 0.12,
+          "ingredient:tomato": 0.4,
+          "ingredient:yoghurt": 0.12,
+          "recipe:spaghetti bolognese": 0.12,
+          "recipe:egyptian fatteh": 0.12,
+          "ingredient:ginger": 0.24,
+          "recipe:lamb tagine": 0.12
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:cumin"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:cumin",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.24,
+          "ingredient:cumin": 0.16,
+          "ingredient:tomato": 0.4,
+          "ingredient:yoghurt": 0.12,
+          "recipe:spaghetti bolognese": 0.12,
+          "recipe:egyptian fatteh": 0.12,
+          "ingredient:ginger": 0.24,
+          "recipe:lamb tagine": 0.12
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2308,
+          "ingredient:cumin": 0.1538,
+          "ingredient:tomato": 0.3846,
+          "ingredient:yoghurt": 0.1154,
+          "recipe:spaghetti bolognese": 0.1154,
+          "recipe:egyptian fatteh": 0.1154,
+          "ingredient:ginger": 0.2308,
+          "recipe:lamb tagine": 0.1154
+        },
+        "restart": true
+      },
+      {
+        "heads": [
+          "ingredient:ginger"
+        ],
+        "edges": [
+          [
+            "recipe:chicken handi",
+            "ingredient:ginger",
+            "CONTAINS"
+          ]
+        ],
+        "heat": {
+          "recipe:chicken handi": 1.0,
+          "ingredient:green chilli": 0.2308,
+          "ingredient:cumin": 0.1538,
+          "ingredient:tomato": 0.3846,
+          "ingredient:yoghurt": 0.1154,
+          "recipe:spaghetti bolognese": 0.1154,
+          "recipe:egyptian fatteh": 0.1154,
+          "ingredient:ginger": 0.2692,
+          "recipe:lamb tagine": 0.1154
+        },
+        "restart": false
+      },
+      {
+        "heads": [
+          "recipe:chicken handi"
+        ],
+        "edges": [],
+        "heat": {
+          "ingredient:cumin": 1.0,
+          "ingredient:tomato": 0.9773,
+          "ingredient:ginger": 0.7619,
+          "recipe:lamb tagine": 0.6071,
+          "recipe:egyptian fatteh": 0.5603,
+          "ingredient:green chilli": 0.5039,
+          "ingredient:yoghurt": 0.5039,
+          "recipe:spaghetti bolognese": 0.2769,
+          "recipe:chicken handi": 1.0
+        },
+        "restart": false,
+        "resolved": true
+      }
+    ]
+  }
+}

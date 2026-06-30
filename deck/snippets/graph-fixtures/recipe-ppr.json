@@ -1,0 +1,4968 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "recipe",
+      "label": "Apple Frangipan Tart",
+      "id": "recipe:apple frangipan tart"
+    },
+    {
+      "kind": "ingredient",
+      "label": "digestive biscuits",
+      "id": "ingredient:digestive biscuits"
+    },
+    {
+      "kind": "ingredient",
+      "label": "butter",
+      "id": "ingredient:butter"
+    },
+    {
+      "kind": "ingredient",
+      "label": "bramley apples",
+      "id": "ingredient:bramley apples"
+    },
+    {
+      "kind": "ingredient",
+      "label": "sugar",
+      "id": "ingredient:sugar"
+    },
+    {
+      "kind": "ingredient",
+      "label": "free-range eggs, beaten",
+      "id": "ingredient:free-range eggs, beaten"
+    },
+    {
+      "kind": "ingredient",
+      "label": "ground almonds",
+      "id": "ingredient:ground almonds"
+    },
+    {
+      "kind": "ingredient",
+      "label": "almond extract",
+      "id": "ingredient:almond extract"
+    },
+    {
+      "kind": "ingredient",
+      "label": "flaked almonds",
+      "id": "ingredient:flaked almonds"
+    },
+    {
+      "kind": "step",
+      "label": "Preheat the oven to 200C/180C Fan/Gas 6.",
+      "id": "step:apple frangipan tart#0"
+    },
+    {
+      "kind": "technique",
+      "label": "preheat",
+      "id": "technique:preheat"
+    },
+    {
+      "kind": "step",
+      "label": "Put the biscuits in a large re-sealable freezer ",
+      "id": "step:apple frangipan tart#1"
+    },
+    {
+      "kind": "technique",
+      "label": "bash",
+      "id": "technique:bash"
+    },
+    {
+      "kind": "step",
+      "label": "Melt the butter in a small pan, then add the bis",
+      "id": "step:apple frangipan tart#2"
+    },
+    {
+      "kind": "technique",
+      "label": "melt",
+      "id": "technique:melt"
+    },
+    {
+      "kind": "step",
+      "label": "Tip into the tart tin and, using the back of a s",
+      "id": "step:apple frangipan tart#3"
+    },
+    {
+      "kind": "technique",
+      "label": "press",
+      "id": "technique:press"
+    },
+    {
+      "kind": "step",
+      "label": "Cream together the butter and sugar until light ",
+      "id": "step:apple frangipan tart#4"
+    },
+    {
+      "kind": "technique",
+      "label": "cream",
+      "id": "technique:cream"
+    },
+    {
+      "kind": "step",
+      "label": "Mix in the eggs, then add the ground almonds and",
+      "id": "step:apple frangipan tart#5"
+    },
+    {
+      "kind": "technique",
+      "label": "blend",
+      "id": "technique:blend"
+    },
+    {
+      "kind": "step",
+      "label": "Peel the apples, and cut thin slices of apple. D",
+      "id": "step:apple frangipan tart#6"
+    },
+    {
+      "kind": "technique",
+      "label": "cut",
+      "id": "technique:cut"
+    },
+    {
+      "kind": "step",
+      "label": "Arrange the slices over the biscuit base. Spread",
+      "id": "step:apple frangipan tart#7"
+    },
+    {
+      "kind": "technique",
+      "label": "spread",
+      "id": "technique:spread"
+    },
+    {
+      "kind": "step",
+      "label": "Bake for 20-25 minutes until golden-brown and se",
+      "id": "step:apple frangipan tart#8"
+    },
+    {
+      "kind": "technique",
+      "label": "bake",
+      "id": "technique:bake"
+    },
+    {
+      "kind": "step",
+      "label": "Remove from the oven and leave to cool for 15 mi",
+      "id": "step:apple frangipan tart#9"
+    },
+    {
+      "kind": "technique",
+      "label": "cool",
+      "id": "technique:cool"
+    },
+    {
+      "kind": "step",
+      "label": "Transfer the tart, with the tin base attached, t",
+      "id": "step:apple frangipan tart#10"
+    },
+    {
+      "kind": "technique",
+      "label": "serve",
+      "id": "technique:serve"
+    },
+    {
+      "kind": "recipe",
+      "label": "Beef Lo Mein",
+      "id": "recipe:beef lo mein"
+    },
+    {
+      "kind": "ingredient",
+      "label": "beef",
+      "id": "ingredient:beef"
+    },
+    {
+      "kind": "ingredient",
+      "label": "salt",
+      "id": "ingredient:salt"
+    },
+    {
+      "kind": "ingredient",
+      "label": "black pepper",
+      "id": "ingredient:black pepper"
+    },
+    {
+      "kind": "ingredient",
+      "label": "sesame seed oil",
+      "id": "ingredient:sesame seed oil"
+    },
+    {
+      "kind": "ingredient",
+      "label": "egg",
+      "id": "ingredient:egg"
+    },
+    {
+      "kind": "ingredient",
+      "label": "starch",
+      "id": "ingredient:starch"
+    },
+    {
+      "kind": "ingredient",
+      "label": "oil",
+      "id": "ingredient:oil"
+    },
+    {
+      "kind": "ingredient",
+      "label": "noodles",
+      "id": "ingredient:noodles"
+    },
+    {
+      "kind": "ingredient",
+      "label": "onion",
+      "id": "ingredient:onion"
+    },
+    {
+      "kind": "ingredient",
+      "label": "garlic",
+      "id": "ingredient:garlic"
+    },
+    {
+      "kind": "ingredient",
+      "label": "ginger",
+      "id": "ingredient:ginger"
+    },
+    {
+      "kind": "ingredient",
+      "label": "bean sprouts",
+      "id": "ingredient:bean sprouts"
+    },
+    {
+      "kind": "ingredient",
+      "label": "mushrooms",
+      "id": "ingredient:mushrooms"
+    },
+    {
+      "kind": "ingredient",
+      "label": "water",
+      "id": "ingredient:water"
+    },
+    {
+      "kind": "ingredient",
+      "label": "oyster sauce",
+      "id": "ingredient:oyster sauce"
+    },
+    {
+      "kind": "ingredient",
+      "label": "soy sauce",
+      "id": "ingredient:soy sauce"
+    },
+    {
+      "kind": "step",
+      "label": "In a bowl, add the beef, salt, 1 pinch white pep",
+      "id": "step:beef lo mein#0"
+    },
+    {
+      "kind": "technique",
+      "label": "mix",
+      "id": "technique:mix"
+    },
+    {
+      "kind": "step",
+      "label": "In a 6 qt pot add your noodles to boiling water ",
+      "id": "step:beef lo mein#1"
+    },
+    {
+      "kind": "technique",
+      "label": "boil",
+      "id": "technique:boil"
+    },
+    {
+      "kind": "step",
+      "label": "Add 2 Tablespoons of oil, beef and cook on high ",
+      "id": "step:beef lo mein#2"
+    },
+    {
+      "kind": "technique",
+      "label": "stir-fry",
+      "id": "technique:stir-fry"
+    },
+    {
+      "kind": "step",
+      "label": "In a wok add 2 Tablespoons of oil, onions, mince",
+      "id": "step:beef lo mein#3"
+    },
+    {
+      "kind": "step",
+      "label": "Add the noodles to wok.",
+      "id": "step:beef lo mein#4"
+    },
+    {
+      "kind": "step",
+      "label": "To make the sauce, add oyster sauce, 1 pinch whi",
+      "id": "step:beef lo mein#5"
+    },
+    {
+      "kind": "step",
+      "label": "Next add the beef to wok and stir-fry.",
+      "id": "step:beef lo mein#6"
+    },
+    {
+      "kind": "recipe",
+      "label": "Beef Wellington",
+      "id": "recipe:beef wellington"
+    },
+    {
+      "kind": "ingredient",
+      "label": "english mustard",
+      "id": "ingredient:english mustard"
+    },
+    {
+      "kind": "ingredient",
+      "label": "olive oil",
+      "id": "ingredient:olive oil"
+    },
+    {
+      "kind": "ingredient",
+      "label": "beef fillet",
+      "id": "ingredient:beef fillet"
+    },
+    {
+      "kind": "ingredient",
+      "label": "parma ham",
+      "id": "ingredient:parma ham"
+    },
+    {
+      "kind": "ingredient",
+      "label": "puff pastry",
+      "id": "ingredient:puff pastry"
+    },
+    {
+      "kind": "ingredient",
+      "label": "flour",
+      "id": "ingredient:flour"
+    },
+    {
+      "kind": "ingredient",
+      "label": "beaten egg yolks",
+      "id": "ingredient:beaten egg yolks"
+    },
+    {
+      "kind": "step",
+      "label": "Put the mushrooms into a food processor with som",
+      "id": "step:beef wellington#0"
+    },
+    {
+      "kind": "technique",
+      "label": "pulse",
+      "id": "technique:pulse"
+    },
+    {
+      "kind": "step",
+      "label": "Scrape the paste into a pan and cook over a high",
+      "id": "step:beef wellington#1"
+    },
+    {
+      "kind": "technique",
+      "label": "cook",
+      "id": "technique:cook"
+    },
+    {
+      "kind": "step",
+      "label": "Heat in a frying pan and add a little olive oil.",
+      "id": "step:beef wellington#2"
+    },
+    {
+      "kind": "technique",
+      "label": "sear",
+      "id": "technique:sear"
+    },
+    {
+      "kind": "step",
+      "label": "Remove the beef from the pan and leave to cool, ",
+      "id": "step:beef wellington#3"
+    },
+    {
+      "kind": "technique",
+      "label": "brush",
+      "id": "technique:brush"
+    },
+    {
+      "kind": "step",
+      "label": "Lay a sheet of cling film on a work surface and ",
+      "id": "step:beef wellington#4"
+    },
+    {
+      "kind": "step",
+      "label": "Keeping a tight hold of the cling film from the ",
+      "id": "step:beef wellington#5"
+    },
+    {
+      "kind": "technique",
+      "label": "roll",
+      "id": "technique:roll"
+    },
+    {
+      "kind": "step",
+      "label": "Roll out the puff pastry on a floured surface to",
+      "id": "step:beef wellington#6"
+    },
+    {
+      "kind": "step",
+      "label": "Heat the oven to 200C, 400F, gas 6.",
+      "id": "step:beef wellington#7"
+    },
+    {
+      "kind": "technique",
+      "label": "heat",
+      "id": "technique:heat"
+    },
+    {
+      "kind": "step",
+      "label": "Lightly score the pastry at 1cm intervals and gl",
+      "id": "step:beef wellington#8"
+    },
+    {
+      "kind": "technique",
+      "label": "score",
+      "id": "technique:score"
+    },
+    {
+      "kind": "step",
+      "label": "Bake for 20 minutes, then lower the oven setting",
+      "id": "step:beef wellington#9"
+    },
+    {
+      "kind": "recipe",
+      "label": "Cajun Spiced Fish Tacos",
+      "id": "recipe:cajun spiced fish tacos"
+    },
+    {
+      "kind": "ingredient",
+      "label": "cajun spice",
+      "id": "ingredient:cajun spice"
+    },
+    {
+      "kind": "ingredient",
+      "label": "cayenne pepper",
+      "id": "ingredient:cayenne pepper"
+    },
+    {
+      "kind": "ingredient",
+      "label": "white fish",
+      "id": "ingredient:white fish"
+    },
+    {
+      "kind": "ingredient",
+      "label": "flour tortilla",
+      "id": "ingredient:flour tortilla"
+    },
+    {
+      "kind": "ingredient",
+      "label": "avocado",
+      "id": "ingredient:avocado"
+    },
+    {
+      "kind": "ingredient",
+      "label": "little gem lettuce",
+      "id": "ingredient:little gem lettuce"
+    },
+    {
+      "kind": "ingredient",
+      "label": "spring onion",
+      "id": "ingredient:spring onion"
+    },
+    {
+      "kind": "ingredient",
+      "label": "salsa",
+      "id": "ingredient:salsa"
+    },
+    {
+      "kind": "ingredient",
+      "label": "sour cream",
+      "id": "ingredient:sour cream"
+    },
+    {
+      "kind": "ingredient",
+      "label": "lemon",
+      "id": "ingredient:lemon"
+    },
+    {
+      "kind": "step",
+      "label": "On a large plate, mix the cajun spice and cayenn",
+      "id": "step:cajun spiced fish tacos#0"
+    },
+    {
+      "kind": "step",
+      "label": "Heat a little oil in a frying pan, add in the fi",
+      "id": "step:cajun spiced fish tacos#1"
+    },
+    {
+      "kind": "technique",
+      "label": "fry",
+      "id": "technique:fry"
+    },
+    {
+      "kind": "step",
+      "label": "Meanwhile, prepare the dressing by combining all",
+      "id": "step:cajun spiced fish tacos#2"
+    },
+    {
+      "kind": "technique",
+      "label": "combine",
+      "id": "technique:combine"
+    },
+    {
+      "kind": "step",
+      "label": "Soften the tortillas by heating in the microwave",
+      "id": "step:cajun spiced fish tacos#3"
+    },
+    {
+      "kind": "recipe",
+      "label": "Chicken Handi",
+      "id": "recipe:chicken handi"
+    },
+    {
+      "kind": "ingredient",
+      "label": "chicken",
+      "id": "ingredient:chicken"
+    },
+    {
+      "kind": "ingredient",
+      "label": "tomato",
+      "id": "ingredient:tomato"
+    },
+    {
+      "kind": "ingredient",
+      "label": "ginger paste",
+      "id": "ingredient:ginger paste"
+    },
+    {
+      "kind": "ingredient",
+      "label": "cumin",
+      "id": "ingredient:cumin"
+    },
+    {
+      "kind": "ingredient",
+      "label": "coriander seed",
+      "id": "ingredient:coriander seed"
+    },
+    {
+      "kind": "ingredient",
+      "label": "turmeric",
+      "id": "ingredient:turmeric"
+    },
+    {
+      "kind": "ingredient",
+      "label": "chilli powder",
+      "id": "ingredient:chilli powder"
+    },
+    {
+      "kind": "ingredient",
+      "label": "green chilli",
+      "id": "ingredient:green chilli"
+    },
+    {
+      "kind": "ingredient",
+      "label": "yoghurt",
+      "id": "ingredient:yoghurt"
+    },
+    {
+      "kind": "ingredient",
+      "label": "cream",
+      "id": "ingredient:cream"
+    },
+    {
+      "kind": "ingredient",
+      "label": "dried fenugreek",
+      "id": "ingredient:dried fenugreek"
+    },
+    {
+      "kind": "ingredient",
+      "label": "garam masala",
+      "id": "ingredient:garam masala"
+    },
+    {
+      "kind": "step",
+      "label": "Heat the oil in a large pot or wok. Once the oil",
+      "id": "step:chicken handi#0"
+    },
+    {
+      "kind": "step",
+      "label": "To the same pot, add the chopped garlic and saut",
+      "id": "step:chicken handi#1"
+    },
+    {
+      "kind": "technique",
+      "label": "sauté",
+      "id": "technique:sauté"
+    },
+    {
+      "kind": "step",
+      "label": "Return the fried onion to the pot and stir. Add ",
+      "id": "step:chicken handi#2"
+    },
+    {
+      "kind": "step",
+      "label": "Add the cumin seeds, half of the coriander seeds",
+      "id": "step:chicken handi#3"
+    },
+    {
+      "kind": "technique",
+      "label": "stir",
+      "id": "technique:stir"
+    },
+    {
+      "kind": "step",
+      "label": "Add turmeric powder and red chilli powder. Sauté",
+      "id": "step:chicken handi#4"
+    },
+    {
+      "kind": "step",
+      "label": "Add the chicken pieces to the wok, season with s",
+      "id": "step:chicken handi#5"
+    },
+    {
+      "kind": "step",
+      "label": "When the oil separates from the spices, add the ",
+      "id": "step:chicken handi#6"
+    },
+    {
+      "kind": "step",
+      "label": "Add the cream and give a final mix to combine ev",
+      "id": "step:chicken handi#7"
+    },
+    {
+      "kind": "step",
+      "label": "Sprinkle the remaining kasuri methi and garam ma",
+      "id": "step:chicken handi#8"
+    },
+    {
+      "kind": "technique",
+      "label": "sprinkle",
+      "id": "technique:sprinkle"
+    },
+    {
+      "kind": "recipe",
+      "label": "Croatian Bean Stew",
+      "id": "recipe:croatian bean stew"
+    },
+    {
+      "kind": "ingredient",
+      "label": "cannellini beans",
+      "id": "ingredient:cannellini beans"
+    },
+    {
+      "kind": "ingredient",
+      "label": "challots",
+      "id": "ingredient:challots"
+    },
+    {
+      "kind": "ingredient",
+      "label": "parsley",
+      "id": "ingredient:parsley"
+    },
+    {
+      "kind": "ingredient",
+      "label": "chorizo",
+      "id": "ingredient:chorizo"
+    },
+    {
+      "kind": "step",
+      "label": "Heat the oil in a pan.",
+      "id": "step:croatian bean stew#0"
+    },
+    {
+      "kind": "step",
+      "label": "Add the chopped vegetables and sauté until tende",
+      "id": "step:croatian bean stew#1"
+    },
+    {
+      "kind": "step",
+      "label": "Take a pot, empty the beans together with the ve",
+      "id": "step:croatian bean stew#2"
+    },
+    {
+      "kind": "step",
+      "label": "Or, put it in an oven and bake it at a temperatu",
+      "id": "step:croatian bean stew#3"
+    },
+    {
+      "kind": "step",
+      "label": "This dish is even better reheated the next day.",
+      "id": "step:croatian bean stew#4"
+    },
+    {
+      "kind": "technique",
+      "label": "reheat",
+      "id": "technique:reheat"
+    },
+    {
+      "kind": "recipe",
+      "label": "Egyptian Fatteh",
+      "id": "recipe:egyptian fatteh"
+    },
+    {
+      "kind": "ingredient",
+      "label": "chicken stock cube",
+      "id": "ingredient:chicken stock cube"
+    },
+    {
+      "kind": "ingredient",
+      "label": "tomato paste",
+      "id": "ingredient:tomato paste"
+    },
+    {
+      "kind": "ingredient",
+      "label": "rice",
+      "id": "ingredient:rice"
+    },
+    {
+      "kind": "ingredient",
+      "label": "pita bread",
+      "id": "ingredient:pita bread"
+    },
+    {
+      "kind": "ingredient",
+      "label": "white wine vinegar",
+      "id": "ingredient:white wine vinegar"
+    },
+    {
+      "kind": "step",
+      "label": "Take pita bread and rip into bite size pieces. I",
+      "id": "step:egyptian fatteh#0"
+    },
+    {
+      "kind": "step",
+      "label": "Add to the same pan a little more butter, salt, ",
+      "id": "step:egyptian fatteh#1"
+    },
+    {
+      "kind": "step",
+      "label": "Put some butter in a pot, stir fry meat until br",
+      "id": "step:egyptian fatteh#2"
+    },
+    {
+      "kind": "technique",
+      "label": "stir fry",
+      "id": "technique:stir fry"
+    },
+    {
+      "kind": "step",
+      "label": "Put some butter into a pot, add fideo noodles, k",
+      "id": "step:egyptian fatteh#3"
+    },
+    {
+      "kind": "step",
+      "label": "Take some of the reserved meat soup and add to t",
+      "id": "step:egyptian fatteh#4"
+    },
+    {
+      "kind": "technique",
+      "label": "spoon",
+      "id": "technique:spoon"
+    },
+    {
+      "kind": "step",
+      "label": "In a pan, add a little oil or butter, crushed to",
+      "id": "step:egyptian fatteh#5"
+    },
+    {
+      "kind": "step",
+      "label": "In a pan add a bit of butter or oil, the meat, j",
+      "id": "step:egyptian fatteh#6"
+    },
+    {
+      "kind": "recipe",
+      "label": "French Onion Soup",
+      "id": "recipe:french onion soup"
+    },
+    {
+      "kind": "ingredient",
+      "label": "dry white wine",
+      "id": "ingredient:dry white wine"
+    },
+    {
+      "kind": "ingredient",
+      "label": "beef stock",
+      "id": "ingredient:beef stock"
+    },
+    {
+      "kind": "ingredient",
+      "label": "bread",
+      "id": "ingredient:bread"
+    },
+    {
+      "kind": "ingredient",
+      "label": "gruyère",
+      "id": "ingredient:gruyère"
+    },
+    {
+      "kind": "step",
+      "label": "Melt the butter with the oil in a large heavy-ba",
+      "id": "step:french onion soup#0"
+    },
+    {
+      "kind": "step",
+      "label": "Add the onions and fry with the lid on for 10 mi",
+      "id": "step:french onion soup#1"
+    },
+    {
+      "kind": "step",
+      "label": "Sprinkle in the sugar and cook for 20 mins more,",
+      "id": "step:french onion soup#2"
+    },
+    {
+      "kind": "technique",
+      "label": "caramelise",
+      "id": "technique:caramelise"
+    },
+    {
+      "kind": "step",
+      "label": "Add the garlic for the final few mins of the oni",
+      "id": "step:french onion soup#3"
+    },
+    {
+      "kind": "step",
+      "label": "Increase the heat and keep stirring as you gradu",
+      "id": "step:french onion soup#4"
+    },
+    {
+      "kind": "technique",
+      "label": "simmer",
+      "id": "technique:simmer"
+    },
+    {
+      "kind": "step",
+      "label": "Turn on the grill and toast the bread.",
+      "id": "step:french onion soup#5"
+    },
+    {
+      "kind": "technique",
+      "label": "toast",
+      "id": "technique:toast"
+    },
+    {
+      "kind": "step",
+      "label": "Ladle the soup into heatproof bowls. Put a slice",
+      "id": "step:french onion soup#6"
+    },
+    {
+      "kind": "technique",
+      "label": "grill",
+      "id": "technique:grill"
+    },
+    {
+      "kind": "recipe",
+      "label": "Lamb Tagine",
+      "id": "recipe:lamb tagine"
+    },
+    {
+      "kind": "ingredient",
+      "label": "carrots",
+      "id": "ingredient:carrots"
+    },
+    {
+      "kind": "ingredient",
+      "label": "lamb leg",
+      "id": "ingredient:lamb leg"
+    },
+    {
+      "kind": "ingredient",
+      "label": "saffron",
+      "id": "ingredient:saffron"
+    },
+    {
+      "kind": "ingredient",
+      "label": "cinnamon",
+      "id": "ingredient:cinnamon"
+    },
+    {
+      "kind": "ingredient",
+      "label": "honey",
+      "id": "ingredient:honey"
+    },
+    {
+      "kind": "ingredient",
+      "label": "apricot",
+      "id": "ingredient:apricot"
+    },
+    {
+      "kind": "ingredient",
+      "label": "vegetable stock cube",
+      "id": "ingredient:vegetable stock cube"
+    },
+    {
+      "kind": "ingredient",
+      "label": "butternut squash",
+      "id": "ingredient:butternut squash"
+    },
+    {
+      "kind": "ingredient",
+      "label": "steamed couscous",
+      "id": "ingredient:steamed couscous"
+    },
+    {
+      "kind": "ingredient",
+      "label": "chopped parsley",
+      "id": "ingredient:chopped parsley"
+    },
+    {
+      "kind": "step",
+      "label": "Heat the olive oil in a heavy-based pan and add ",
+      "id": "step:lamb tagine#0"
+    },
+    {
+      "kind": "step",
+      "label": "Add the diced lamb and brown all over. Stir in t",
+      "id": "step:lamb tagine#1"
+    },
+    {
+      "kind": "technique",
+      "label": "brown",
+      "id": "technique:brown"
+    },
+    {
+      "kind": "step",
+      "label": "Add the honey and apricots, crumble in the stock",
+      "id": "step:lamb tagine#2"
+    },
+    {
+      "kind": "step",
+      "label": "Remove the lid and cook for a further 30 mins, t",
+      "id": "step:lamb tagine#3"
+    },
+    {
+      "kind": "step",
+      "label": "Serve alongside rice or couscous and sprinkle wi",
+      "id": "step:lamb tagine#4"
+    },
+    {
+      "kind": "recipe",
+      "label": "Pancakes",
+      "id": "recipe:pancakes"
+    },
+    {
+      "kind": "ingredient",
+      "label": "milk",
+      "id": "ingredient:milk"
+    },
+    {
+      "kind": "ingredient",
+      "label": "sunflower oil",
+      "id": "ingredient:sunflower oil"
+    },
+    {
+      "kind": "ingredient",
+      "label": "raspberries",
+      "id": "ingredient:raspberries"
+    },
+    {
+      "kind": "ingredient",
+      "label": "blueberries",
+      "id": "ingredient:blueberries"
+    },
+    {
+      "kind": "step",
+      "label": "Put the flour, eggs, milk, 1 tbsp oil and a pinc",
+      "id": "step:pancakes#0"
+    },
+    {
+      "kind": "technique",
+      "label": "whisk",
+      "id": "technique:whisk"
+    },
+    {
+      "kind": "step",
+      "label": "Set a medium frying pan or crêpe pan over a medi",
+      "id": "step:pancakes#1"
+    },
+    {
+      "kind": "step",
+      "label": "Serve with lemon wedges and sugar, or your favou",
+      "id": "step:pancakes#2"
+    },
+    {
+      "kind": "recipe",
+      "label": "Spaghetti Bolognese",
+      "id": "recipe:spaghetti bolognese"
+    },
+    {
+      "kind": "ingredient",
+      "label": "lean minced beef",
+      "id": "ingredient:lean minced beef"
+    },
+    {
+      "kind": "ingredient",
+      "label": "dried oregano",
+      "id": "ingredient:dried oregano"
+    },
+    {
+      "kind": "ingredient",
+      "label": "tinned tomato",
+      "id": "ingredient:tinned tomato"
+    },
+    {
+      "kind": "ingredient",
+      "label": "hot beef stock",
+      "id": "ingredient:hot beef stock"
+    },
+    {
+      "kind": "ingredient",
+      "label": "worcestershire sauce",
+      "id": "ingredient:worcestershire sauce"
+    },
+    {
+      "kind": "ingredient",
+      "label": "spaghetti",
+      "id": "ingredient:spaghetti"
+    },
+    {
+      "kind": "ingredient",
+      "label": "parmesan",
+      "id": "ingredient:parmesan"
+    },
+    {
+      "kind": "step",
+      "label": "Put the onion and oil in a large pan and fry ove",
+      "id": "step:spaghetti bolognese#0"
+    },
+    {
+      "kind": "step",
+      "label": "Add the garlic and mince and fry until they both",
+      "id": "step:spaghetti bolognese#1"
+    },
+    {
+      "kind": "step",
+      "label": "Add the mushrooms and herbs, and cook for anothe",
+      "id": "step:spaghetti bolognese#2"
+    },
+    {
+      "kind": "step",
+      "label": "Stir in the tomatoes, beef stock, tomato ketchup",
+      "id": "step:spaghetti bolognese#3"
+    },
+    {
+      "kind": "step",
+      "label": "Meanwhile, cook the spaghetti in a large pan of ",
+      "id": "step:spaghetti bolognese#4"
+    },
+    {
+      "kind": "step",
+      "label": "Drain well, run hot water through it, put it bac",
+      "id": "step:spaghetti bolognese#5"
+    },
+    {
+      "kind": "step",
+      "label": "Serve in hot bowls and hand round Parmesan chees",
+      "id": "step:spaghetti bolognese#6"
+    },
+    {
+      "kind": "recipe",
+      "label": "Teriyaki Chicken Casserole",
+      "id": "recipe:teriyaki chicken casserole"
+    },
+    {
+      "kind": "ingredient",
+      "label": "brown sugar",
+      "id": "ingredient:brown sugar"
+    },
+    {
+      "kind": "ingredient",
+      "label": "ground ginger",
+      "id": "ingredient:ground ginger"
+    },
+    {
+      "kind": "ingredient",
+      "label": "cornflour",
+      "id": "ingredient:cornflour"
+    },
+    {
+      "kind": "ingredient",
+      "label": "chicken breasts",
+      "id": "ingredient:chicken breasts"
+    },
+    {
+      "kind": "ingredient",
+      "label": "stir-fry vegetables",
+      "id": "ingredient:stir-fry vegetables"
+    },
+    {
+      "kind": "ingredient",
+      "label": "brown rice",
+      "id": "ingredient:brown rice"
+    },
+    {
+      "kind": "step",
+      "label": "Preheat oven to 350° F. Spray a 9x13-inch baking",
+      "id": "step:teriyaki chicken casserole#0"
+    },
+    {
+      "kind": "step",
+      "label": "Combine soy sauce, ½ cup water, brown sugar, gin",
+      "id": "step:teriyaki chicken casserole#1"
+    },
+    {
+      "kind": "step",
+      "label": "Stir together the corn starch and 2 tablespoons ",
+      "id": "step:teriyaki chicken casserole#2"
+    },
+    {
+      "kind": "step",
+      "label": "Place the chicken breasts in the prepared pan. P",
+      "id": "step:teriyaki chicken casserole#3"
+    },
+    {
+      "kind": "step",
+      "label": "Remove from oven and shred chicken in the dish u",
+      "id": "step:teriyaki chicken casserole#4"
+    },
+    {
+      "kind": "technique",
+      "label": "shred",
+      "id": "technique:shred"
+    },
+    {
+      "kind": "step",
+      "label": "Meanwhile, steam or cook the vegetables accordin",
+      "id": "step:teriyaki chicken casserole#5"
+    },
+    {
+      "kind": "technique",
+      "label": "steam",
+      "id": "technique:steam"
+    },
+    {
+      "kind": "step",
+      "label": "Add the cooked vegetables and rice to the casser",
+      "id": "step:teriyaki chicken casserole#6"
+    },
+    {
+      "kind": "technique",
+      "label": "toss",
+      "id": "technique:toss"
+    },
+    {
+      "kind": "step",
+      "label": "Remove from oven and let stand 5 minutes before ",
+      "id": "step:teriyaki chicken casserole#7"
+    },
+    {
+      "kind": "technique",
+      "label": "drizzle",
+      "id": "technique:drizzle"
+    },
+    {
+      "kind": "recipe",
+      "label": "Tuna Nicoise",
+      "id": "recipe:tuna nicoise"
+    },
+    {
+      "kind": "ingredient",
+      "label": "potato",
+      "id": "ingredient:potato"
+    },
+    {
+      "kind": "ingredient",
+      "label": "red wine vinegar",
+      "id": "ingredient:red wine vinegar"
+    },
+    {
+      "kind": "ingredient",
+      "label": "capers",
+      "id": "ingredient:capers"
+    },
+    {
+      "kind": "ingredient",
+      "label": "red onions",
+      "id": "ingredient:red onions"
+    },
+    {
+      "kind": "ingredient",
+      "label": "spinach",
+      "id": "ingredient:spinach"
+    },
+    {
+      "kind": "ingredient",
+      "label": "tuna",
+      "id": "ingredient:tuna"
+    },
+    {
+      "kind": "step",
+      "label": "Heat oven to 200C/fan 180C/gas 6. Toss the potat",
+      "id": "step:tuna nicoise#0"
+    },
+    {
+      "kind": "technique",
+      "label": "roast",
+      "id": "technique:roast"
+    },
+    {
+      "kind": "step",
+      "label": "Meanwhile, put eggs in a small pan of water, bri",
+      "id": "step:tuna nicoise#1"
+    },
+    {
+      "kind": "step",
+      "label": "In a large salad bowl, whisk together the remain",
+      "id": "step:tuna nicoise#2"
+    },
+    {
+      "kind": "recipe",
+      "label": "Vegetarian Chilli",
+      "id": "recipe:vegetarian chilli"
+    },
+    {
+      "kind": "ingredient",
+      "label": "roasted vegetables",
+      "id": "ingredient:roasted vegetables"
+    },
+    {
+      "kind": "ingredient",
+      "label": "kidney beans",
+      "id": "ingredient:kidney beans"
+    },
+    {
+      "kind": "ingredient",
+      "label": "mixed grain",
+      "id": "ingredient:mixed grain"
+    },
+    {
+      "kind": "step",
+      "label": "Heat oven to 200C/180C fan/gas 6.",
+      "id": "step:vegetarian chilli#0"
+    },
+    {
+      "kind": "step",
+      "label": "Cook the vegetables in a casserole dish for 15 m",
+      "id": "step:vegetarian chilli#1"
+    },
+    {
+      "kind": "step",
+      "label": "Tip in the beans and tomatoes, season, and cook ",
+      "id": "step:vegetarian chilli#2"
+    },
+    {
+      "kind": "step",
+      "label": "Heat the pouch in the microwave on High for 1 mi",
+      "id": "step:vegetarian chilli#3"
+    }
+  ],
+  "links": [
+    {
+      "rel": "CONTAINS",
+      "qty": 175.0,
+      "unit": "g",
+      "source": "recipe:apple frangipan tart",
+      "target": "ingredient:digestive biscuits",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 75.0,
+      "unit": "g",
+      "source": "recipe:apple frangipan tart",
+      "target": "ingredient:butter",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 200.0,
+      "unit": "g",
+      "source": "recipe:apple frangipan tart",
+      "target": "ingredient:bramley apples",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 75.0,
+      "unit": "g",
+      "source": "recipe:apple frangipan tart",
+      "target": "ingredient:sugar",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": null,
+      "source": "recipe:apple frangipan tart",
+      "target": "ingredient:free-range eggs, beaten",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 75.0,
+      "unit": "g",
+      "source": "recipe:apple frangipan tart",
+      "target": "ingredient:ground almonds",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:apple frangipan tart",
+      "target": "ingredient:almond extract",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 50.0,
+      "unit": "g",
+      "source": "recipe:apple frangipan tart",
+      "target": "ingredient:flaked almonds",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 4,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#4",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 5,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#5",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 6,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#6",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 7,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#7",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 8,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#8",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 9,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#9",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 10,
+      "source": "recipe:apple frangipan tart",
+      "target": "step:apple frangipan tart#10",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#0",
+      "target": "technique:preheat",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#1",
+      "target": "technique:bash",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#1",
+      "target": "ingredient:digestive biscuits",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#2",
+      "target": "technique:melt",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#2",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#2",
+      "target": "ingredient:digestive biscuits",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#3",
+      "target": "technique:press",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#3",
+      "target": "ingredient:digestive biscuits",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#3",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#4",
+      "target": "technique:cream",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#4",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#4",
+      "target": "ingredient:sugar",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#5",
+      "target": "technique:blend",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#5",
+      "target": "ingredient:free-range eggs, beaten",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#5",
+      "target": "ingredient:ground almonds",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#5",
+      "target": "ingredient:almond extract",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#6",
+      "target": "technique:cut",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#6",
+      "target": "ingredient:bramley apples",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#7",
+      "target": "technique:spread",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#7",
+      "target": "ingredient:bramley apples",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:apple frangipan tart#7",
+      "target": "ingredient:flaked almonds",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#8",
+      "target": "technique:bake",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#9",
+      "target": "technique:cool",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:apple frangipan tart#10",
+      "target": "technique:serve",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "lb",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:beef",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": "pinch",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:salt",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": "pinch",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:black pepper",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "tsp",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:sesame seed oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": null,
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:egg",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 3.0,
+      "unit": "tbs",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:starch",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 5.0,
+      "unit": "tbs",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.25,
+      "unit": "lb",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:noodles",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "cup",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:ginger",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "cup",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:bean sprouts",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "cup",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:mushrooms",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "cup",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:water",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbs",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:oyster sauce",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:sugar",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:soy sauce",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:beef lo mein",
+      "target": "step:beef lo mein#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:beef lo mein",
+      "target": "step:beef lo mein#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:beef lo mein",
+      "target": "step:beef lo mein#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:beef lo mein",
+      "target": "step:beef lo mein#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 4,
+      "source": "recipe:beef lo mein",
+      "target": "step:beef lo mein#4",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 5,
+      "source": "recipe:beef lo mein",
+      "target": "step:beef lo mein#5",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 6,
+      "source": "recipe:beef lo mein",
+      "target": "step:beef lo mein#6",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef lo mein#0",
+      "target": "technique:mix",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#0",
+      "target": "ingredient:beef",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#0",
+      "target": "ingredient:salt",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#0",
+      "target": "ingredient:black pepper",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#0",
+      "target": "ingredient:sesame seed oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#0",
+      "target": "ingredient:egg",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#0",
+      "target": "ingredient:starch",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#0",
+      "target": "ingredient:oil",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef lo mein#1",
+      "target": "technique:boil",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#1",
+      "target": "ingredient:noodles",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#1",
+      "target": "ingredient:water",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef lo mein#2",
+      "target": "technique:stir-fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#2",
+      "target": "ingredient:oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#2",
+      "target": "ingredient:beef",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef lo mein#3",
+      "target": "technique:stir-fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#3",
+      "target": "ingredient:oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#3",
+      "target": "ingredient:onion",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#3",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#3",
+      "target": "ingredient:ginger",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#3",
+      "target": "ingredient:bean sprouts",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#3",
+      "target": "ingredient:mushrooms",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#3",
+      "target": "ingredient:water",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef lo mein#4",
+      "target": "technique:stir-fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#4",
+      "target": "ingredient:noodles",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef lo mein#5",
+      "target": "technique:mix",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#5",
+      "target": "ingredient:oyster sauce",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#5",
+      "target": "ingredient:black pepper",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#5",
+      "target": "ingredient:sesame seed oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#5",
+      "target": "ingredient:sugar",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#5",
+      "target": "ingredient:soy sauce",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef lo mein#6",
+      "target": "technique:stir-fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef lo mein#6",
+      "target": "ingredient:beef",
+      "key": "USES"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 400.0,
+      "unit": "g",
+      "source": "recipe:beef wellington",
+      "target": "ingredient:mushrooms",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbsp",
+      "source": "recipe:beef wellington",
+      "target": "ingredient:english mustard",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": "Dash",
+      "source": "recipe:beef wellington",
+      "target": "ingredient:olive oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 750.0,
+      "unit": "g",
+      "source": "recipe:beef wellington",
+      "target": "ingredient:beef fillet",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 6.0,
+      "unit": "slices",
+      "source": "recipe:beef wellington",
+      "target": "ingredient:parma ham",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 500.0,
+      "unit": "g",
+      "source": "recipe:beef wellington",
+      "target": "ingredient:puff pastry",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": "Dusting",
+      "source": "recipe:beef wellington",
+      "target": "ingredient:flour",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": null,
+      "source": "recipe:beef wellington",
+      "target": "ingredient:beaten egg yolks",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:beef wellington",
+      "target": "step:beef wellington#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:beef wellington",
+      "target": "step:beef wellington#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:beef wellington",
+      "target": "step:beef wellington#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:beef wellington",
+      "target": "step:beef wellington#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 4,
+      "source": "recipe:beef wellington",
+      "target": "step:beef wellington#4",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 5,
+      "source": "recipe:beef wellington",
+      "target": "step:beef wellington#5",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 6,
+      "source": "recipe:beef wellington",
+      "target": "step:beef wellington#6",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 7,
+      "source": "recipe:beef wellington",
+      "target": "step:beef wellington#7",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 8,
+      "source": "recipe:beef wellington",
+      "target": "step:beef wellington#8",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 9,
+      "source": "recipe:beef wellington",
+      "target": "step:beef wellington#9",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef wellington#0",
+      "target": "technique:pulse",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#0",
+      "target": "ingredient:mushrooms",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef wellington#1",
+      "target": "technique:cook",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#1",
+      "target": "ingredient:mushrooms",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef wellington#2",
+      "target": "technique:sear",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#2",
+      "target": "ingredient:olive oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#2",
+      "target": "ingredient:beef fillet",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef wellington#3",
+      "target": "technique:brush",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#3",
+      "target": "ingredient:beef fillet",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#3",
+      "target": "ingredient:english mustard",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef wellington#4",
+      "target": "technique:spread",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#4",
+      "target": "ingredient:parma ham",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#4",
+      "target": "ingredient:mushrooms",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#4",
+      "target": "ingredient:beef fillet",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef wellington#5",
+      "target": "technique:roll",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#5",
+      "target": "ingredient:parma ham",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#5",
+      "target": "ingredient:mushrooms",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#5",
+      "target": "ingredient:beef fillet",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef wellington#6",
+      "target": "technique:roll",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#6",
+      "target": "ingredient:puff pastry",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#6",
+      "target": "ingredient:flour",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#6",
+      "target": "ingredient:beef fillet",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#6",
+      "target": "ingredient:beaten egg yolks",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef wellington#7",
+      "target": "technique:heat",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef wellington#8",
+      "target": "technique:score",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#8",
+      "target": "ingredient:puff pastry",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:beef wellington#8",
+      "target": "ingredient:beaten egg yolks",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:beef wellington#9",
+      "target": "technique:bake",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "tbsp",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:cajun spice",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:cayenne pepper",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 4.0,
+      "unit": "fillets",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:white fish",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 8.0,
+      "unit": null,
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:flour tortilla",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "sliced",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:avocado",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "shredded",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:little gem lettuce",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 4.0,
+      "unit": "shredded",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:spring onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 300.0,
+      "unit": "ml",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:salsa",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "pot",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:sour cream",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": null,
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:lemon",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "clove finely chopped",
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "step:cajun spiced fish tacos#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "step:cajun spiced fish tacos#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "step:cajun spiced fish tacos#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:cajun spiced fish tacos",
+      "target": "step:cajun spiced fish tacos#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:cajun spiced fish tacos#0",
+      "target": "technique:mix",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#0",
+      "target": "ingredient:cajun spice",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#0",
+      "target": "ingredient:cayenne pepper",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#0",
+      "target": "ingredient:white fish",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:cajun spiced fish tacos#1",
+      "target": "technique:fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#1",
+      "target": "ingredient:oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#1",
+      "target": "ingredient:white fish",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:cajun spiced fish tacos#2",
+      "target": "technique:combine",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#2",
+      "target": "ingredient:sour cream",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#2",
+      "target": "ingredient:lemon",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#2",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:cajun spiced fish tacos#3",
+      "target": "technique:heat",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#3",
+      "target": "ingredient:flour tortilla",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#3",
+      "target": "ingredient:avocado",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#3",
+      "target": "ingredient:little gem lettuce",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#3",
+      "target": "ingredient:spring onion",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#3",
+      "target": "ingredient:salsa",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#3",
+      "target": "ingredient:white fish",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:cajun spiced fish tacos#3",
+      "target": "ingredient:sour cream",
+      "key": "USES"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.2,
+      "unit": "kg",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:chicken",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 5.0,
+      "unit": "thinly sliced",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "finely chopped",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:tomato",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 8.0,
+      "unit": "cloves chopped",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbsp",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:ginger paste",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.25,
+      "unit": "cup",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "tsp",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:cumin",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 3.0,
+      "unit": "tsp",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:coriander seed",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:turmeric",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:chilli powder",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": null,
+      "source": "recipe:chicken handi",
+      "target": "ingredient:green chilli",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "cup",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:yoghurt",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.75,
+      "unit": "cup",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:cream",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 3.0,
+      "unit": "tsp",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:dried fenugreek",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:chicken handi",
+      "target": "ingredient:garam masala",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:chicken handi",
+      "target": "ingredient:salt",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:chicken handi",
+      "target": "step:chicken handi#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:chicken handi",
+      "target": "step:chicken handi#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:chicken handi",
+      "target": "step:chicken handi#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:chicken handi",
+      "target": "step:chicken handi#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 4,
+      "source": "recipe:chicken handi",
+      "target": "step:chicken handi#4",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 5,
+      "source": "recipe:chicken handi",
+      "target": "step:chicken handi#5",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 6,
+      "source": "recipe:chicken handi",
+      "target": "step:chicken handi#6",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 7,
+      "source": "recipe:chicken handi",
+      "target": "step:chicken handi#7",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 8,
+      "source": "recipe:chicken handi",
+      "target": "step:chicken handi#8",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:chicken handi#0",
+      "target": "technique:fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#0",
+      "target": "ingredient:oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#0",
+      "target": "ingredient:onion",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:chicken handi#1",
+      "target": "technique:sauté",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#1",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#1",
+      "target": "ingredient:tomato",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:chicken handi#2",
+      "target": "technique:sauté",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#2",
+      "target": "ingredient:onion",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#2",
+      "target": "ingredient:ginger paste",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:chicken handi#3",
+      "target": "technique:stir",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#3",
+      "target": "ingredient:cumin",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#3",
+      "target": "ingredient:coriander seed",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#3",
+      "target": "ingredient:green chilli",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:chicken handi#4",
+      "target": "technique:sauté",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#4",
+      "target": "ingredient:turmeric",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#4",
+      "target": "ingredient:chilli powder",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:chicken handi#5",
+      "target": "technique:cook",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#5",
+      "target": "ingredient:chicken",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#5",
+      "target": "ingredient:salt",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:chicken handi#6",
+      "target": "technique:mix",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#6",
+      "target": "ingredient:yoghurt",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#6",
+      "target": "ingredient:coriander seed",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#6",
+      "target": "ingredient:dried fenugreek",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:chicken handi#7",
+      "target": "technique:mix",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#7",
+      "target": "ingredient:cream",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:chicken handi#8",
+      "target": "technique:sprinkle",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#8",
+      "target": "ingredient:dried fenugreek",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:chicken handi#8",
+      "target": "ingredient:garam masala",
+      "key": "USES"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "cans",
+      "source": "recipe:croatian bean stew",
+      "target": "ingredient:cannellini beans",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 3.0,
+      "unit": "tbs",
+      "source": "recipe:croatian bean stew",
+      "target": "ingredient:oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "cups",
+      "source": "recipe:croatian bean stew",
+      "target": "ingredient:tomato",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 5.0,
+      "unit": null,
+      "source": "recipe:croatian bean stew",
+      "target": "ingredient:challots",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "cloves",
+      "source": "recipe:croatian bean stew",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": "Pinch",
+      "source": "recipe:croatian bean stew",
+      "target": "ingredient:parsley",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "kg",
+      "source": "recipe:croatian bean stew",
+      "target": "ingredient:chorizo",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:croatian bean stew",
+      "target": "step:croatian bean stew#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:croatian bean stew",
+      "target": "step:croatian bean stew#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:croatian bean stew",
+      "target": "step:croatian bean stew#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:croatian bean stew",
+      "target": "step:croatian bean stew#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 4,
+      "source": "recipe:croatian bean stew",
+      "target": "step:croatian bean stew#4",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:croatian bean stew#0",
+      "target": "technique:heat",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#0",
+      "target": "ingredient:oil",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:croatian bean stew#1",
+      "target": "technique:sauté",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#1",
+      "target": "ingredient:tomato",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#1",
+      "target": "ingredient:challots",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#1",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#1",
+      "target": "ingredient:parsley",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:croatian bean stew#2",
+      "target": "technique:cook",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#2",
+      "target": "ingredient:cannellini beans",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#2",
+      "target": "ingredient:tomato",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#2",
+      "target": "ingredient:challots",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#2",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#2",
+      "target": "ingredient:parsley",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#2",
+      "target": "ingredient:chorizo",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:croatian bean stew#3",
+      "target": "technique:bake",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#3",
+      "target": "ingredient:cannellini beans",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#3",
+      "target": "ingredient:tomato",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#3",
+      "target": "ingredient:challots",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#3",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#3",
+      "target": "ingredient:parsley",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:croatian bean stew#3",
+      "target": "ingredient:chorizo",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:croatian bean stew#4",
+      "target": "technique:reheat",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "lb",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:beef",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": null,
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": null,
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:chicken stock cube",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": null,
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:tomato",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 4.0,
+      "unit": null,
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbs",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:tomato paste",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "cups",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:rice",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.25,
+      "unit": "cup",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:noodles",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.25,
+      "unit": "cup",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:butter",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "cups",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:olive oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": null,
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:pita bread",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbs",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:cumin",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 3.0,
+      "unit": "tbs",
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:white wine vinegar",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:salt",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:egyptian fatteh",
+      "target": "ingredient:black pepper",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:egyptian fatteh",
+      "target": "step:egyptian fatteh#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:egyptian fatteh",
+      "target": "step:egyptian fatteh#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:egyptian fatteh",
+      "target": "step:egyptian fatteh#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:egyptian fatteh",
+      "target": "step:egyptian fatteh#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 4,
+      "source": "recipe:egyptian fatteh",
+      "target": "step:egyptian fatteh#4",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 5,
+      "source": "recipe:egyptian fatteh",
+      "target": "step:egyptian fatteh#5",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 6,
+      "source": "recipe:egyptian fatteh",
+      "target": "step:egyptian fatteh#6",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:egyptian fatteh#0",
+      "target": "technique:fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#0",
+      "target": "ingredient:pita bread",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#0",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:egyptian fatteh#1",
+      "target": "technique:stir",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#1",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#1",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#1",
+      "target": "ingredient:cumin",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#1",
+      "target": "ingredient:salt",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#1",
+      "target": "ingredient:pita bread",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:egyptian fatteh#2",
+      "target": "technique:stir fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#2",
+      "target": "ingredient:beef",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#2",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#2",
+      "target": "ingredient:onion",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#2",
+      "target": "ingredient:salt",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#2",
+      "target": "ingredient:black pepper",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#2",
+      "target": "ingredient:chicken stock cube",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:egyptian fatteh#3",
+      "target": "technique:stir",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#3",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#3",
+      "target": "ingredient:noodles",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#3",
+      "target": "ingredient:rice",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#3",
+      "target": "ingredient:salt",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:egyptian fatteh#4",
+      "target": "technique:spoon",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#4",
+      "target": "ingredient:pita bread",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#4",
+      "target": "ingredient:rice",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:egyptian fatteh#5",
+      "target": "technique:stir",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#5",
+      "target": "ingredient:olive oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#5",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#5",
+      "target": "ingredient:tomato",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#5",
+      "target": "ingredient:tomato paste",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#5",
+      "target": "ingredient:salt",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#5",
+      "target": "ingredient:black pepper",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#5",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#5",
+      "target": "ingredient:cumin",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#5",
+      "target": "ingredient:white wine vinegar",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:egyptian fatteh#6",
+      "target": "technique:fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#6",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#6",
+      "target": "ingredient:olive oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#6",
+      "target": "ingredient:beef",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#6",
+      "target": "ingredient:tomato paste",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#6",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#6",
+      "target": "ingredient:salt",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#6",
+      "target": "ingredient:black pepper",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:egyptian fatteh#6",
+      "target": "ingredient:cumin",
+      "key": "USES"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 50.0,
+      "unit": "g",
+      "source": "recipe:french onion soup",
+      "target": "ingredient:butter",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbs",
+      "source": "recipe:french onion soup",
+      "target": "ingredient:olive oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "kg",
+      "source": "recipe:french onion soup",
+      "target": "ingredient:onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:french onion soup",
+      "target": "ingredient:sugar",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 4.0,
+      "unit": "sliced",
+      "source": "recipe:french onion soup",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "tbs",
+      "source": "recipe:french onion soup",
+      "target": "ingredient:flour",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 250.0,
+      "unit": "ml",
+      "source": "recipe:french onion soup",
+      "target": "ingredient:dry white wine",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "L",
+      "source": "recipe:french onion soup",
+      "target": "ingredient:beef stock",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 4.0,
+      "unit": "sliced",
+      "source": "recipe:french onion soup",
+      "target": "ingredient:bread",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 140.0,
+      "unit": "g",
+      "source": "recipe:french onion soup",
+      "target": "ingredient:gruyère",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:french onion soup",
+      "target": "step:french onion soup#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:french onion soup",
+      "target": "step:french onion soup#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:french onion soup",
+      "target": "step:french onion soup#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:french onion soup",
+      "target": "step:french onion soup#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 4,
+      "source": "recipe:french onion soup",
+      "target": "step:french onion soup#4",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 5,
+      "source": "recipe:french onion soup",
+      "target": "step:french onion soup#5",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 6,
+      "source": "recipe:french onion soup",
+      "target": "step:french onion soup#6",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:french onion soup#0",
+      "target": "technique:melt",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#0",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#0",
+      "target": "ingredient:olive oil",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:french onion soup#1",
+      "target": "technique:fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#1",
+      "target": "ingredient:onion",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:french onion soup#2",
+      "target": "technique:caramelise",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#2",
+      "target": "ingredient:sugar",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#2",
+      "target": "ingredient:onion",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:french onion soup#3",
+      "target": "technique:stir",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#3",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#3",
+      "target": "ingredient:flour",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:french onion soup#4",
+      "target": "technique:simmer",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#4",
+      "target": "ingredient:dry white wine",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#4",
+      "target": "ingredient:beef stock",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:french onion soup#5",
+      "target": "technique:toast",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#5",
+      "target": "ingredient:bread",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:french onion soup#6",
+      "target": "technique:grill",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#6",
+      "target": "ingredient:bread",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:french onion soup#6",
+      "target": "ingredient:gruyère",
+      "key": "USES"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "tblsp",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:olive oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": null,
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": null,
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:carrots",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 500.0,
+      "unit": "g",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:lamb leg",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "cloves",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "tsp",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:cumin",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "tsp",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:ginger",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.25,
+      "unit": "tsp",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:saffron",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:cinnamon",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tblsp",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:honey",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 100.0,
+      "unit": "g",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:apricot",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": null,
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:vegetable stock cube",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "medium",
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:butternut squash",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:steamed couscous",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:lamb tagine",
+      "target": "ingredient:chopped parsley",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:lamb tagine",
+      "target": "step:lamb tagine#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:lamb tagine",
+      "target": "step:lamb tagine#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:lamb tagine",
+      "target": "step:lamb tagine#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:lamb tagine",
+      "target": "step:lamb tagine#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 4,
+      "source": "recipe:lamb tagine",
+      "target": "step:lamb tagine#4",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:lamb tagine#0",
+      "target": "technique:heat",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#0",
+      "target": "ingredient:olive oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#0",
+      "target": "ingredient:onion",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#0",
+      "target": "ingredient:carrots",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:lamb tagine#1",
+      "target": "technique:brown",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#1",
+      "target": "ingredient:lamb leg",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#1",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#1",
+      "target": "ingredient:cumin",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#1",
+      "target": "ingredient:ginger",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#1",
+      "target": "ingredient:saffron",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#1",
+      "target": "ingredient:cinnamon",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:lamb tagine#2",
+      "target": "technique:simmer",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#2",
+      "target": "ingredient:honey",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#2",
+      "target": "ingredient:apricot",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#2",
+      "target": "ingredient:vegetable stock cube",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:lamb tagine#3",
+      "target": "technique:stir",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#3",
+      "target": "ingredient:butternut squash",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:lamb tagine#4",
+      "target": "technique:serve",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#4",
+      "target": "ingredient:steamed couscous",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:lamb tagine#4",
+      "target": "ingredient:chopped parsley",
+      "key": "USES"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 100.0,
+      "unit": "g",
+      "source": "recipe:pancakes",
+      "target": "ingredient:flour",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "large",
+      "source": "recipe:pancakes",
+      "target": "ingredient:egg",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 300.0,
+      "unit": "ml",
+      "source": "recipe:pancakes",
+      "target": "ingredient:milk",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbls",
+      "source": "recipe:pancakes",
+      "target": "ingredient:sunflower oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:pancakes",
+      "target": "ingredient:sugar",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:pancakes",
+      "target": "ingredient:raspberries",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:pancakes",
+      "target": "ingredient:blueberries",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:pancakes",
+      "target": "step:pancakes#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:pancakes",
+      "target": "step:pancakes#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:pancakes",
+      "target": "step:pancakes#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:pancakes#0",
+      "target": "technique:whisk",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:pancakes#0",
+      "target": "ingredient:flour",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:pancakes#0",
+      "target": "ingredient:egg",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:pancakes#0",
+      "target": "ingredient:milk",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:pancakes#0",
+      "target": "ingredient:sunflower oil",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:pancakes#1",
+      "target": "technique:cook",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:pancakes#1",
+      "target": "ingredient:sunflower oil",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:pancakes#2",
+      "target": "technique:serve",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:pancakes#2",
+      "target": "ingredient:sugar",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:pancakes#2",
+      "target": "ingredient:raspberries",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:pancakes#2",
+      "target": "ingredient:blueberries",
+      "key": "USES"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": null,
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:onion",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbsp",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:olive oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "clove",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 500.0,
+      "unit": "g",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:lean minced beef",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 90.0,
+      "unit": "g",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:mushrooms",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tsp",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:dried oregano",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 400.0,
+      "unit": "g",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:tinned tomato",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 300.0,
+      "unit": "ml",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:hot beef stock",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbsp",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:tomato paste",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbsp",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:worcestershire sauce",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 350.0,
+      "unit": "g",
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:spaghetti",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:spaghetti bolognese",
+      "target": "ingredient:parmesan",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:spaghetti bolognese",
+      "target": "step:spaghetti bolognese#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:spaghetti bolognese",
+      "target": "step:spaghetti bolognese#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:spaghetti bolognese",
+      "target": "step:spaghetti bolognese#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:spaghetti bolognese",
+      "target": "step:spaghetti bolognese#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 4,
+      "source": "recipe:spaghetti bolognese",
+      "target": "step:spaghetti bolognese#4",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 5,
+      "source": "recipe:spaghetti bolognese",
+      "target": "step:spaghetti bolognese#5",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 6,
+      "source": "recipe:spaghetti bolognese",
+      "target": "step:spaghetti bolognese#6",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:spaghetti bolognese#0",
+      "target": "technique:fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#0",
+      "target": "ingredient:onion",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#0",
+      "target": "ingredient:olive oil",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:spaghetti bolognese#1",
+      "target": "technique:fry",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#1",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#1",
+      "target": "ingredient:lean minced beef",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:spaghetti bolognese#2",
+      "target": "technique:cook",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#2",
+      "target": "ingredient:mushrooms",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#2",
+      "target": "ingredient:dried oregano",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:spaghetti bolognese#3",
+      "target": "technique:simmer",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#3",
+      "target": "ingredient:tinned tomato",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#3",
+      "target": "ingredient:hot beef stock",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#3",
+      "target": "ingredient:tomato paste",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#3",
+      "target": "ingredient:worcestershire sauce",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:spaghetti bolognese#4",
+      "target": "technique:cook",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#4",
+      "target": "ingredient:spaghetti",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:spaghetti bolognese#5",
+      "target": "technique:stir",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#5",
+      "target": "ingredient:spaghetti",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#5",
+      "target": "ingredient:olive oil",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:spaghetti bolognese#6",
+      "target": "technique:serve",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:spaghetti bolognese#6",
+      "target": "ingredient:parmesan",
+      "key": "USES"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.75,
+      "unit": "cup",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:soy sauce",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "cup",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:water",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.25,
+      "unit": "cup",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:brown sugar",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "teaspoon",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:ground ginger",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": "teaspoon",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 4.0,
+      "unit": "Tablespoons",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:cornflour",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": null,
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:chicken breasts",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 12.0,
+      "unit": "oz.",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:stir-fry vegetables",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 3.0,
+      "unit": "cups",
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "ingredient:brown rice",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "step:teriyaki chicken casserole#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "step:teriyaki chicken casserole#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "step:teriyaki chicken casserole#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "step:teriyaki chicken casserole#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 4,
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "step:teriyaki chicken casserole#4",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 5,
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "step:teriyaki chicken casserole#5",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 6,
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "step:teriyaki chicken casserole#6",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 7,
+      "source": "recipe:teriyaki chicken casserole",
+      "target": "step:teriyaki chicken casserole#7",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:teriyaki chicken casserole#0",
+      "target": "technique:preheat",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:teriyaki chicken casserole#1",
+      "target": "technique:boil",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#1",
+      "target": "ingredient:soy sauce",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#1",
+      "target": "ingredient:water",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#1",
+      "target": "ingredient:brown sugar",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#1",
+      "target": "ingredient:ground ginger",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#1",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:teriyaki chicken casserole#2",
+      "target": "technique:stir",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#2",
+      "target": "ingredient:cornflour",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#2",
+      "target": "ingredient:water",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:teriyaki chicken casserole#3",
+      "target": "technique:bake",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#3",
+      "target": "ingredient:chicken breasts",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:teriyaki chicken casserole#4",
+      "target": "technique:shred",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#4",
+      "target": "ingredient:chicken breasts",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:teriyaki chicken casserole#5",
+      "target": "technique:steam",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#5",
+      "target": "ingredient:stir-fry vegetables",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:teriyaki chicken casserole#6",
+      "target": "technique:toss",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#6",
+      "target": "ingredient:stir-fry vegetables",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#6",
+      "target": "ingredient:brown rice",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:teriyaki chicken casserole#6",
+      "target": "ingredient:chicken breasts",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:teriyaki chicken casserole#7",
+      "target": "technique:drizzle",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 450.0,
+      "unit": "g",
+      "source": "recipe:tuna nicoise",
+      "target": "ingredient:potato",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "tblsp",
+      "source": "recipe:tuna nicoise",
+      "target": "ingredient:olive oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 4.0,
+      "unit": null,
+      "source": "recipe:tuna nicoise",
+      "target": "ingredient:egg",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbls",
+      "source": "recipe:tuna nicoise",
+      "target": "ingredient:red wine vinegar",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "tblsp",
+      "source": "recipe:tuna nicoise",
+      "target": "ingredient:capers",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 50.0,
+      "unit": "g",
+      "source": "recipe:tuna nicoise",
+      "target": "ingredient:sunflower oil",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 0.5,
+      "unit": null,
+      "source": "recipe:tuna nicoise",
+      "target": "ingredient:red onions",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 100.0,
+      "unit": "g",
+      "source": "recipe:tuna nicoise",
+      "target": "ingredient:spinach",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 400.0,
+      "unit": "g",
+      "source": "recipe:tuna nicoise",
+      "target": "ingredient:tuna",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:tuna nicoise",
+      "target": "step:tuna nicoise#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:tuna nicoise",
+      "target": "step:tuna nicoise#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:tuna nicoise",
+      "target": "step:tuna nicoise#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:tuna nicoise#0",
+      "target": "technique:roast",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#0",
+      "target": "ingredient:potato",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#0",
+      "target": "ingredient:olive oil",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:tuna nicoise#1",
+      "target": "technique:simmer",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#1",
+      "target": "ingredient:egg",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:tuna nicoise#2",
+      "target": "technique:whisk",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#2",
+      "target": "ingredient:olive oil",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#2",
+      "target": "ingredient:red wine vinegar",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#2",
+      "target": "ingredient:capers",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#2",
+      "target": "ingredient:red onions",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#2",
+      "target": "ingredient:spinach",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#2",
+      "target": "ingredient:tuna",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#2",
+      "target": "ingredient:potato",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:tuna nicoise#2",
+      "target": "ingredient:egg",
+      "key": "USES"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 400.0,
+      "unit": "g",
+      "source": "recipe:vegetarian chilli",
+      "target": "ingredient:roasted vegetables",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "can",
+      "source": "recipe:vegetarian chilli",
+      "target": "ingredient:kidney beans",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "can",
+      "source": "recipe:vegetarian chilli",
+      "target": "ingredient:tinned tomato",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "Packet",
+      "source": "recipe:vegetarian chilli",
+      "target": "ingredient:mixed grain",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:vegetarian chilli",
+      "target": "step:vegetarian chilli#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:vegetarian chilli",
+      "target": "step:vegetarian chilli#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:vegetarian chilli",
+      "target": "step:vegetarian chilli#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 3,
+      "source": "recipe:vegetarian chilli",
+      "target": "step:vegetarian chilli#3",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:vegetarian chilli#0",
+      "target": "technique:heat",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:vegetarian chilli#1",
+      "target": "technique:cook",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:vegetarian chilli#1",
+      "target": "ingredient:roasted vegetables",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:vegetarian chilli#2",
+      "target": "technique:cook",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:vegetarian chilli#2",
+      "target": "ingredient:kidney beans",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:vegetarian chilli#2",
+      "target": "ingredient:tinned tomato",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:vegetarian chilli#3",
+      "target": "technique:heat",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:vegetarian chilli#3",
+      "target": "ingredient:mixed grain",
+      "key": "USES"
+    }
+  ],
+  "reveal": [
+    {
+      "label": "seed",
+      "nodes": [
+        "ingredient:garlic"
+      ],
+      "edges": []
+    },
+    {
+      "label": "relevant",
+      "nodes": [
+        "recipe:chicken handi",
+        "recipe:egyptian fatteh",
+        "recipe:croatian bean stew",
+        "recipe:beef lo mein",
+        "recipe:lamb tagine"
+      ],
+      "edges": [
+        [
+          "recipe:chicken handi",
+          "ingredient:garlic",
+          "CONTAINS"
+        ],
+        [
+          "recipe:egyptian fatteh",
+          "ingredient:garlic",
+          "CONTAINS"
+        ],
+        [
+          "recipe:croatian bean stew",
+          "ingredient:garlic",
+          "CONTAINS"
+        ],
+        [
+          "recipe:beef lo mein",
+          "ingredient:garlic",
+          "CONTAINS"
+        ],
+        [
+          "recipe:lamb tagine",
+          "ingredient:garlic",
+          "CONTAINS"
+        ]
+      ]
+    }
+  ],
+  "title": "Personalised PageRank: seed 'garlic' -> the recipes most relevant through the graph"
+}

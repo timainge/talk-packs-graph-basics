@@ -1,0 +1,70 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "recipe",
+      "label": "Pancakes",
+      "serves": 4,
+      "id": "recipe:pancakes"
+    },
+    {
+      "kind": "ingredient",
+      "label": "Flour",
+      "category": "dry good",
+      "id": "ingredient:flour"
+    },
+    {
+      "kind": "ingredient",
+      "label": "Milk",
+      "category": "dairy",
+      "id": "ingredient:milk"
+    },
+    {
+      "kind": "ingredient",
+      "label": "Egg",
+      "category": "dairy",
+      "id": "ingredient:egg"
+    },
+    {
+      "kind": "step",
+      "label": "Whisk together",
+      "id": "step:whisk"
+    }
+  ],
+  "links": [
+    {
+      "rel": "CONTAINS",
+      "weight": 200,
+      "unit": "g",
+      "source": "recipe:pancakes",
+      "target": "ingredient:flour",
+      "key": 0
+    },
+    {
+      "rel": "CONTAINS",
+      "weight": 300,
+      "unit": "ml",
+      "source": "recipe:pancakes",
+      "target": "ingredient:milk",
+      "key": 0
+    },
+    {
+      "rel": "CONTAINS",
+      "weight": 2,
+      "unit": "",
+      "source": "recipe:pancakes",
+      "target": "ingredient:egg",
+      "key": 0
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:pancakes",
+      "target": "step:whisk",
+      "key": 0
+    }
+  ],
+  "title": "What is a graph"
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this talk pack, please cite it as below."
+title: "A Practitioner's Guide to Knowledge Graphs — talk pack"
+abstract: >-
+  Companion pack for the talk "A Practitioner's Guide to Knowledge Graphs"
+  (AI Engineer World's Fair 2026, Graph Track). A three-act practitioner
+  narrative — bad graph to good graph to payoff — with a runnable graphtools
+  library and offline-replayable notebooks covering schemaless extraction,
+  schema-first curation, entity resolution, and the graph algorithms (PPR,
+  HITS, shortest-path, subgraph matching) that make graphs worth it.
+type: software
+authors:
+  - family-names: Ainge
+    given-names: Tim
+repository-code: "https://github.com/timainge/talk-packs-graph-basics"
+keywords:
+  - knowledge graphs
+  - graph algorithms
+  - entity resolution
+  - GraphRAG
+  - PageRank
+  - LLM extraction
+license: MIT
+license-url: "https://github.com/timainge/talk-packs-graph-basics/blob/main/CONTENT-LICENSE"
+year: 2026

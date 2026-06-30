@@ -1,0 +1,123 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "maphub",
+      "label": "graph problems",
+      "x": 0,
+      "y": 0,
+      "id": "class:graph-problems"
+    },
+    {
+      "kind": "toured",
+      "label": "Ranking",
+      "x": -250,
+      "y": -130,
+      "id": "class:ranking"
+    },
+    {
+      "kind": "toured",
+      "label": "Paths",
+      "x": -250,
+      "y": 0,
+      "id": "class:paths"
+    },
+    {
+      "kind": "toured",
+      "label": "Patterns",
+      "x": -250,
+      "y": 130,
+      "id": "class:patterns"
+    },
+    {
+      "kind": "frontier",
+      "label": "Prediction",
+      "x": 250,
+      "y": -130,
+      "id": "class:prediction"
+    },
+    {
+      "kind": "frontier",
+      "label": "Similarity",
+      "x": 250,
+      "y": 0,
+      "id": "class:similarity"
+    },
+    {
+      "kind": "frontier",
+      "label": "Clustering",
+      "x": 250,
+      "y": 130,
+      "id": "class:clustering"
+    },
+    {
+      "kind": "scope",
+      "label": "Flow & cost",
+      "x": 0,
+      "y": 215,
+      "id": "class:flow & cost"
+    }
+  ],
+  "links": [
+    {
+      "rel": "is",
+      "directed": false,
+      "source": "class:graph-problems",
+      "target": "class:ranking",
+      "key": "is"
+    },
+    {
+      "rel": "is",
+      "directed": false,
+      "source": "class:graph-problems",
+      "target": "class:paths",
+      "key": "is"
+    },
+    {
+      "rel": "is",
+      "directed": false,
+      "source": "class:graph-problems",
+      "target": "class:patterns",
+      "key": "is"
+    },
+    {
+      "rel": "is",
+      "directed": false,
+      "source": "class:graph-problems",
+      "target": "class:prediction",
+      "key": "is"
+    },
+    {
+      "rel": "is",
+      "directed": false,
+      "source": "class:graph-problems",
+      "target": "class:similarity",
+      "key": "is"
+    },
+    {
+      "rel": "is",
+      "directed": false,
+      "source": "class:graph-problems",
+      "target": "class:clustering",
+      "key": "is"
+    },
+    {
+      "rel": "is",
+      "directed": false,
+      "source": "class:graph-problems",
+      "target": "class:flow & cost",
+      "key": "is"
+    }
+  ],
+  "title": "Graph problem classes — three toured (green), next steps ahead (violet)",
+  "params": {
+    "labels": {
+      "nodeFontSize": 16
+    },
+    "legend": {
+      "show": false
+    }
+  }
+}

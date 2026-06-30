@@ -1,0 +1,149 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "entity",
+      "label": "Pancakes",
+      "id": "entity:pancakes"
+    },
+    {
+      "kind": "entity",
+      "label": "Flour",
+      "id": "entity:flour"
+    },
+    {
+      "kind": "entity",
+      "label": "pancake recipe",
+      "id": "entity:pancake recipe"
+    },
+    {
+      "kind": "entity",
+      "label": "plain flour",
+      "id": "entity:plain flour"
+    },
+    {
+      "kind": "entity",
+      "label": "the batter",
+      "id": "entity:the batter"
+    },
+    {
+      "kind": "entity",
+      "label": "eggs",
+      "id": "entity:eggs"
+    },
+    {
+      "kind": "entity",
+      "label": "Egg",
+      "id": "entity:egg"
+    },
+    {
+      "kind": "entity",
+      "label": "Milk",
+      "id": "entity:milk"
+    },
+    {
+      "kind": "entity",
+      "label": "a pan",
+      "id": "entity:a pan"
+    },
+    {
+      "kind": "entity",
+      "label": "4 people",
+      "id": "entity:4 people"
+    },
+    {
+      "kind": "entity",
+      "label": "breakfast",
+      "id": "entity:breakfast"
+    }
+  ],
+  "links": [
+    {
+      "rel": "needs",
+      "source": "entity:pancakes",
+      "target": "entity:flour",
+      "key": 0
+    },
+    {
+      "rel": "has ingredient",
+      "source": "entity:pancakes",
+      "target": "entity:eggs",
+      "key": 0
+    },
+    {
+      "rel": "contains",
+      "source": "entity:pancakes",
+      "target": "entity:milk",
+      "key": 0
+    },
+    {
+      "rel": "is a",
+      "source": "entity:pancakes",
+      "target": "entity:breakfast",
+      "key": 0
+    },
+    {
+      "rel": "mixed with",
+      "source": "entity:flour",
+      "target": "entity:egg",
+      "key": 0
+    },
+    {
+      "rel": "requires",
+      "source": "entity:pancake recipe",
+      "target": "entity:plain flour",
+      "key": 0
+    },
+    {
+      "rel": "needs",
+      "source": "entity:pancake recipe",
+      "target": "entity:milk",
+      "key": 0
+    },
+    {
+      "rel": "serves",
+      "source": "entity:pancake recipe",
+      "target": "entity:4 people",
+      "key": 0
+    },
+    {
+      "rel": "combined with",
+      "source": "entity:plain flour",
+      "target": "entity:milk",
+      "key": 0
+    },
+    {
+      "rel": "made with",
+      "source": "entity:the batter",
+      "target": "entity:flour",
+      "key": 0
+    },
+    {
+      "rel": "uses",
+      "source": "entity:the batter",
+      "target": "entity:egg",
+      "key": 0
+    },
+    {
+      "rel": "cooked on",
+      "source": "entity:the batter",
+      "target": "entity:a pan",
+      "key": 0
+    }
+  ],
+  "title": "v0 mess — CURATED: one thing under many names (Pancakes/the batter; Flour/plain flour/flour) + a different predicate every time",
+  "params": {
+    "labels": {
+      "nodeFontSize": 15,
+      "edgeFontSize": 12
+    },
+    "nodes": {
+      "radiusScale": 1.15
+    },
+    "layout": {
+      "spread": 0.85
+    }
+  }
+}

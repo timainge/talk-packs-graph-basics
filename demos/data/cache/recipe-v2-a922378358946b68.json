@@ -1,0 +1,111 @@
+{
+  "title": "Teriyaki Chicken Casserole",
+  "ingredients": [
+    {
+      "name": "soy sauce",
+      "quantity": 180.0,
+      "unit": "ml"
+    },
+    {
+      "name": "water",
+      "quantity": 150.0,
+      "unit": "ml"
+    },
+    {
+      "name": "brown sugar",
+      "quantity": 60.0,
+      "unit": "ml"
+    },
+    {
+      "name": "ground ginger",
+      "quantity": 2.5,
+      "unit": "ml"
+    },
+    {
+      "name": "garlic",
+      "quantity": 2.5,
+      "unit": "ml"
+    },
+    {
+      "name": "cornstarch",
+      "quantity": 60.0,
+      "unit": "ml"
+    },
+    {
+      "name": "chicken breast",
+      "quantity": 2.0,
+      "unit": null
+    },
+    {
+      "name": "stir-fry vegetable",
+      "quantity": 340.0,
+      "unit": "g"
+    },
+    {
+      "name": "brown rice",
+      "quantity": 720.0,
+      "unit": "ml"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 175\u00b0C. Spray a 9x13-inch baking pan with non-stick spray.",
+      "technique": "preheat",
+      "uses": []
+    },
+    {
+      "text": "Combine soy sauce, 120 ml water, brown sugar, ground ginger and garlic in a small saucepan, cover and bring to a boil over medium heat. Remove lid and cook for one minute once boiling.",
+      "technique": "boil",
+      "uses": [
+        "soy sauce",
+        "water",
+        "brown sugar",
+        "ground ginger",
+        "garlic"
+      ]
+    },
+    {
+      "text": "Stir together the cornstarch and remaining 30 ml water in a separate dish until smooth. Add mixture to the boiling sauce and stir to combine. Cook until the sauce starts to thicken then remove from heat.",
+      "technique": "stir",
+      "uses": [
+        "cornstarch",
+        "water"
+      ]
+    },
+    {
+      "text": "Place the chicken breasts in the prepared pan. Pour 240 ml of the sauce over the top of the chicken. Bake for 35 minutes or until cooked through.",
+      "technique": "bake",
+      "uses": [
+        "chicken breast"
+      ]
+    },
+    {
+      "text": "Remove chicken from oven and shred in the dish using two forks.",
+      "technique": "shred",
+      "uses": [
+        "chicken breast"
+      ]
+    },
+    {
+      "text": "Steam or cook the stir-fry vegetables according to package directions.",
+      "technique": "steam",
+      "uses": [
+        "stir-fry vegetable"
+      ]
+    },
+    {
+      "text": "Add the cooked vegetables and brown rice to the casserole dish with the shredded chicken. Add most of the remaining sauce, reserving some to drizzle when serving. Gently toss everything together until combined.",
+      "technique": "toss",
+      "uses": [
+        "stir-fry vegetable",
+        "brown rice",
+        "chicken breast"
+      ]
+    },
+    {
+      "text": "Return casserole to oven and cook for 15 minutes. Remove from oven and let stand 5 minutes before serving. Drizzle each serving with the reserved sauce.",
+      "technique": "bake",
+      "uses": []
+    }
+  ]
+}

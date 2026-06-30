@@ -1,0 +1,222 @@
+[
+  {
+    "subject": "Chicken Handi",
+    "predicate": "is a",
+    "object": "dish"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "1.2 kg Chicken"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "5 thinly sliced Onion"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "2 finely chopped Tomatoes"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "8 cloves chopped Garlic"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "1 tbsp Ginger paste"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "\u00bc cup Vegetable oil"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "2 tsp Cumin seeds"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "3 tsp Coriander seeds"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "1 tsp Turmeric powder"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "1 tsp Chilli powder"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "2 Green chilli"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "1 cup Yogurt"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "\u00be cup Cream"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "3 tsp Dried fenugreek"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "requires",
+    "object": "1 tsp Garam masala"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "seasoned with",
+    "object": "Salt to taste"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "cooked in",
+    "object": "large pot or wok"
+  },
+  {
+    "subject": "oil",
+    "predicate": "heated in",
+    "object": "large pot or wok"
+  },
+  {
+    "subject": "sliced onion",
+    "predicate": "fried until",
+    "object": "deep golden brown"
+  },
+  {
+    "subject": "fried onion",
+    "predicate": "taken out onto",
+    "object": "a plate and set aside"
+  },
+  {
+    "subject": "chopped garlic",
+    "predicate": "saut\u00e9ed for",
+    "object": "a minute"
+  },
+  {
+    "subject": "chopped tomatoes",
+    "predicate": "cooked until",
+    "object": "soft"
+  },
+  {
+    "subject": "chopped tomatoes",
+    "predicate": "cooking takes about",
+    "object": "5 minutes"
+  },
+  {
+    "subject": "fried onion",
+    "predicate": "returned to",
+    "object": "pot"
+  },
+  {
+    "subject": "ginger paste",
+    "predicate": "added after",
+    "object": "fried onion returned to pot"
+  },
+  {
+    "subject": "cumin seeds",
+    "predicate": "added with",
+    "object": "half of the coriander seeds and chopped green chillies"
+  },
+  {
+    "subject": "turmeric powder",
+    "predicate": "saut\u00e9ed for",
+    "object": "couple of minutes"
+  },
+  {
+    "subject": "red chilli powder",
+    "predicate": "saut\u00e9ed for",
+    "object": "couple of minutes"
+  },
+  {
+    "subject": "chicken pieces",
+    "predicate": "cooked covered on",
+    "object": "medium-low heat"
+  },
+  {
+    "subject": "chicken pieces",
+    "predicate": "cooking takes about",
+    "object": "15 minutes"
+  },
+  {
+    "subject": "chicken",
+    "predicate": "cooked until",
+    "object": "almost cooked through"
+  },
+  {
+    "subject": "saut\u00e9ing chicken slowly",
+    "predicate": "enhances",
+    "object": "flavor"
+  },
+  {
+    "subject": "yogurt",
+    "predicate": "added when",
+    "object": "oil separates from spices"
+  },
+  {
+    "subject": "yogurt",
+    "predicate": "added with heat on",
+    "object": "lowest"
+  },
+  {
+    "subject": "yogurt",
+    "predicate": "beaten before",
+    "object": "adding to pot"
+  },
+  {
+    "subject": "low heat",
+    "predicate": "prevents",
+    "object": "yogurt splitting"
+  },
+  {
+    "subject": "remaining coriander seeds",
+    "predicate": "sprinkled when",
+    "object": "yogurt added"
+  },
+  {
+    "subject": "half of the dried fenugreek leaves",
+    "predicate": "added when",
+    "object": "yogurt added"
+  },
+  {
+    "subject": "cream",
+    "predicate": "added after",
+    "object": "yogurt"
+  },
+  {
+    "subject": "remaining kasuri methi",
+    "predicate": "sprinkled at",
+    "object": "end"
+  },
+  {
+    "subject": "garam masala",
+    "predicate": "sprinkled at",
+    "object": "end"
+  },
+  {
+    "subject": "Chicken Handi",
+    "predicate": "served hot with",
+    "object": "naan or rotis"
+  },
+  {
+    "subject": "kasuri methi",
+    "predicate": "is also known as",
+    "object": "dried fenugreek leaves"
+  }
+]

@@ -1,0 +1,110 @@
+{
+  "title": "French Onion Soup",
+  "ingredients": [
+    {
+      "name": "butter",
+      "quantity": 50.0,
+      "unit": "g"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 15.0,
+      "unit": "ml"
+    },
+    {
+      "name": "onion",
+      "quantity": 1000.0,
+      "unit": "g"
+    },
+    {
+      "name": "sugar",
+      "quantity": 5.0,
+      "unit": "ml"
+    },
+    {
+      "name": "garlic clove",
+      "quantity": 4.0,
+      "unit": null
+    },
+    {
+      "name": "plain flour",
+      "quantity": 30.0,
+      "unit": "ml"
+    },
+    {
+      "name": "dry white wine",
+      "quantity": 250.0,
+      "unit": "ml"
+    },
+    {
+      "name": "beef stock",
+      "quantity": 1000.0,
+      "unit": "ml"
+    },
+    {
+      "name": "bread",
+      "quantity": 4.0,
+      "unit": null
+    },
+    {
+      "name": "gruy\u00e8re",
+      "quantity": 140.0,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Melt the butter with the oil in a large heavy-based pan.",
+      "technique": "melt",
+      "uses": [
+        "butter",
+        "olive oil"
+      ]
+    },
+    {
+      "text": "Add the onions and fry with the lid on for 10 mins until soft.",
+      "technique": "fry",
+      "uses": [
+        "onion"
+      ]
+    },
+    {
+      "text": "Sprinkle in the sugar and cook for 20 mins more, stirring frequently, until caramelised.",
+      "technique": "caramelise",
+      "uses": [
+        "sugar"
+      ]
+    },
+    {
+      "text": "Add the garlic for the final few mins of the onions' cooking time, then sprinkle in the flour and stir well.",
+      "technique": "stir",
+      "uses": [
+        "garlic clove",
+        "plain flour"
+      ]
+    },
+    {
+      "text": "Increase the heat and keep stirring as you gradually add the wine, followed by the hot stock. Cover and simmer for 15-20 mins.",
+      "technique": "simmer",
+      "uses": [
+        "dry white wine",
+        "beef stock"
+      ]
+    },
+    {
+      "text": "Turn on the grill and toast the bread.",
+      "technique": "toast",
+      "uses": [
+        "bread"
+      ]
+    },
+    {
+      "text": "Ladle the soup into heatproof bowls. Put a slice or two of toast on top of the bowls of soup, and pile on the cheese. Grill until melted.",
+      "technique": "grill",
+      "uses": [
+        "gruy\u00e8re",
+        "bread"
+      ]
+    }
+  ]
+}

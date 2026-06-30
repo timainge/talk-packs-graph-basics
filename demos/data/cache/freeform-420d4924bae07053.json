@@ -1,0 +1,272 @@
+[
+  {
+    "subject": "Beef Wellington",
+    "predicate": "requires ingredient",
+    "object": "400g mushrooms"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "requires ingredient",
+    "object": "1-2 tbsp English Mustard"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "requires ingredient",
+    "object": "Dash Olive Oil"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "requires ingredient",
+    "object": "750g piece Beef Fillet"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "requires ingredient",
+    "object": "6-8 slices Parma ham"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "requires ingredient",
+    "object": "500g Puff Pastry"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "requires ingredient",
+    "object": "Dusting Flour"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "requires ingredient",
+    "object": "2 Beaten Egg Yolks"
+  },
+  {
+    "subject": "mushrooms",
+    "predicate": "are put into",
+    "object": "a food processor"
+  },
+  {
+    "subject": "mushrooms",
+    "predicate": "are pulsed to",
+    "object": "a rough paste"
+  },
+  {
+    "subject": "mushroom paste",
+    "predicate": "is scraped into",
+    "object": "a pan"
+  },
+  {
+    "subject": "mushroom paste",
+    "predicate": "is cooked over",
+    "object": "a high heat"
+  },
+  {
+    "subject": "mushroom paste",
+    "predicate": "is cooked for",
+    "object": "about 10 mins"
+  },
+  {
+    "subject": "mushroom paste",
+    "predicate": "is tossed",
+    "object": "frequently"
+  },
+  {
+    "subject": "cooking mushroom paste",
+    "predicate": "purpose is to",
+    "object": "cook out the moisture from the mushrooms"
+  },
+  {
+    "subject": "mushroom paste",
+    "predicate": "is spread out on",
+    "object": "a plate to cool"
+  },
+  {
+    "subject": "frying pan",
+    "predicate": "is heated with",
+    "object": "a little olive oil"
+  },
+  {
+    "subject": "beef",
+    "predicate": "is seasoned before",
+    "object": "searing"
+  },
+  {
+    "subject": "beef",
+    "predicate": "is seared for",
+    "object": "30 secs only on each side"
+  },
+  {
+    "subject": "searing the beef",
+    "predicate": "purpose is to",
+    "object": "colour it, not cook it"
+  },
+  {
+    "subject": "beef",
+    "predicate": "is removed from",
+    "object": "the pan to cool"
+  },
+  {
+    "subject": "beef",
+    "predicate": "is brushed all over with",
+    "object": "mustard"
+  },
+  {
+    "subject": "Parma ham slices",
+    "predicate": "are arranged on",
+    "object": "a sheet of cling film"
+  },
+  {
+    "subject": "Parma ham slices",
+    "predicate": "are arranged in",
+    "object": "slightly overlapping rows"
+  },
+  {
+    "subject": "mushroom paste",
+    "predicate": "is spread over",
+    "object": "the ham"
+  },
+  {
+    "subject": "mushroom paste",
+    "predicate": "is spread with",
+    "object": "a palette knife"
+  },
+  {
+    "subject": "seared beef fillet",
+    "predicate": "is placed in",
+    "object": "the middle of the ham and mushroom paste"
+  },
+  {
+    "subject": "Parma ham and mushrooms",
+    "predicate": "are rolled around",
+    "object": "the beef"
+  },
+  {
+    "subject": "rolling",
+    "predicate": "forms",
+    "object": "a tight barrel shape"
+  },
+  {
+    "subject": "cling film ends",
+    "predicate": "are twisted to",
+    "object": "secure the roll"
+  },
+  {
+    "subject": "beef roll",
+    "predicate": "is chilled for",
+    "object": "15-20 mins"
+  },
+  {
+    "subject": "chilling beef roll",
+    "predicate": "allows the beef to",
+    "object": "set and keep its shape"
+  },
+  {
+    "subject": "puff pastry",
+    "predicate": "is rolled out on",
+    "object": "a floured surface"
+  },
+  {
+    "subject": "puff pastry",
+    "predicate": "is rolled to",
+    "object": "a large rectangle"
+  },
+  {
+    "subject": "puff pastry",
+    "predicate": "is rolled to thickness of",
+    "object": "a \u00a31 coin"
+  },
+  {
+    "subject": "cling film",
+    "predicate": "is removed from",
+    "object": "the beef before wrapping in pastry"
+  },
+  {
+    "subject": "beef",
+    "predicate": "is laid in",
+    "object": "the centre of the pastry"
+  },
+  {
+    "subject": "surrounding pastry",
+    "predicate": "is brushed with",
+    "object": "egg yolk"
+  },
+  {
+    "subject": "pastry ends",
+    "predicate": "are folded over",
+    "object": "the beef"
+  },
+  {
+    "subject": "pastry",
+    "predicate": "is wrapped around",
+    "object": "the beef"
+  },
+  {
+    "subject": "excess pastry",
+    "predicate": "is cut off",
+    "object": "during wrapping"
+  },
+  {
+    "subject": "wrapped beef",
+    "predicate": "is turned over so",
+    "object": "the seam is underneath"
+  },
+  {
+    "subject": "wrapped beef",
+    "predicate": "is placed on",
+    "object": "a baking sheet"
+  },
+  {
+    "subject": "pastry",
+    "predicate": "is brushed over with",
+    "object": "egg"
+  },
+  {
+    "subject": "pastry",
+    "predicate": "is chilled for",
+    "object": "about 15 mins to let the pastry rest"
+  },
+  {
+    "subject": "oven",
+    "predicate": "is heated to",
+    "object": "200C, 400F, gas 6"
+  },
+  {
+    "subject": "pastry",
+    "predicate": "is lightly scored at",
+    "object": "1cm intervals"
+  },
+  {
+    "subject": "pastry",
+    "predicate": "is glazed again with",
+    "object": "beaten egg yolk"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "is baked for",
+    "object": "20 minutes at 200C"
+  },
+  {
+    "subject": "oven setting",
+    "predicate": "is lowered to",
+    "object": "180C, 350F, gas 4"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "is cooked for another",
+    "object": "15 mins at 180C"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "is allowed to rest for",
+    "object": "10-15 mins before slicing"
+  },
+  {
+    "subject": "beef",
+    "predicate": "should still be",
+    "object": "pink in the centre when served"
+  },
+  {
+    "subject": "Beef Wellington",
+    "predicate": "is served with",
+    "object": "side dishes of your choice"
+  }
+]

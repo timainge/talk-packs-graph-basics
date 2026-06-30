@@ -1,0 +1,88 @@
+{
+  "title": "Croatian Bean Stew",
+  "ingredients": [
+    {
+      "name": "Cannellini Beans",
+      "quantity": 2.0,
+      "unit": "cans"
+    },
+    {
+      "name": "Vegetable Oil",
+      "quantity": 3.0,
+      "unit": "tbs"
+    },
+    {
+      "name": "Tomatoes",
+      "quantity": 2.0,
+      "unit": "cups"
+    },
+    {
+      "name": "Challots",
+      "quantity": 5.0,
+      "unit": null
+    },
+    {
+      "name": "Garlic",
+      "quantity": 2.0,
+      "unit": "cloves"
+    },
+    {
+      "name": "Parsley",
+      "quantity": null,
+      "unit": "Pinch"
+    },
+    {
+      "name": "Chorizo",
+      "quantity": 0.5,
+      "unit": "kg"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat the oil in a pan.",
+      "technique": "heat",
+      "uses": [
+        "Vegetable Oil"
+      ]
+    },
+    {
+      "text": "Add the chopped vegetables and saut\u00e9 until tender.",
+      "technique": "saut\u00e9",
+      "uses": [
+        "Tomatoes",
+        "Challots",
+        "Garlic",
+        "Parsley"
+      ]
+    },
+    {
+      "text": "Take a pot, empty the beans together with the vegetables into it, put the sausages inside and cook for further 20 minutes on a low heat.",
+      "technique": "cook",
+      "uses": [
+        "Cannellini Beans",
+        "Tomatoes",
+        "Challots",
+        "Garlic",
+        "Parsley",
+        "Chorizo"
+      ]
+    },
+    {
+      "text": "Or, put it in an oven and bake it at a temperature of 180\u00baC/350\u00baF for 30 minutes.",
+      "technique": "bake",
+      "uses": [
+        "Cannellini Beans",
+        "Tomatoes",
+        "Challots",
+        "Garlic",
+        "Parsley",
+        "Chorizo"
+      ]
+    },
+    {
+      "text": "This dish is even better reheated the next day.",
+      "technique": "reheat",
+      "uses": []
+    }
+  ]
+}

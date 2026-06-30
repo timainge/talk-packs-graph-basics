@@ -1,0 +1,112 @@
+[
+  {
+    "subject": "Pancakes",
+    "predicate": "is a",
+    "object": "recipe"
+  },
+  {
+    "subject": "Pancakes",
+    "predicate": "requires ingredient",
+    "object": "100 g Flour"
+  },
+  {
+    "subject": "Pancakes",
+    "predicate": "requires ingredient",
+    "object": "2 large Eggs"
+  },
+  {
+    "subject": "Pancakes",
+    "predicate": "requires ingredient",
+    "object": "300 ml Milk"
+  },
+  {
+    "subject": "Pancakes",
+    "predicate": "requires ingredient",
+    "object": "1 tbsp Sunflower Oil"
+  },
+  {
+    "subject": "Pancakes",
+    "predicate": "requires ingredient",
+    "object": "pinch of salt"
+  },
+  {
+    "subject": "Sugar",
+    "predicate": "is used",
+    "object": "to serve"
+  },
+  {
+    "subject": "Raspberries",
+    "predicate": "is used",
+    "object": "to serve"
+  },
+  {
+    "subject": "Blueberries",
+    "predicate": "is used",
+    "object": "to serve"
+  },
+  {
+    "subject": "flour, eggs, milk, oil and salt",
+    "predicate": "are put into",
+    "object": "a bowl or large jug"
+  },
+  {
+    "subject": "ingredients",
+    "predicate": "are whisked to",
+    "object": "a smooth batter"
+  },
+  {
+    "subject": "batter",
+    "predicate": "should be set aside for",
+    "object": "30 mins to rest"
+  },
+  {
+    "subject": "pancakes",
+    "predicate": "are cooked in",
+    "object": "a medium frying pan or cr\u00eape pan"
+  },
+  {
+    "subject": "frying pan",
+    "predicate": "is set over",
+    "object": "a medium heat"
+  },
+  {
+    "subject": "frying pan",
+    "predicate": "is wiped with",
+    "object": "oiled kitchen paper"
+  },
+  {
+    "subject": "pancakes",
+    "predicate": "are cooked for",
+    "object": "1 min on each side"
+  },
+  {
+    "subject": "pancakes",
+    "predicate": "are cooked until",
+    "object": "golden"
+  },
+  {
+    "subject": "pancakes",
+    "predicate": "are kept warm in",
+    "object": "a low oven"
+  },
+  {
+    "subject": "pancakes",
+    "predicate": "are served with",
+    "object": "lemon wedges and sugar"
+  },
+  {
+    "subject": "cold pancakes",
+    "predicate": "can be layered between",
+    "object": "baking parchment"
+  },
+  {
+    "subject": "pancakes",
+    "predicate": "are wrapped in",
+    "object": "cling film"
+  },
+  {
+    "subject": "pancakes",
+    "predicate": "can be frozen for up to",
+    "object": "2 months"
+  }
+]

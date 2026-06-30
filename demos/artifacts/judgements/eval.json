@@ -1,0 +1,77 @@
+{
+  "_provenance": "REAL \u2014 caselaw-graph POC. Source: CourtListener (Public Domain Mark) + SCDB issue areas, via idc9/law-net SCOTUS citation network (27,885 cases / 234,312 cites). Snapshot 2026-03-31. Method matches Fowler & Jeon (2008), 'The Authority of Supreme Court Precedent'.",
+  "landmark_set": {
+    "106883": "Escobedo v. Illinois",
+    "105032": "Brown v. Board of Education",
+    "107252": "Miranda v. Arizona (1966)",
+    "84759": "Marbury v. Madison",
+    "85412": "Gibbons v. Ogden",
+    "108713": "Roe v. Wade",
+    "105312": "Brown v. Board of Education",
+    "107564": "Katz v. United States",
+    "106285": "Mapp v. Ohio",
+    "105221": "Brown v. Board of Education",
+    "106545": "Gideon v. Wainwright",
+    "106598": "Brady v. Maryland",
+    "105046": "Brown v. Board of Education",
+    "85331": "Gibbons v. Ogden",
+    "107729": "Terry v. Ohio",
+    "118380": "Dickerson v. United States",
+    "106307": "Mapp v. Ohio (1961)",
+    "106359": "Gideon v. Wainwright (1963)",
+    "118378": "Dickerson v. United States (2000)"
+  },
+  "carve_out_miranda": {
+    "n_nodes": 403,
+    "n_landmarks": 8,
+    "hits_authority": {
+      "recall@5": 0.4,
+      "hits@5": 2,
+      "recall@10": 0.5,
+      "hits@10": 4,
+      "recall@20": 0.5,
+      "hits@20": 4
+    },
+    "top_authority": [
+      "Miranda v. Arizona (1966)",
+      "Malloy v. Hogan (1964)",
+      "Brown v. Mississippi (1936)",
+      "Escobedo v. Illinois (1964)",
+      "United States v. Wade (1967)"
+    ],
+    "reading": "Within the doctrinal neighbourhood, HITS authority cleanly recovers the self-incrimination / right-to-counsel landmarks \u2014 Miranda ranks #1."
+  },
+  "whole_scotus": {
+    "hits_authority": {
+      "recall@5": 0.0,
+      "hits@5": 0,
+      "recall@10": 0.0,
+      "hits@10": 0,
+      "recall@20": 0.0,
+      "hits@20": 0
+    },
+    "in_degree": {
+      "recall@5": 0.2,
+      "hits@5": 1,
+      "recall@10": 0.2,
+      "hits@10": 2,
+      "recall@20": 0.263,
+      "hits@20": 5
+    },
+    "top_authority": [
+      "Cantwell v. Connecticut (1940)",
+      "National Ass'n for the Advancement of Colored People v. Button (1963)",
+      "Schneider v. State (Town of Irvington)",
+      "Thornhill v. Alabama (1940)",
+      "New York Times Co. v. Sullivan (1964)",
+      "National Ass'n for the Advancement of Colored People v. Alabama Ex Rel. Patterson (1958)",
+      "Lovell v. City of Griffin (1938)",
+      "Speiser v. Randall (1958)",
+      "West Virginia State Board of Education v. Barnette (1943)",
+      "Whitney v. California (1927)"
+    ],
+    "reading": "Naive global HITS authority is captured by a densely cross-citing First Amendment cluster (TKC), not the criminal-procedure landmarks \u2014 so its recall of our set is ~0. Raw in-degree does better (Miranda is #1 overall)."
+  },
+  "fowler_jeon_2008": "Authority scores over the SCOTUS citation network yield rankings that 'conform closely to evaluations by legal experts'; Miranda is the highest-ranked modern case (also Gideon, Mapp, Brown). We recover this with PPR + carve-out HITS + in-degree.",
+  "tkc_caveat": "Naive PageRank/HITS can over-reward densely cross-citing clusters (the TKC effect \u2014 seen here directly in the whole-SCOTUS authority list). Fowler's authority construction is the defensible global measure; we present this eval alongside it, not as the last word."
+}

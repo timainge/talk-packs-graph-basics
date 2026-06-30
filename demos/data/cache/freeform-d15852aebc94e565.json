@@ -1,0 +1,292 @@
+[
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "is a",
+    "object": "dish"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "1 lb Beef"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "1 Onion"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "1 Chicken Stock Cube"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "2 Tomatoes"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "4 Garlic Cloves"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "1 tbs Tomato Puree"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "2 cups Rice"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "1/4 cup Noodles"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "1/4 cup Butter"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "2 cups Olive Oil"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "1 Pita Bread"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "1 tbs Cumin"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "3 tbs White Wine Vinegar"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "Salt to taste"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "requires ingredient",
+    "object": "Pepper to taste"
+  },
+  {
+    "subject": "Pita bread",
+    "predicate": "is ripped into",
+    "object": "bite size pieces"
+  },
+  {
+    "subject": "Pita bread pieces",
+    "predicate": "are fried in",
+    "object": "butter"
+  },
+  {
+    "subject": "Pita bread pieces",
+    "predicate": "are fried until",
+    "object": "golden brown and crisp"
+  },
+  {
+    "subject": "Fried bread pieces",
+    "predicate": "are placed in",
+    "object": "glass baking dish"
+  },
+  {
+    "subject": "Glass baking dish",
+    "predicate": "is preferably",
+    "object": "square sized"
+  },
+  {
+    "subject": "Bread pieces",
+    "predicate": "are coated with",
+    "object": "butter, crushed garlic, and cumin mixture"
+  },
+  {
+    "subject": "Crushed garlic for bread",
+    "predicate": "amount is approximately",
+    "object": "2 cloves"
+  },
+  {
+    "subject": "Cumin for bread",
+    "predicate": "amount is approximately",
+    "object": "1 teaspoon"
+  },
+  {
+    "subject": "Meat preparation",
+    "predicate": "starts with",
+    "object": "stir frying meat in butter until brown"
+  },
+  {
+    "subject": "Meat",
+    "predicate": "is cooked with",
+    "object": "1 onion quartered"
+  },
+  {
+    "subject": "Meat",
+    "predicate": "is cooked with",
+    "object": "salt and pepper"
+  },
+  {
+    "subject": "Meat",
+    "predicate": "is cooked with",
+    "object": "1 cube of chicken bouillon"
+  },
+  {
+    "subject": "Meat",
+    "predicate": "is cooked with",
+    "object": "water to cover"
+  },
+  {
+    "subject": "Meat",
+    "predicate": "is simmered for approximately",
+    "object": "2 hours"
+  },
+  {
+    "subject": "Meat",
+    "predicate": "is cooked until",
+    "object": "tender"
+  },
+  {
+    "subject": "Soup from meat",
+    "predicate": "is reserved",
+    "object": "separately"
+  },
+  {
+    "subject": "Rice preparation",
+    "predicate": "starts with",
+    "object": "frying fideo noodles in butter until golden brown"
+  },
+  {
+    "subject": "Fideo noodles",
+    "predicate": "are also called",
+    "object": "shareya"
+  },
+  {
+    "subject": "Rice",
+    "predicate": "is added in",
+    "object": "2 cups"
+  },
+  {
+    "subject": "Rice",
+    "predicate": "is cooked with",
+    "object": "2-1/4 cups of water"
+  },
+  {
+    "subject": "Rice",
+    "predicate": "is tested for tenderness after",
+    "object": "approximately 35 minutes"
+  },
+  {
+    "subject": "Soup from meat",
+    "predicate": "is added to",
+    "object": "top of bread pieces in baking dish"
+  },
+  {
+    "subject": "Soup",
+    "predicate": "is added to",
+    "object": "saturate the bread"
+  },
+  {
+    "subject": "Cooked rice",
+    "predicate": "is added on top of",
+    "object": "bread pieces"
+  },
+  {
+    "subject": "Remainder of soup",
+    "predicate": "is spooned onto",
+    "object": "rice"
+  },
+  {
+    "subject": "Soup level",
+    "predicate": "should reach",
+    "object": "just to top of rice"
+  },
+  {
+    "subject": "Red sauce",
+    "predicate": "is made with",
+    "object": "crushed tomato"
+  },
+  {
+    "subject": "Red sauce",
+    "predicate": "is made with",
+    "object": "half teaspoon of tomato paste"
+  },
+  {
+    "subject": "Red sauce",
+    "predicate": "is made with",
+    "object": "salt and pepper"
+  },
+  {
+    "subject": "Red sauce",
+    "predicate": "is made with",
+    "object": "2 cloves of fresh crushed garlic"
+  },
+  {
+    "subject": "Red sauce",
+    "predicate": "is made with",
+    "object": "cumin"
+  },
+  {
+    "subject": "Red sauce",
+    "predicate": "is made with",
+    "object": "approximately 3 tablespoons of vinegar"
+  },
+  {
+    "subject": "Red sauce",
+    "predicate": "should be",
+    "object": "a bit thick, not watery"
+  },
+  {
+    "subject": "Red sauce",
+    "predicate": "is spread atop",
+    "object": "the rice"
+  },
+  {
+    "subject": "Red sauce",
+    "predicate": "is spread with",
+    "object": "a wooden spoon"
+  },
+  {
+    "subject": "Meat for frying",
+    "predicate": "is cooked with",
+    "object": "a touch of tomato paste"
+  },
+  {
+    "subject": "Meat for frying",
+    "predicate": "is cooked with",
+    "object": "about a tablespoon of fresh crushed garlic"
+  },
+  {
+    "subject": "Meat for frying",
+    "predicate": "is cooked with",
+    "object": "salt and pepper"
+  },
+  {
+    "subject": "Meat for frying",
+    "predicate": "is cooked with",
+    "object": "a teaspoon of cumin"
+  },
+  {
+    "subject": "Fried meat",
+    "predicate": "is cooked until",
+    "object": "golden fried"
+  },
+  {
+    "subject": "Fried meat",
+    "predicate": "is spooned atop",
+    "object": "the rice"
+  },
+  {
+    "subject": "Egyptian Fatteh",
+    "predicate": "is assembled in layers of",
+    "object": "bread, rice, red sauce, and fried meat"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "_provenance": "REAL \u2014 caselaw-graph POC. Source: CourtListener (Public Domain Mark) + SCDB issue areas, via idc9/law-net SCOTUS citation network (27,885 cases / 234,312 cites). Snapshot 2026-03-31. Method matches Fowler & Jeon (2008), 'The Authority of Supreme Court Precedent'.",
+  "seed": "Kansas v. Cheever (2013)",
+  "landmark": "Miranda v. Arizona (1966)",
+  "hops": 2,
+  "citation_path": [
+    "Kansas v. Cheever (2013)",
+    "Estelle v. Smith (1981)",
+    "Miranda v. Arizona (1966)"
+  ],
+  "note": "Personalised PageRank seeded on a routine recent criminal-procedure opinion surfaces the landmark 2 citation-hops out \u2014 the authority every line of citation routes through, which dense top-k over opinion text misses. citation_path is the precedent chain seed \u2192 landmark."
+}

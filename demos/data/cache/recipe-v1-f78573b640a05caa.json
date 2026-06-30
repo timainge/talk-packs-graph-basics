@@ -1,0 +1,127 @@
+{
+  "title": "Apple Frangipan Tart",
+  "ingredients": [
+    {
+      "name": "digestive biscuits",
+      "quantity": 175.0,
+      "unit": "g"
+    },
+    {
+      "name": "butter",
+      "quantity": 75.0,
+      "unit": "g"
+    },
+    {
+      "name": "Bramley apples",
+      "quantity": 200.0,
+      "unit": "g"
+    },
+    {
+      "name": "Salted Butter",
+      "quantity": 75.0,
+      "unit": "g"
+    },
+    {
+      "name": "caster sugar",
+      "quantity": 75.0,
+      "unit": "g"
+    },
+    {
+      "name": "free-range eggs, beaten",
+      "quantity": 2.0,
+      "unit": null
+    },
+    {
+      "name": "ground almonds",
+      "quantity": 75.0,
+      "unit": "g"
+    },
+    {
+      "name": "almond extract",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "flaked almonds",
+      "quantity": 50.0,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat the oven to 200C/180C Fan/Gas 6.",
+      "technique": "preheat",
+      "uses": []
+    },
+    {
+      "text": "Put the biscuits in a large re-sealable freezer bag and bash with a rolling pin into fine crumbs.",
+      "technique": "bash",
+      "uses": [
+        "digestive biscuits"
+      ]
+    },
+    {
+      "text": "Melt the butter in a small pan, then add the biscuit crumbs and stir until coated with butter.",
+      "technique": "melt",
+      "uses": [
+        "butter",
+        "digestive biscuits"
+      ]
+    },
+    {
+      "text": "Tip into the tart tin and, using the back of a spoon, press over the base and sides of the tin to give an even layer. Chill in the fridge while you make the filling.",
+      "technique": "press",
+      "uses": [
+        "digestive biscuits",
+        "butter"
+      ]
+    },
+    {
+      "text": "Cream together the butter and sugar until light and fluffy. You can do this in a food processor if you have one. Process for 2-3 minutes.",
+      "technique": "cream",
+      "uses": [
+        "Salted Butter",
+        "caster sugar"
+      ]
+    },
+    {
+      "text": "Mix in the eggs, then add the ground almonds and almond extract and blend until well combined.",
+      "technique": "blend",
+      "uses": [
+        "free-range eggs, beaten",
+        "ground almonds",
+        "almond extract"
+      ]
+    },
+    {
+      "text": "Peel the apples, and cut thin slices of apple. Do this at the last minute to prevent the apple going brown.",
+      "technique": "cut",
+      "uses": [
+        "Bramley apples"
+      ]
+    },
+    {
+      "text": "Arrange the slices over the biscuit base. Spread the frangipane filling evenly on top. Level the surface and sprinkle with the flaked almonds.",
+      "technique": "spread",
+      "uses": [
+        "Bramley apples",
+        "flaked almonds"
+      ]
+    },
+    {
+      "text": "Bake for 20-25 minutes until golden-brown and set.",
+      "technique": "bake",
+      "uses": []
+    },
+    {
+      "text": "Remove from the oven and leave to cool for 15 minutes. Remove the sides of the tin. An easy way to do this is to stand the tin on a can of beans and push down gently on the edges of the tin.",
+      "technique": "cool",
+      "uses": []
+    },
+    {
+      "text": "Transfer the tart, with the tin base attached, to a serving plate. Serve warm with cream, cr\u00e8me fraiche or ice cream.",
+      "technique": "serve",
+      "uses": []
+    }
+  ]
+}

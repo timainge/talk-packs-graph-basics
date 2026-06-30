@@ -1,0 +1,162 @@
+[
+  {
+    "subject": "French Onion Soup",
+    "predicate": "requires",
+    "object": "50 g Butter"
+  },
+  {
+    "subject": "French Onion Soup",
+    "predicate": "requires",
+    "object": "1 tbs Olive Oil"
+  },
+  {
+    "subject": "French Onion Soup",
+    "predicate": "requires",
+    "object": "1 kg Onion"
+  },
+  {
+    "subject": "French Onion Soup",
+    "predicate": "requires",
+    "object": "1 tsp Sugar"
+  },
+  {
+    "subject": "French Onion Soup",
+    "predicate": "requires",
+    "object": "4 sliced Garlic Clove"
+  },
+  {
+    "subject": "French Onion Soup",
+    "predicate": "requires",
+    "object": "2 tbs Plain Flour"
+  },
+  {
+    "subject": "French Onion Soup",
+    "predicate": "requires",
+    "object": "250 ml Dry White Wine"
+  },
+  {
+    "subject": "French Onion Soup",
+    "predicate": "requires",
+    "object": "1 L Beef Stock"
+  },
+  {
+    "subject": "French Onion Soup",
+    "predicate": "requires",
+    "object": "4 sliced Bread"
+  },
+  {
+    "subject": "French Onion Soup",
+    "predicate": "requires",
+    "object": "140 g Gruy\u00e8re"
+  },
+  {
+    "subject": "Butter",
+    "predicate": "is melted with",
+    "object": "Olive Oil"
+  },
+  {
+    "subject": "Butter and Olive Oil",
+    "predicate": "are melted in",
+    "object": "large heavy-based pan"
+  },
+  {
+    "subject": "Onions",
+    "predicate": "are fried with lid on for",
+    "object": "10 mins"
+  },
+  {
+    "subject": "Onions",
+    "predicate": "are fried until",
+    "object": "soft"
+  },
+  {
+    "subject": "Sugar",
+    "predicate": "is sprinkled in after",
+    "object": "onions are soft"
+  },
+  {
+    "subject": "Onions",
+    "predicate": "are cooked for further",
+    "object": "20 mins"
+  },
+  {
+    "subject": "Onions",
+    "predicate": "are stirred",
+    "object": "frequently"
+  },
+  {
+    "subject": "Onions",
+    "predicate": "are cooked until",
+    "object": "caramelised"
+  },
+  {
+    "subject": "Onions",
+    "predicate": "should be",
+    "object": "really golden, full of flavour and soft"
+  },
+  {
+    "subject": "Garlic",
+    "predicate": "is added for",
+    "object": "final few mins of onions' cooking time"
+  },
+  {
+    "subject": "Plain Flour",
+    "predicate": "is sprinkled in after",
+    "object": "Garlic"
+  },
+  {
+    "subject": "Flour",
+    "predicate": "is stirred",
+    "object": "well"
+  },
+  {
+    "subject": "Wine",
+    "predicate": "is gradually added after",
+    "object": "increasing the heat"
+  },
+  {
+    "subject": "Hot Stock",
+    "predicate": "is added after",
+    "object": "Wine"
+  },
+  {
+    "subject": "Soup",
+    "predicate": "is covered and simmered for",
+    "object": "15-20 mins"
+  },
+  {
+    "subject": "Bread",
+    "predicate": "is toasted under",
+    "object": "grill"
+  },
+  {
+    "subject": "Soup",
+    "predicate": "is ladled into",
+    "object": "heatproof bowls"
+  },
+  {
+    "subject": "Toast",
+    "predicate": "is placed on top of",
+    "object": "bowls of soup"
+  },
+  {
+    "subject": "Cheese",
+    "predicate": "is piled on top of",
+    "object": "toast"
+  },
+  {
+    "subject": "Cheese",
+    "predicate": "is grilled until",
+    "object": "melted"
+  },
+  {
+    "subject": "Toasts",
+    "predicate": "can alternatively be completed under",
+    "object": "grill"
+  },
+  {
+    "subject": "Toasts",
+    "predicate": "are then served",
+    "object": "on top of soup"
+  }
+]

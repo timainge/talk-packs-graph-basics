@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Node / Slidev
+node_modules/
+deck/dist/
+.slidev/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Transient Playwright/MCP artifacts
+.playwright-mcp/
+
+# Demo data / build artifacts
+*.duckdb
+*.kuzu
+demos/data/local/
+demos/data/scale/local/

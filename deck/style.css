@@ -1,0 +1,93 @@
+/*
+ * style.css — One Dark Pro chrome for the deck.
+ * -----------------------------------------------
+ * Auto-loaded by Slidev from the project root. Pairs with setup/shiki.ts
+ * (which themes code fences as `one-dark-pro`) so the slide chrome, code
+ * blocks, and the VS Code editor / Jupyter notebooks all share one palette.
+ *
+ * The deck is dark-only (`colorSchema: dark` in slides.md), so we only need
+ * the dark side. Colours mirror One Dark Pro's actual VS Code surfaces:
+ *   #21252b — UI / sidebar shade  → the slide ground
+ *   #282c34 — editor shade        → code panels (matches Shiki's bg)
+ *   #abb2bf — editor foreground   → body text
+ *   #61afef — One Dark blue       → links + accents
+ */
+
+:root {
+  /* One Dark blue, used for links, highlights, the twoslash cursor, etc. */
+  --slidev-theme-primary: #61afef;
+
+  /* Code blocks a touch smaller for space economy on the dense code+graph
+   * slides (Slidev default is 12px/18px). */
+  --slidev-code-font-size: 11px;
+  --slidev-code-line-height: 1.45;
+}
+
+/* Long code blocks scroll inside the slide instead of overflowing it. The
+ * fence already sets `overflow: auto`; capping its height turns that into a
+ * usable scroll region. The cap is generous so short blocks never scroll. */
+.slidev-code {
+  max-height: 78vh;
+}
+
+/* Cinch the horizontal slide margins a touch (default theme is px-14 = 3.5rem)
+ * to buy a little more width for the two-column code+graph layouts. Scoped under
+ * html.dark (the deck is dark-only) to win over the base utility's specificity;
+ * vertical padding is left untouched. Cover/section layouts keep their own grid. */
+html.dark .slidev-layout {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+html.dark {
+  /* Code fences sit on the editor shade so they match the Shiki token bg. */
+  --slidev-code-background: #282c34;
+  --slidev-code-foreground: #abb2bf;
+
+  /* Code-group tabs, tuned to the same family. */
+  --slidev-code-tab-divider: #3e4451;
+  --slidev-code-tab-text-color: #828997;
+  --slidev-code-tab-active-text-color: #d7dae0;
+}
+
+/* The slide ground: One Dark Pro's UI/sidebar shade, a touch darker than the
+ * editor so code panels read as raised cards (exactly like VS Code). The
+ * `bg-main` UnoCSS shortcut paints these, so we override the elements it hits. */
+html.dark #app,
+html.dark #page-root,
+html.dark .slidev-layout {
+  background: #21252b;
+  color: #abb2bf;
+}
+
+/* Headings get the brighter One Dark foreground so they lift off the body. */
+.slidev-layout {
+  h1, h2, h3, h4 { color: #d7dae0; }
+  /* h6 / eyebrow labels keep the accent hue. */
+  h6 { color: #61afef; }
+}
+
+/* Links + the default-theme primary accents. */
+.slidev-layout a {
+  color: #61afef;
+  text-decoration-color: #61afef66;
+}
+
+/* Inline `code` (not fenced) — a subtle chip in the One Dark cyan/red family. */
+.slidev-layout :not(pre) > code {
+  background: #2c313a;
+  color: #e06c75;          /* One Dark's "inline literal" red */
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+
+/* Blockquotes (e.g. the "TODAY:" callout) — accent left bar, muted ground. */
+.slidev-layout blockquote {
+  background: #2c313a;
+  border-left: 3px solid #61afef;
+  color: #c8ccd4;
+}
+
+/* Strong/emphasis in the cover + body keep the brighter foreground. */
+.slidev-layout strong { color: #d7dae0; }

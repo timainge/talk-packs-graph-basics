@@ -1,0 +1,54 @@
+{
+  "title": "Vegetarian Chilli",
+  "ingredients": [
+    {
+      "name": "roasted vegetable",
+      "quantity": 400.0,
+      "unit": "g"
+    },
+    {
+      "name": "kidney bean",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "chopped tomato",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "mixed grain",
+      "quantity": 1.0,
+      "unit": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oven to 200C/180C fan/gas 6.",
+      "technique": "heat",
+      "uses": []
+    },
+    {
+      "text": "Cook the roasted vegetables in a casserole dish for 15 mins.",
+      "technique": "cook",
+      "uses": [
+        "roasted vegetable"
+      ]
+    },
+    {
+      "text": "Tip in the kidney beans and chopped tomatoes, season, and cook for another 10-15 mins until piping hot.",
+      "technique": "cook",
+      "uses": [
+        "kidney bean",
+        "chopped tomato"
+      ]
+    },
+    {
+      "text": "Heat the mixed grain pouch in the microwave on High for 1 min and serve with the chilli.",
+      "technique": "heat",
+      "uses": [
+        "mixed grain"
+      ]
+    }
+  ]
+}

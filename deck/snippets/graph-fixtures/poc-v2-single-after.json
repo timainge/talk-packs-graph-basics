@@ -1,0 +1,254 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "recipe",
+      "label": "Beef Lo Mein",
+      "id": "recipe:beef lo mein",
+      "x": 0.0,
+      "y": 0.0
+    },
+    {
+      "kind": "ingredient",
+      "label": "beef",
+      "id": "ingredient:beef"
+    },
+    {
+      "kind": "ingredient",
+      "label": "salt",
+      "id": "ingredient:salt"
+    },
+    {
+      "kind": "ingredient",
+      "label": "white pepper",
+      "id": "ingredient:white pepper"
+    },
+    {
+      "kind": "ingredient",
+      "label": "sesame seed oil",
+      "id": "ingredient:sesame seed oil"
+    },
+    {
+      "kind": "ingredient",
+      "label": "egg",
+      "id": "ingredient:egg"
+    },
+    {
+      "kind": "ingredient",
+      "label": "starch",
+      "id": "ingredient:starch"
+    },
+    {
+      "kind": "ingredient",
+      "label": "oil",
+      "id": "ingredient:oil"
+    },
+    {
+      "kind": "ingredient",
+      "label": "noodle",
+      "id": "ingredient:noodle"
+    },
+    {
+      "kind": "ingredient",
+      "label": "onion",
+      "id": "ingredient:onion"
+    },
+    {
+      "kind": "ingredient",
+      "label": "minced garlic",
+      "id": "ingredient:minced garlic"
+    },
+    {
+      "kind": "ingredient",
+      "label": "ginger",
+      "id": "ingredient:ginger"
+    },
+    {
+      "kind": "ingredient",
+      "label": "bean sprout",
+      "id": "ingredient:bean sprout"
+    },
+    {
+      "kind": "ingredient",
+      "label": "mushroom",
+      "id": "ingredient:mushroom"
+    },
+    {
+      "kind": "ingredient",
+      "label": "water",
+      "id": "ingredient:water"
+    },
+    {
+      "kind": "ingredient",
+      "label": "oyster sauce",
+      "id": "ingredient:oyster sauce"
+    },
+    {
+      "kind": "ingredient",
+      "label": "sugar",
+      "id": "ingredient:sugar"
+    },
+    {
+      "kind": "ingredient",
+      "label": "soy sauce",
+      "id": "ingredient:soy sauce"
+    }
+  ],
+  "links": [
+    {
+      "rel": "227 g",
+      "qty": 227.0,
+      "unit": "g",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:beef",
+      "key": "Cingredient:beef"
+    },
+    {
+      "rel": "—",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:salt",
+      "key": "Cingredient:salt"
+    },
+    {
+      "rel": "—",
+      "qty": null,
+      "unit": null,
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:white pepper",
+      "key": "Cingredient:white pepper"
+    },
+    {
+      "rel": "10 ml",
+      "qty": 10.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:sesame seed oil",
+      "key": "Cingredient:sesame seed oil"
+    },
+    {
+      "rel": "0.5",
+      "qty": 0.5,
+      "unit": null,
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:egg",
+      "key": "Cingredient:egg"
+    },
+    {
+      "rel": "45 ml",
+      "qty": 45.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:starch",
+      "key": "Cingredient:starch"
+    },
+    {
+      "rel": "75 ml",
+      "qty": 75.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:oil",
+      "key": "Cingredient:oil"
+    },
+    {
+      "rel": "113 g",
+      "qty": 113.0,
+      "unit": "g",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:noodle",
+      "key": "Cingredient:noodle"
+    },
+    {
+      "rel": "120 ml",
+      "qty": 120.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:onion",
+      "key": "Cingredient:onion"
+    },
+    {
+      "rel": "5 ml",
+      "qty": 5.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:minced garlic",
+      "key": "Cingredient:minced garlic"
+    },
+    {
+      "rel": "5 ml",
+      "qty": 5.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:ginger",
+      "key": "Cingredient:ginger"
+    },
+    {
+      "rel": "240 ml",
+      "qty": 240.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:bean sprout",
+      "key": "Cingredient:bean sprout"
+    },
+    {
+      "rel": "240 ml",
+      "qty": 240.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:mushroom",
+      "key": "Cingredient:mushroom"
+    },
+    {
+      "rel": "240 ml",
+      "qty": 240.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:water",
+      "key": "Cingredient:water"
+    },
+    {
+      "rel": "15 ml",
+      "qty": 15.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:oyster sauce",
+      "key": "Cingredient:oyster sauce"
+    },
+    {
+      "rel": "5 ml",
+      "qty": 5.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:sugar",
+      "key": "Cingredient:sugar"
+    },
+    {
+      "rel": "5 ml",
+      "qty": 5.0,
+      "unit": "ml",
+      "source": "recipe:beef lo mein",
+      "target": "ingredient:soy sauce",
+      "key": "Cingredient:soy sauce"
+    }
+  ],
+  "title": "'A shape isn't an ontology' — Beef Lo Mein v2 (schema-first): canonical units (g/ml) + clean lowercase names",
+  "params": {
+    "labels": {
+      "nodeFontSize": 15,
+      "edgeFontSize": 13,
+      "showEdges": true
+    },
+    "nodes": {
+      "radiusScale": 1.1
+    },
+    "layout": {
+      "spread": 1.25
+    },
+    "density": {
+      "edgeLabelLimit": 200
+    }
+  }
+}

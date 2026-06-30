@@ -1,0 +1,311 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "kind": "recipe",
+      "label": "Garlic Butter Pasta",
+      "id": "recipe:garlic butter pasta"
+    },
+    {
+      "kind": "ingredient",
+      "label": "spaghetti",
+      "id": "ingredient:spaghetti"
+    },
+    {
+      "kind": "ingredient",
+      "label": "garlic",
+      "id": "ingredient:garlic"
+    },
+    {
+      "kind": "ingredient",
+      "label": "butter",
+      "id": "ingredient:butter"
+    },
+    {
+      "kind": "ingredient",
+      "label": "parmesan",
+      "id": "ingredient:parmesan"
+    },
+    {
+      "kind": "ingredient",
+      "label": "parsley",
+      "id": "ingredient:parsley"
+    },
+    {
+      "kind": "step",
+      "label": "Boil the spaghetti until al dente.",
+      "id": "step:garlic butter pasta#0"
+    },
+    {
+      "kind": "technique",
+      "label": "boil",
+      "id": "technique:boil"
+    },
+    {
+      "kind": "step",
+      "label": "Melt the butter, then saute the garlic.",
+      "id": "step:garlic butter pasta#1"
+    },
+    {
+      "kind": "technique",
+      "label": "saute",
+      "id": "technique:saute"
+    },
+    {
+      "kind": "step",
+      "label": "Toss the pasta in the garlic butter; finish with",
+      "id": "step:garlic butter pasta#2"
+    },
+    {
+      "kind": "technique",
+      "label": "toss",
+      "id": "technique:toss"
+    }
+  ],
+  "links": [
+    {
+      "rel": "CONTAINS",
+      "qty": 200.0,
+      "unit": "g",
+      "source": "recipe:garlic butter pasta",
+      "target": "ingredient:spaghetti",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 3.0,
+      "unit": "clove",
+      "source": "recipe:garlic butter pasta",
+      "target": "ingredient:garlic",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 2.0,
+      "unit": "tbsp",
+      "source": "recipe:garlic butter pasta",
+      "target": "ingredient:butter",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 30.0,
+      "unit": "g",
+      "source": "recipe:garlic butter pasta",
+      "target": "ingredient:parmesan",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "CONTAINS",
+      "qty": 1.0,
+      "unit": "tbsp",
+      "source": "recipe:garlic butter pasta",
+      "target": "ingredient:parsley",
+      "key": "CONTAINS"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 0,
+      "source": "recipe:garlic butter pasta",
+      "target": "step:garlic butter pasta#0",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 1,
+      "source": "recipe:garlic butter pasta",
+      "target": "step:garlic butter pasta#1",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "HAS_STEP",
+      "order": 2,
+      "source": "recipe:garlic butter pasta",
+      "target": "step:garlic butter pasta#2",
+      "key": "HAS_STEP"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:garlic butter pasta#0",
+      "target": "technique:boil",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:garlic butter pasta#0",
+      "target": "ingredient:spaghetti",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:garlic butter pasta#1",
+      "target": "technique:saute",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:garlic butter pasta#1",
+      "target": "ingredient:butter",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:garlic butter pasta#1",
+      "target": "ingredient:garlic",
+      "key": "USES"
+    },
+    {
+      "rel": "TECHNIQUE",
+      "source": "step:garlic butter pasta#2",
+      "target": "technique:toss",
+      "key": "TECHNIQUE"
+    },
+    {
+      "rel": "USES",
+      "source": "step:garlic butter pasta#2",
+      "target": "ingredient:spaghetti",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:garlic butter pasta#2",
+      "target": "ingredient:parmesan",
+      "key": "USES"
+    },
+    {
+      "rel": "USES",
+      "source": "step:garlic butter pasta#2",
+      "target": "ingredient:parsley",
+      "key": "USES"
+    }
+  ],
+  "reveal": [
+    {
+      "label": "recipe",
+      "nodes": [
+        "recipe:garlic butter pasta"
+      ],
+      "edges": []
+    },
+    {
+      "label": "ingredients",
+      "nodes": [
+        "ingredient:spaghetti",
+        "ingredient:garlic",
+        "ingredient:butter",
+        "ingredient:parmesan",
+        "ingredient:parsley"
+      ],
+      "edges": [
+        [
+          "recipe:garlic butter pasta",
+          "ingredient:spaghetti",
+          "CONTAINS"
+        ],
+        [
+          "recipe:garlic butter pasta",
+          "ingredient:garlic",
+          "CONTAINS"
+        ],
+        [
+          "recipe:garlic butter pasta",
+          "ingredient:butter",
+          "CONTAINS"
+        ],
+        [
+          "recipe:garlic butter pasta",
+          "ingredient:parmesan",
+          "CONTAINS"
+        ],
+        [
+          "recipe:garlic butter pasta",
+          "ingredient:parsley",
+          "CONTAINS"
+        ]
+      ]
+    },
+    {
+      "label": "steps",
+      "nodes": [
+        "step:garlic butter pasta#0",
+        "step:garlic butter pasta#1",
+        "step:garlic butter pasta#2"
+      ],
+      "edges": [
+        [
+          "recipe:garlic butter pasta",
+          "step:garlic butter pasta#0",
+          "HAS_STEP"
+        ],
+        [
+          "recipe:garlic butter pasta",
+          "step:garlic butter pasta#1",
+          "HAS_STEP"
+        ],
+        [
+          "recipe:garlic butter pasta",
+          "step:garlic butter pasta#2",
+          "HAS_STEP"
+        ],
+        [
+          "step:garlic butter pasta#0",
+          "ingredient:spaghetti",
+          "USES"
+        ],
+        [
+          "step:garlic butter pasta#1",
+          "ingredient:butter",
+          "USES"
+        ],
+        [
+          "step:garlic butter pasta#1",
+          "ingredient:garlic",
+          "USES"
+        ],
+        [
+          "step:garlic butter pasta#2",
+          "ingredient:spaghetti",
+          "USES"
+        ],
+        [
+          "step:garlic butter pasta#2",
+          "ingredient:parmesan",
+          "USES"
+        ],
+        [
+          "step:garlic butter pasta#2",
+          "ingredient:parsley",
+          "USES"
+        ]
+      ]
+    },
+    {
+      "label": "techniques",
+      "nodes": [
+        "technique:boil",
+        "technique:saute",
+        "technique:toss"
+      ],
+      "edges": [
+        [
+          "step:garlic butter pasta#0",
+          "technique:boil",
+          "TECHNIQUE"
+        ],
+        [
+          "step:garlic butter pasta#1",
+          "technique:saute",
+          "TECHNIQUE"
+        ],
+        [
+          "step:garlic butter pasta#2",
+          "technique:toss",
+          "TECHNIQUE"
+        ]
+      ]
+    }
+  ],
+  "title": "Schema-first (shape), progressively disclosed: ingredients -> steps -> techniques"
+}

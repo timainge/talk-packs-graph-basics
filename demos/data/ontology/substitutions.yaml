@@ -1,0 +1,66 @@
+# Cooking substitution table  (recipe graph v3-lite, "Technique 4" / Act III cameo).
+#
+# Format:  <canonical ingredient>: [ {to: <canonical substitute>, plus: <optional add-on>}, ... ]
+# Each entry becomes an Ingredient-[SUBSTITUTES_FOR]->Ingredient edge in build_graph_v3.
+# `plus` (optional) annotates the edge (e.g. buttermilk -> milk *plus* an acid) so the
+# shortest-path cameo can narrate "no buttermilk -> milk + acid".
+#
+# Names should be canonical forms from ingredients.yaml; build_graph_v3 also runs them
+# through normalise_ingredient, so close surface forms still land on the right node.
+
+buttermilk:
+  - {to: milk, plus: lemon juice}
+  - {to: yoghurt}
+butter:
+  - {to: oil}
+  - {to: margarine}
+oil:
+  - {to: butter, plus: pinch of salt}
+egg:
+  - {to: applesauce}
+  - {to: yoghurt}
+milk:
+  - {to: cream, plus: water}
+  - {to: coconut milk}
+cream:
+  - {to: milk, plus: butter}
+yoghurt:
+  - {to: buttermilk}
+  - {to: cream}
+sugar:
+  - {to: honey}
+  - {to: brown sugar}
+brown sugar:
+  - {to: sugar, plus: molasses}
+honey:
+  - {to: sugar, plus: water}
+self-raising flour:
+  - {to: flour, plus: baking powder}
+flour:
+  - {to: cornflour}
+cornflour:
+  - {to: flour}
+baking powder:
+  - {to: baking soda, plus: cream of tartar}
+lemon:
+  - {to: lime}
+lime:
+  - {to: lemon}
+soy sauce:
+  - {to: salt}
+parmesan:
+  - {to: mozzarella}
+chicken stock:
+  - {to: vegetable stock}
+  - {to: stock}
+vegetable stock:
+  - {to: chicken stock}
+  - {to: stock}
+spring onion:
+  - {to: onion}
+coriander:
+  - {to: parsley}
+olive oil:
+  - {to: oil}
+margarine:
+  - {to: butter}

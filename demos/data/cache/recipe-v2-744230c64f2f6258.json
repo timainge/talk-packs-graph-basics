@@ -1,0 +1,108 @@
+{
+  "title": "Tuna Nicoise",
+  "ingredients": [
+    {
+      "name": "potato",
+      "quantity": 450.0,
+      "unit": "g"
+    },
+    {
+      "name": "olive oil",
+      "quantity": 30.0,
+      "unit": "ml"
+    },
+    {
+      "name": "egg",
+      "quantity": 4.0,
+      "unit": null
+    },
+    {
+      "name": "red wine vinegar",
+      "quantity": 15.0,
+      "unit": "ml"
+    },
+    {
+      "name": "caper",
+      "quantity": 30.0,
+      "unit": "ml"
+    },
+    {
+      "name": "sunflower oil",
+      "quantity": 50.0,
+      "unit": "g"
+    },
+    {
+      "name": "red onion",
+      "quantity": 0.5,
+      "unit": null
+    },
+    {
+      "name": "spinach",
+      "quantity": 100.0,
+      "unit": "g"
+    },
+    {
+      "name": "tuna",
+      "quantity": 400.0,
+      "unit": "g"
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oven to 200C/fan 180C/gas 6. Toss the potatoes with 2 tsp olive oil and some seasoning.",
+      "technique": "toss",
+      "uses": [
+        "potato",
+        "olive oil"
+      ]
+    },
+    {
+      "text": "Tip onto a large baking tray, then roast for 20 mins, stirring halfway, until crisp, golden and cooked through.",
+      "technique": "roast",
+      "uses": [
+        "potato"
+      ]
+    },
+    {
+      "text": "Put eggs in a small pan of water, bring to the boil, then simmer for 8-10 mins. Plunge into a bowl of cold water to cool for a few mins.",
+      "technique": "simmer",
+      "uses": [
+        "egg"
+      ]
+    },
+    {
+      "text": "Peel away the shells, then cut into halves.",
+      "technique": "peel",
+      "uses": [
+        "egg"
+      ]
+    },
+    {
+      "text": "In a large salad bowl, whisk together the remaining olive oil, sunflower oil, red wine vinegar and capers.",
+      "technique": "whisk",
+      "uses": [
+        "olive oil",
+        "sunflower oil",
+        "red wine vinegar",
+        "caper"
+      ]
+    },
+    {
+      "text": "Season, tip in the onion, spinach, tuna and potatoes, then gently toss together.",
+      "technique": "toss",
+      "uses": [
+        "red onion",
+        "spinach",
+        "tuna",
+        "potato"
+      ]
+    },
+    {
+      "text": "Top with the eggs, then serve straight away.",
+      "technique": "serve",
+      "uses": [
+        "egg"
+      ]
+    }
+  ]
+}

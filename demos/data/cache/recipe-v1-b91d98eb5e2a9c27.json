@@ -1,0 +1,106 @@
+{
+  "title": "Cajun Spiced Fish Tacos",
+  "ingredients": [
+    {
+      "name": "cajun spice",
+      "quantity": 2.0,
+      "unit": "tbsp"
+    },
+    {
+      "name": "cayenne pepper",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "white fish",
+      "quantity": 4.0,
+      "unit": "fillets"
+    },
+    {
+      "name": "vegetable oil",
+      "quantity": 1.0,
+      "unit": "tsp"
+    },
+    {
+      "name": "flour tortilla",
+      "quantity": 8.0,
+      "unit": null
+    },
+    {
+      "name": "avocado",
+      "quantity": 1.0,
+      "unit": "sliced"
+    },
+    {
+      "name": "little gem lettuce",
+      "quantity": 2.0,
+      "unit": "shredded"
+    },
+    {
+      "name": "Spring Onions",
+      "quantity": 4.0,
+      "unit": "shredded"
+    },
+    {
+      "name": "salsa",
+      "quantity": 300.0,
+      "unit": "ml"
+    },
+    {
+      "name": "sour cream",
+      "quantity": 1.0,
+      "unit": "pot"
+    },
+    {
+      "name": "lemon",
+      "quantity": 1.0,
+      "unit": null
+    },
+    {
+      "name": "garlic",
+      "quantity": 1.0,
+      "unit": "clove finely chopped"
+    }
+  ],
+  "steps": [
+    {
+      "text": "On a large plate, mix the cajun spice and cayenne pepper with a little seasoning and use to coat the fish all over.",
+      "technique": "mix",
+      "uses": [
+        "cajun spice",
+        "cayenne pepper",
+        "white fish"
+      ]
+    },
+    {
+      "text": "Heat a little oil in a frying pan, add in the fish and cook over a medium heat until golden. Reduce the heat and continue frying until the fish is cooked through, about 10 minutes. Cook in batches if you don't have enough room in the pan.",
+      "technique": "fry",
+      "uses": [
+        "vegetable oil",
+        "white fish"
+      ]
+    },
+    {
+      "text": "Meanwhile, prepare the dressing by combining all the ingredients with a little seasoning.",
+      "technique": "combine",
+      "uses": [
+        "sour cream",
+        "lemon",
+        "garlic"
+      ]
+    },
+    {
+      "text": "Soften the tortillas by heating in the microwave for 5-10 seconds. Pile high with the avocado, lettuce and spring onion, add a spoonful of salsa, top with large flakes of fish and drizzle over the dressing.",
+      "technique": "heat",
+      "uses": [
+        "flour tortilla",
+        "avocado",
+        "little gem lettuce",
+        "Spring Onions",
+        "salsa",
+        "white fish",
+        "sour cream"
+      ]
+    }
+  ]
+}
