@@ -1,7 +1,8 @@
-"""[HOW · Act III] The four algorithms, as thin NetworkX wrappers.
+"""[HOW · Act III] The talk's graph algorithms, as thin NetworkX wrappers.
 
-Each maps to a talk beat. Recipe carries only [HOW] here (a satisfying, low-stakes
-result on the enriched v3 graph); judgements does the [MONEY] (see bench.py).
+Personalised PageRank (ranking), shortest path (paths) and exact subgraph matching
+(patterns) — the three the talk tours. The recipe graph carries the intuition; the
+committed artifacts (see bench.py) carry the real-world results.
 
 These are demo helpers: they return empty results rather than raising on the
 ordinary "no answer" / tiny-graph cases, so a live cell never throws a traceback.
@@ -80,10 +81,11 @@ def ppr(g: nx.Graph, seeds: list[str], top: int = 10) -> list[tuple[str, float]]
 
 
 def authority(g: nx.Graph, top: int = 10) -> list[tuple[str, float]]:
-    """HITS authority scores — "which nodes are authoritative hubs?" (smarter).
+    """HITS authority scores — "which nodes does everything else point at?"
 
-    On a citation/precedent graph the landmark cases surface. Returns [] for an
-    edgeless graph (HITS is undefined there) rather than raising.
+    Not part of the spoken talk (kept for the citation-graph experiments). On a
+    citation graph the landmark cases surface. Returns [] for an edgeless graph
+    (HITS is undefined there) rather than raising.
     """
     if g.number_of_edges() == 0:
         return []
@@ -103,14 +105,18 @@ def explain_path(g: nx.Graph, source: str, target: str) -> list[str]:
         return []
 
 
-def match_subgraph(g: nx.Graph, pattern: nx.Graph, node_match=None) -> list[dict]:
-    """Exact subgraph matching (VF2) — "find all cases matching this pattern" (cheaper).
+def match_subgraph(g: nx.Graph, pattern: nx.Graph, node_match=None, edge_match=None) -> list[dict]:
+    """Exact subgraph matching (VF2) — "find this shape, not this keyword".
 
-    Returns each match as a ``{pattern_node: graph_node}`` mapping. Fuzzy matching
-    (learned subgraph embeddings, NeuroMatch) is pack-only — out of scope live.
+    Returns each match as a ``{pattern_node: graph_node}`` mapping. ``node_match`` /
+    ``edge_match`` are the usual NetworkX callables ``(graph_attrs, pattern_attrs) -> bool``
+    for typed matching (e.g. only match a ``class`` to a ``class``). Fuzzy / learned
+    matching is reading-list material (see FURTHER-READING.md), not a demo.
 
     Note: NetworkX's matcher yields ``{graph_node: pattern_node}``; we invert it so
     the returned dict honours the documented ``{pattern_node: graph_node}`` contract.
     """
-    matcher = nx.algorithms.isomorphism.DiGraphMatcher(g, pattern, node_match=node_match)
+    matcher = nx.algorithms.isomorphism.DiGraphMatcher(
+        g, pattern, node_match=node_match, edge_match=edge_match
+    )
     return [{p: gnode for gnode, p in m.items()} for m in matcher.subgraph_monomorphisms_iter()]

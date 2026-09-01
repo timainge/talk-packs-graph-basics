@@ -1,7 +1,7 @@
-# proving-ground artifacts — the *cheaper / smarter* anchor
+# proving-ground — the tool-call savings (REAL, small-n)
 
-These are **exported results** committed so the *cheaper* beat can be toured with real numbers.
-Nothing here runs live.
+The measured numbers behind the talk's *"~40% fewer tool calls"* line (shortest-path section).
+Exported results, committed so the Act III notebook can show them offline; nothing here runs live.
 
 - `cost_collapse.json` — the grep-vs-graph localization table (per task: repo, arm, hit, tool-uses,
   tokens), bench-loadable via
@@ -31,17 +31,16 @@ can't do: DI-wiring disambiguation, exact callers), not a higher hit-rate.
 | PowerShell — mean tool-use reduction | ~68% (accuracy parity) |
 | Downstream reliability (sonnet-4-6) | claim error 0.078 → 0.005 with graph navigation |
 
-## Bounds / caveats to carry to the slide
+## Read this before you quote a number
 
 - The samples are tiny (eShop n=2, PowerShell n=2 tasks) — this is a *measured PoC of the mechanism
-  and direction*, not a population estimate. State n on the slide.
+  and direction*, not a population estimate. State *n* whenever you quote it.
 - The downstream-reliability number (0.078 → 0.005) is **decisive on sonnet-4-6** on a small set of
-  tuning subjects; **no lift on opus-4-7**. Don't present it as a universal model result.
+  tuning subjects; **no lift on opus-4-7**. Don't present it as a universal result.
 - PowerShell uses a **build-free syntactic** index (runs where the compiler can't load the repo);
   eShop uses a compiled (Roslyn) index.
 
-## Verify before slide
+## Regenerating
 
-Every figure above is transcribed from the committed `cost_collapse.json`. Before any talk run,
-re-confirm each number still matches the JSON; if you regenerate the data, re-run
-`make_cost_collapse.py`. The committed exports are presentation-ready — no pipeline code ships here.
+Every figure above is transcribed from the committed `cost_collapse.json`; if you change the JSON,
+re-run `make_cost_collapse.py` to redraw the chart. No pipeline code ships here.

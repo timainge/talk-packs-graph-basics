@@ -1,9 +1,9 @@
-# Cooking substitution table  (recipe graph v3-lite, "Technique 4" / Act III cameo).
+# Cooking substitution table  (recipe graph v3-lite: SUBSTITUTES_FOR edges).
 #
 # Format:  <canonical ingredient>: [ {to: <canonical substitute>, plus: <optional add-on>}, ... ]
 # Each entry becomes an Ingredient-[SUBSTITUTES_FOR]->Ingredient edge in build_graph_v3.
-# `plus` (optional) annotates the edge (e.g. buttermilk -> milk *plus* an acid) so the
-# shortest-path cameo can narrate "no buttermilk -> milk + acid".
+# `plus` (optional) annotates the edge (e.g. buttermilk -> milk *plus* an acid) so a
+# path through substitutions can be narrated: "no buttermilk -> milk + acid".
 #
 # Names should be canonical forms from ingredients.yaml; build_graph_v3 also runs them
 # through normalise_ingredient, so close surface forms still land on the right node.

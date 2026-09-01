@@ -215,7 +215,7 @@
           "caveat": "likely interface-dispatch artifact (callee is a DI-bound concrete; the real dependency is on its Core interface)"
         }
       ],
-      "verdict": "the lone candidate is an interface-dispatch artifact, not a real violation \u2014 eShop honours the dependency rule. Verify-before-slide."
+      "verdict": "the lone candidate is an interface-dispatch artifact, not a real violation \u2014 eShop honours the dependency rule. Verify before quoting."
     },
     "di_shapes": [
       {

@@ -1,13 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this talk pack, please cite it as below."
-title: "A Practitioner's Guide to Knowledge Graphs — talk pack"
+title: "A Practitioner's Guide to Graphs — talk pack"
 abstract: >-
-  Companion pack for the talk "A Practitioner's Guide to Knowledge Graphs"
-  (AI Engineer World's Fair 2026, Graph Track). A three-act practitioner
-  narrative — bad graph to good graph to payoff — with a runnable graphtools
-  library and offline-replayable notebooks covering schemaless extraction,
-  schema-first curation, entity resolution, and the graph algorithms (PPR,
-  HITS, shortest-path, subgraph matching) that make graphs worth it.
+  Companion pack for the talk "A Practitioner's Guide to Graphs — how to make
+  your AI applications smarter, cheaper and more reliable" (AI Engineer World's
+  Fair 2026, Graph Track). A practitioner narrative — bad graph to good graph
+  to payoff — with a runnable graphtools library and offline-replayable
+  notebooks covering schema-first extraction, ontology in the prompt, entity
+  matching, and the graph algorithms (Personalised PageRank, shortest path,
+  exact subgraph matching) that make graphs worth it.
 type: software
 authors:
   - family-names: Ainge

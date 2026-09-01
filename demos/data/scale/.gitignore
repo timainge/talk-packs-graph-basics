@@ -1,3 +1,0 @@
-# The full ~10k scale dump (and parquet cache) is large and regenerable — don't commit it.
-# Only sample.jsonl and the docs in this dir are tracked. See README.md.
-local/

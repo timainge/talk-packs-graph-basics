@@ -1,40 +1,42 @@
-# code-graph — tour artifacts
+# code-graph — the eShop examples (REAL)
 
-Regenerate everything here with:
+The real-world material behind the talk's **shortest path** and **exact subgraph matching**
+examples. Nothing here runs a pipeline; the graph and figures are committed so you can tour them
+offline (Act III notebook, sections 2 and 3).
 
-```bash
-uv run python -m codegraph.bench      # bench.json + eshop-code-graph.graphml
-uv run python -m codegraph.figures    # shortest_path.png + decorator_subgraph.png
-```
-
-Substrate: the proving-ground compiled index (`data/proving-ground/eshoponweb-member-index.json`,
-eShopOnWeb @ `4da8212`) → a typed `networkx.MultiDiGraph` (**955 nodes / 2196 edges**).
+**Source codebase:** Microsoft's public [eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb)
+reference application (commit `4da8212`), compiled with Roslyn into a typed `networkx.MultiDiGraph`
+of **955 nodes / 2,196 edges**. Node kinds: `class`, `interface`, `method`, `ctor`, `property`, …
+Edge relationships: `calls`, `contains`, `implements`, `extends`, `di_binds`, `route_handles`, …
 
 ## Files
 
 | File | What |
 |---|---|
-| `eshop-code-graph.graphml` | The full typed graph (Gephi / slide visual). |
-| `shortest_path.png` | **Beat 1** — the auditable *"why does editing `Basket..ctor` break checkout"* chain (4 hops, calls-only, repo-owned, `trust: possibly-blind`). |
-| `decorator_subgraph.png` | **Beat 2** — the VF2 Decorator motif, found **all-and-only** on eShop. |
-| `bench.json` | Both results + completeness tags + published anchors. |
+| `eshop-code-graph.graphml` | The full typed graph. Load with `networkx.read_graphml`; opens in Gephi too. |
+| `shortest_path.png` | *"Why does editing `Basket..ctor` break checkout?"* — the 4-hop `calls` chain from `CheckoutModel.OnPost` down to the constructor. |
+| `decorator_subgraph.png` | The decorator motif found by VF2 subgraph matching: `CachedCatalogViewModelService` wraps `CatalogViewModelService`, both implementing `ICatalogViewModelService`. |
+| `bench.json` | Both results with their completeness tags and the published work they sit alongside. |
 
-## Headline results
+## What the results say
 
-- **Shortest-path** — presented via proving-ground **M4** (cited, not re-derived): claim-error
-  **0.078 → 0.005** on sonnet-4-6 (tier-1 hallucinated citations → 0; citation P/R 1.0); **no lift**
-  on opus-4-7 (0.1585 → 0.1688). *Model-conditional — state the bound.*
-  Anchor: **LocAgent** (ACL 2025).
-- **Subgraph** — Decorator correctness **precision 1.0 / recall 1.0**, all-and-only vs the
-  compiler-oracle ground truth (`CachedCatalogViewModelService` wraps `CatalogViewModelService` via
-  `ICatalogViewModelService`). God-class anti-pattern: **none** at a real bar (fan-out ≥ 20); busiest
-  type is `BasketViewModelService` at 13 — an *evidenced negative*.
-  Anchors: **Tsantalis** (TSE 2006), **Joern/CPG** (IEEE S&P 2014), **CodeQL**.
+- **Shortest path** — the path *is* the explanation: a four-hop `calls` chain you can hand an agent
+  as context instead of making it discover the intermediate symbols itself. The measured
+  tool-call saving from doing so is in `../proving-ground/`.
+- **Subgraph match** — the decorator shape is found **all-and-only** against the compiler's view of
+  the codebase (precision 1.0 / recall 1.0): exactly one match, and it is the real one. A
+  "god-class" anti-pattern search (fan-out ≥ 20) finds **none** — an evidenced negative; the busiest
+  type is `BasketViewModelService` at 13.
 
-## Completeness honesty (carried from proving-ground §3.9)
+## Read this before you quote a number
 
-Every edge is tagged `definitively-absent` (structural: `implements`/`extends`/`contains`/
-`project_depends` — the compiler saw the whole hierarchy) or `blind-spot-possible` (`calls`/
-`di_binds`/`route_handles` — delegate / reflection / interface-dispatch / DI-magic / syntactic
-routing are invisible to `SymbolFinder`). A *no-path* answer is labelled trustworthy vs known-blind
-accordingly.
+Every edge carries a `completeness` tag. Structural edges (`implements` / `extends` / `contains` /
+`project_depends`) are `definitively-absent` when missing — the compiler saw the whole hierarchy.
+Behavioural edges (`calls` / `di_binds` / `route_handles`) are `blind-spot-possible`: delegates,
+reflection, interface dispatch and DI wiring can hide a call from the symbol finder. So a
+*"no path"* answer is trustworthy for the first group and only *probably* true for the second.
+
+Related published work: **LocAgent** (ACL 2025) for graph-guided code localisation; **Tsantalis et
+al.** (IEEE TSE 2006) for design-pattern detection by graph similarity; **Joern / Code Property
+Graphs** (IEEE S&P 2014) and **CodeQL** for pattern queries over code. Links in the pack's
+`FURTHER-READING.md`.

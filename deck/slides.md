@@ -24,7 +24,7 @@ import lockup from './assets/collective-capability-lockup.svg'
 
 <h1 style="background: linear-gradient(90deg, #4269d0 0%, #efb118 22%, #ff725c 44%, #6cc5b0 64%, #3ca951 82%, #a463f2 100%); -webkit-background-clip: text; background-clip: text; color: transparent; display: inline-block;">A Practitioner's Guide to Graphs</h1>
 
-How to make you AI applications _smarter_, _cheaper_, and more _reliable_
+How to make your AI applications _smarter_, _cheaper_, and more _reliable_
 
 <img :src="lockup" class="absolute bottom-8 left-8 max-w-[calc(100%-4rem)] opacity-60 filter grayscale" />
 
@@ -32,7 +32,7 @@ How to make you AI applications _smarter_, _cheaper_, and more _reliable_
 - Hi I'm Tim Ainge from the Good Collective.
 -  Welcome to today's Ai Engineer presentation
 -  A Practitioner's Guide to Graphs
--  How to make you AI applications _smarter_, _cheaper_, and more _reliable_
+-  How to make your AI applications _smarter_, _cheaper_, and more _reliable_
 -->
 ---
 
@@ -103,7 +103,6 @@ import roadmap from './snippets/graph-fixtures/roadmap.json';
   (revealMode="replace" → only the current branch lights, the rest dims).
   $clicks 0 = no focus (plain map); 1/2/3 = focus basics / better / algorithms.
   Single sized container (h-100) so GraphView's height:100% resolves cleanly.
-  (See demos/viz/README.md.)
 -->
 <div class="h-100">
   <GraphView
@@ -175,8 +174,6 @@ import primer from './snippets/graph-fixtures/primer.json';
 
 
 <!--
-CUE: fast, ~3 min. The seductive naive graph.
-
 1. a graph is something that has nodes (also called vertices)
 2. and edges, that connect or relate two nodes together
 
@@ -240,7 +237,7 @@ Graph schemas vary
   
 Not terrible if you want a way to make a graph out of anything in the world.. 
 
-TODO: link to an OpenIE resource here or in appendix: https://en.wikipedia.org/wiki/Open_information_extraction
+(This schema-free style is called Open Information Extraction, or OpenIE — see FURTHER-READING.md in the pack.)
 
 However we can see that 
  - the relationships are inconsistent, 
@@ -633,8 +630,8 @@ the CONTAINS relationship out to the recipes — and what comes back isn't a row
   natural next step is to let an **algorithm** walk it for you. That's Act III — PPR,
   shortest path, subgraph matching.
 
-(The returned subgraph is also the "Project" step from the bookend — the compact
-neighbourhood you'd hand to a model as context, instead of the whole corpus.)
+(The returned subgraph is the compact neighbourhood you'd hand to a model as context,
+instead of the whole corpus.)
  -->
 
 ---
@@ -663,9 +660,9 @@ import pprIntro from './snippets/graph-fixtures/ppr-intro.json';
   cheap, local, and explainable (you can see why a node scored high).
 - Real-world / named systems:
   - Pinterest "Pixie" — random-walk recommendations over a ~3B-node graph at ~60ms (WWW
-    2018). [verify-before-slide — say "as of their 2018 paper"]
+    2018 — quote it as "as of their 2018 paper").
   - HippoRAG (NeurIPS 2024) — PPR over an extracted KG for multi-hop RAG; reports large
-    retrieval gains and big cost/latency savings vs iterative retrieval. [verify-before-slide]
+    retrieval gains and big cost/latency savings vs iterative retrieval.
 - Transfer: legal precedents most relevant to a case; code paths most reachable from an
   entry point; who-to-follow / related-pin recommendations.
 -->
@@ -694,7 +691,7 @@ Payoff:
 - The common traditional reference example for PPR is Pinterest Pixie, how's that for some alliteration...
 - For a contemporary reference have a look at HippoRag (v2) which also has some other cool graph tricks like ....
 
-TODO: Check hippoRag paper when online, I think they do projection of KB and OpenIE + ppr to tie them together?
+HippoRAG builds its graph with OpenIE-style extraction, then runs PPR from the entities in the question to rank the passages that answer it (links in FURTHER-READING.md).
 
 -->
 
@@ -764,10 +761,9 @@ Why it matters for AI apps: graph structure encodes real-world *authority* you'd
 thousands of documents to find — and it gives you a reason you can show, not just a similarity score.
 This pairs with the eShop shortest-path beat: same "the path is the explanation" idea, different domain.
 
-(Fixture: caselaw-ppr.json — built by scratchpad/export_caselaw_fixture.py from the real graph; every
-node is a real case, every edge a real citation. The graph shown is a legible neighbourhood around the
-chain, not all 28k nodes — say so if asked. The #8 / 27,885 figure is reproducible from caselaw-graph
-artifacts/ppr_landmark.json.)
+(Every node in the picture is a real case and every edge a real citation. The graph shown is a legible
+neighbourhood around the chain, not all 28k nodes — say so if asked. The #8 / 27,885 figure is in
+demos/artifacts/judgements/ppr_landmark.json.)
 -->
 
 ---
@@ -974,17 +970,19 @@ import qr from './assets/talk-pack-qr.svg'
 </div>
 
 <!--
-Speaker notes (moved from the previous "Close — the bookend" slide content):
+Speaker notes:
 
-From a mess → a good graph → real payoff.
+We've covered a lot of ground — thanks for bearing with me.
 
-The toolkit: **Extract → Curate → Project → Retrieve**
-(QUESTION: Did we do any projection?)
+We looked at navigating paths, ranking how important things are, and finding patterns. We skipped the
+traditional flow / cost / search algorithms you'd find in dependency and network modelling — heaps of
+use cases, but a bit more run-of-the-mill.
 
-And here's what it bought you: AI that's **smarter, cheaper, and more reliable.**
+The pack also has notes on the things we couldn't get to today — prediction, similarity and
+clustering. Those edge into graph RAG, dynamic graphs and schemaless territory that we deliberately
+stayed out of, but it's also where things get super interesting. See FURTHER-READING.md.
 
-The talk pack — deep dives, research links, notebooks, and a way back to me.
-
-(CUE: closing visual TBD — see framing-deferred.)
+I hope some of these concepts give you insight or inspiration, and that you can take them — graph-native
+or hybrid — to make smarter, cheaper and more reliable AI applications. Thank you.
 -->
 

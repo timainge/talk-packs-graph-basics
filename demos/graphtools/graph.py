@@ -3,7 +3,7 @@
 Node types: Recipe, Ingredient, Step, Technique.
 Edge types: CONTAINS {qty, unit}, HAS_STEP {order}, USES, TECHNIQUE.
 
-In-memory MultiDiGraph: zero infra, and PPR / HITS / shortest-path / VF2 all run on it
+In-memory MultiDiGraph: zero infra, and PPR / shortest-path / VF2 all run on it
 directly (see algos.py). Node ids are typed strings ("ingredient:flour") so the graph is
 human-readable in the notebook.
 """
@@ -29,8 +29,8 @@ def build_graph(recipes: list[Recipe], normalise: bool = False) -> nx.MultiDiGra
     """Build the recipe graph from a list of extracted recipes.
 
     ``normalise=False`` (v1, the default) keys ingredient nodes on their *raw*
-    surface names — intentionally unresolved, so the Act II drift story has duplicate
-    nodes to collapse. ``normalise=True`` keys them on ``resolve.normalise_ingredient``
+    surface names — intentionally unmatched, so Act II has duplicate nodes to
+    collapse. ``normalise=True`` keys them on ``resolve.normalise_ingredient``
     so a recipe's "plain flour" and a substitution's "flour" share one node (used by
     ``build_graph_v3`` for the Act III graph).
     """
@@ -115,8 +115,8 @@ def build_graph_v3(recipes: list[Recipe], with_substitutions: bool = True) -> nx
     """Build the recipe graph and enrich it with SUBSTITUTES_FOR edges (v3-lite).
 
     Same structure as ``build_graph`` plus ingredient-to-ingredient substitution
-    edges from ``data/ontology/substitutions.yaml`` — the load-bearing edge for the
-    Act III shortest-path cameo ("no buttermilk -> milk + acid").
+    edges from ``data/ontology/substitutions.yaml`` — so a path through substitutions
+    can be asked for ("no buttermilk -> milk + acid").
 
     Built with ``normalise=True`` so recipe ingredient nodes and substitution
     endpoints share canonical node ids (otherwise "plain flour" and "flour" would
@@ -134,7 +134,7 @@ def nodes_of(g: nx.MultiDiGraph, kind: str) -> list[str]:
 
 
 def build_naive_graph(triples: list[dict]) -> nx.MultiDiGraph:
-    """[v0] Build the naive graph from free-form triples (Act I / URL sidequest).
+    """[v0] Build the naive graph from free-form triples (Act I).
 
     Every node is an untyped ``entity`` keyed on the *raw* surface string (no
     resolution), and every edge carries the *raw* predicate (no controlled

@@ -26,4 +26,6 @@ deck/dist/
 *.duckdb
 *.kuzu
 demos/data/local/
-demos/data/scale/local/
+
+# Figures the notebooks write when run
+demos/notebooks/*.png

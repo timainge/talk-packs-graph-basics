@@ -130,8 +130,8 @@ def extract_recipe_v2(text: str) -> Recipe:
 
 # v0 is the bottom of the staircase: ask for relationships with NO domain schema,
 # NO controlled vocabulary, NO entity resolution — just free-form (subject, predicate,
-# object) triples. Works on *any* text (recipes OR a scraped web page → the URL
-# sidequest). The graph you get from it (graph.build_naive_graph) is untyped, the
+# object) triples. Works on *any* text. The graph you get from it
+# (graph.build_naive_graph) is untyped, the
 # predicate vocabulary is inconsistent, and entities don't align — that mess is the
 # point. Act II then adds shape → ontology → matching to fix exactly this.
 
@@ -169,7 +169,7 @@ def extract_freeform(text: str) -> list[dict]:
     """[v0] Extract free-form (subject, predicate, object) triples — no schema.
 
     Returns a list of ``{"subject", "predicate", "object"}`` dicts. Feed to
-    ``graph.build_naive_graph`` for the naive Act I / URL-sidequest graph. Replays
+    ``graph.build_naive_graph`` for the naive Act I graph. Replays
     from cache by default (tag ``freeform``)."""
     return cached(
         key_for(text, tag="freeform"),

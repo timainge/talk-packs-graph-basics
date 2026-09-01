@@ -117,7 +117,7 @@ def canonical_unit(
     NOTE: density-based cup -> g conversion needs ingredient context (e.g. a cup
     of flour vs a cup of water differ in grams) and so is *not* done here — the
     signature is unit-only by design. The density table lives in units.yaml and
-    is applied by the higher-level v2 extractor (D2.3). TODO: ingredient-aware
+    is applied by the higher-level v2 extractor (D2.3). Future work: ingredient-aware
     cup -> g helper.
     """
     if unit is None:

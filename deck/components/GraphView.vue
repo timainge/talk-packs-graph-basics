@@ -48,7 +48,7 @@ const GraphConfigurator = import.meta.env.DEV
   : undefined;
 
 // ---------------------------------------------------------------------------
-// Data contract (matches demos/viz/fixtures/*.json)
+// Data contract (matches snippets/graph-fixtures/*.json)
 // ---------------------------------------------------------------------------
 
 /** A graph node. */
