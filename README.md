@@ -22,7 +22,7 @@ reliable.**
 
 ## Watch / read the deck
 
-- **Recording:** _(link added when the talk goes live)_
+- **Recording:** https://www.youtube.com/watch?v=3ySF0I5iE_0
 - **Hosted deck:** https://timainge.github.io/talk-packs-graph-basics/ _(published from `deck/dist`)_
 - **Run it locally:**
 
