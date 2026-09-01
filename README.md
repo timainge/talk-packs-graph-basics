@@ -91,7 +91,7 @@ are deterministic), `viz`.
 |---|---|---|
 | `judgements/` | PPR on a public **US Supreme Court citation graph** (27,885 cases): a routine 2013 case → *Miranda v. Arizona* at #8, two hops out. | **REAL** |
 | `code-graph/` | Microsoft **eShopOnWeb** compiled into a typed graph (955 nodes / 2,196 edges): the checkout → `Basket..ctor` path and the decorator-pattern match. | **REAL** |
-| `proving-ground/` | Our own agent evals: graph-navigated code search vs grep — same accuracy, **~40–45 % fewer tool calls** on eShop. | **REAL, small-n** |
+| `proving-ground/` | Our own agent evals: graph-navigated code search vs grep — same accuracy, **40–50% fewer tool calls per task on eShop (mean 45%, n = 2)**; 56–75% on a large PowerShell repo. | **REAL, small-n** |
 
 Each folder's README carries the provenance and the bounds. **Read them before quoting a number** —
 in particular, the tool-call saving is measured on *two tasks per repo*: a proof of the mechanism,

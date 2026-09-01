@@ -1,6 +1,8 @@
 # proving-ground — the tool-call savings (REAL, small-n)
 
-The measured numbers behind the talk's *"~40% fewer tool calls"* line (shortest-path section).
+The measured numbers behind the talk's *"40% fewer tool calls"* line (shortest-path section):
+**40–50% fewer tool calls per task on eShop (mean 45%, n = 2), same accuracy; 56–75% on a large
+PowerShell repo (mean 68%, n = 2).**
 Exported results, committed so the Act III notebook can show them offline; nothing here runs live.
 
 - `cost_collapse.json` — the grep-vs-graph localization table (per task: repo, arm, hit, tool-uses,

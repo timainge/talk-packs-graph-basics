@@ -813,8 +813,10 @@ in this case though, we can retrieve the whole chain that connects them for much
 how they relate nin the codebase.
 
 Recipe's weren't a great example for this one so this is a real example from an eval we ran using 
-the Microsoft eShop reference app. In the eval we saw a an "up to 40%"" reduction in tool calls to
-solve the same codebase issues when using a very simple graph based code search.
+the Microsoft eShop reference app. In the eval we saw a 40% reduction in tool calls to solve the
+same codebase issues when using a very simple graph based code search.
+(Precisely: 40–50% fewer tool calls per task on eShop, mean 45%, n = 2, same accuracy; 56–75% on a
+large PowerShell repo. Numbers in demos/artifacts/proving-ground/.)
 
 It's worth noting that sometimes the most direct path is all we need. 
 
