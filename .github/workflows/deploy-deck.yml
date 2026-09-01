@@ -1,0 +1,49 @@
+# Build the Slidev deck and publish it to GitHub Pages.
+# Runs on every push to main that touches deck/ (and on demand). The `build` script already sets
+# `--base /talk-packs-graph-basics/`, so the output is ready for project-page hosting.
+name: deploy-deck
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "deck/**"
+      - ".github/workflows/deploy-deck.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: deck/package-lock.json
+      - run: npm ci
+        working-directory: deck
+      - run: npm run build
+        working-directory: deck
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: deck/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

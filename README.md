@@ -31,7 +31,8 @@ for prediction / similarity / clustering are in [`FURTHER-READING.md`](FURTHER-R
 ## Watch / read the deck
 
 - **Recording:** https://www.youtube.com/watch?v=3ySF0I5iE_0
-- **Hosted deck:** https://timainge.github.io/talk-packs-graph-basics/
+- **Hosted deck:** https://timainge.github.io/talk-packs-graph-basics/ _(built from `deck/` by
+  [`deploy-deck.yml`](.github/workflows/deploy-deck.yml) on every push to `main`)_
 - **Run it locally:**
 
   ```bash
